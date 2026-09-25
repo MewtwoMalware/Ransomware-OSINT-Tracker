@@ -1,23 +1,4 @@
 # Akira Ransomware
-Name: Akira
-Type: Ransomware
-Status: Active
-First_Observed: 2023
-aliases:
-  - Akira
-  - Akira_v2
-Ransomware_Family: Akira
-Operation_Type:
-  - Ransomware-as-a-Service
-  - Double Extortion
-Sectors:
-  - Healthcare
-  - Manufacturing
-  - Professional Services
-Regions:
-  - North America
-  - Europe
-last_updated: 2026-09-25
 |Source|Date|Details|
 | ------ | ------ | ------ |
 | [Linux version of Akira ransomware targets VMware ESXi servers](https://www.bleepingcomputer.com/news/security/linux-version-of-akira-ransomware-targets-vmware-esxi-servers/) | 04 Jul 2023 | BleepingComputer analyzed a Linux version of Akira specifically designed to target VMware ESXi servers, documenting Akira's expansion beyond Windows systems and its ability to encrypt virtual-machine infrastructure. |
