@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Akira",
+    "type": "Ransomware Group",
+    "status": "Active",
+    "first_observed": "2023",
+    "aliases": [
+      "Akira"
+    ],
+    "profile": "Akira.md"
+  },
+  {
+    "name": "Scattered Spider",
+    "type": "Threat Actor Group",
+    "status": "Active",
+    "first_observed": "2022",
+    "aliases": [
+      "UNC3944",
+      "Octo Tempest",
+      "0ktapus",
+      "Roasted 0ktapus",
+      "Storm-0875"
+    ],
+    "profile": "Scattered Spider.md"
+  }
+]
