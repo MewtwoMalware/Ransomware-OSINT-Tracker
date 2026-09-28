@@ -1,7 +1,9 @@
 import json
 from pathlib import Path
 
-INCIDENTS_FILE = Path("data/incidents.json")
+# Find the repository root
+BASE_DIR = Path(__file__).resolve().parent.parent
+INCIDENTS_FILE = BASE_DIR / "data" / "incidents.json"
 
 
 def load_incidents():
@@ -12,6 +14,7 @@ def load_incidents():
 def main():
     print("Ransomware OSINT Tracker")
     print("========================")
+    print(f"Reading: {INCIDENTS_FILE}")
 
     incidents = load_incidents()
 
