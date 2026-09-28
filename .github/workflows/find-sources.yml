@@ -1,0 +1,20 @@
+name: Find OSINT Sources
+
+on:
+  workflow_dispatch:
+
+jobs:
+  find-sources:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Find source URLs
+        run: python scripts/find_sources.py
