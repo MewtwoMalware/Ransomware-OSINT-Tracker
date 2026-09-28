@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Find the repository root
 BASE_DIR = Path(__file__).resolve().parent.parent
-INCIDENTS_FILE = BASE_DIR / "data" / "incidents.json"
+INCIDENTS_FILE = BASE_DIR / "data" / "data" / "incidents.json"
 
 
 def load_incidents():
