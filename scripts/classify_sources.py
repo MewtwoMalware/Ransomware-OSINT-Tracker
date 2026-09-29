@@ -122,6 +122,19 @@ DOMAIN_CATEGORIES = {
     "securitytribune.com": "security_research",
     "ervik.as": "security_research",
     "redpiranha.net.au": "security_research",
+    
+    # Additional sources
+    "cloud.google.com": "security_vendor",
+    "home.treasury.gov": "government",
+    "galaxywarden.com": "threat_intelligence",
+    "broadcom.com": "security_vendor",
+    "elliptic.co": "threat_intelligence",
+    "cybelangel.com": "threat_intelligence",
+    "dcso.de": "security_research",
+    "cyberscotland.com": "government",
+    "esentire.com": "security_vendor",
+    "lemagit.fr": "news",
+    "ukdefencejournal.org.uk": "news",
 }
 
 
