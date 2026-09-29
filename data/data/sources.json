@@ -1,0 +1,1772 @@
+[
+  {
+    "url": "https://activesoc.blackhillsinfosec.com/blog/introducing-the-aur0ra-ransomware-group/",
+    "domain": "activesoc.blackhillsinfosec.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://attack.mitre.org/campaigns/C0027/",
+    "domain": "attack.mitre.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://attack.mitre.org/groups/G1015/",
+    "domain": "attack.mitre.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://attack.mitre.org/groups/G1032/",
+    "domain": "attack.mitre.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blackpointcyber.com/threat-profile/inc-ransom-ransomware/",
+    "domain": "blackpointcyber.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.barracuda.com/2025/03/07/black-basta-s-rapid-collapse",
+    "domain": "blog.barracuda.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.barracuda.com/2026/02/02/lessons-from-black-basta-s-collapse",
+    "domain": "blog.barracuda.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/",
+    "domain": "blog.checkpoint.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.checkpoint.com/security/check-point-research-revels-leaks-of-conti-ransomware-group/",
+    "domain": "blog.checkpoint.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.fox-it.com/2020/11/16/ta505-a-brief-history-of-their-time/",
+    "domain": "blog.fox-it.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.talosintelligence.com/an-overview-of-ransomware-threats-in-japan-in-2025-and-early-detection-insights-from-qilin-cases/",
+    "domain": "blog.talosintelligence.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.talosintelligence.com/ransomware-in-2025-blending-in-is-the-strategy/",
+    "domain": "blog.talosintelligence.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.talosintelligence.com/ransomware_incidents_in_japan_during_the_first_half_of_2025/",
+    "domain": "blog.talosintelligence.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://blog.talosintelligence.com/uncovering-qilin-attack-methods-exposed-through-multiple-cases/",
+    "domain": "blog.talosintelligence.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://breached.company/threat-actors/safepay/",
+    "domain": "breached.company",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://ccb.belgium.be/news/threat-intelligence-report-dragonforce",
+    "domain": "ccb.belgium.be",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/oracle-ebusiness-suite-zero-day-exploitation",
+    "domain": "cloud.google.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-spear-phishing-salesforce",
+    "domain": "cloud.google.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc3944-proactive-hardening-recommendations",
+    "domain": "cloud.google.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc3944-sms-phishing-sim-swapping-ransomware-extortion",
+    "domain": "cloud.google.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc3944-targets-saas-applications",
+    "domain": "cloud.google.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://cybelangel.com/blog/akira-ransomware/",
+    "domain": "cybelangel.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://cyberscoop.com/scattered-spider-member-guilty-ahmed-elbadawy/",
+    "domain": "cyberscoop.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://cyble.com/blog/lockbit-blacks-legacy-unraveling-the-dragonforce-ransomware-connection/",
+    "domain": "cyble.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://darkwebsonar.io/blog/dark-web-most-wanted-2026-the-gentlemen/#main-content",
+    "domain": "darkwebsonar.io",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://dcso.de/en/black-basta-die-enthuellungen-zum-kopf-der-ransomware-gruppierung/",
+    "domain": "dcso.de",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://flashpoint.io/blog/scattered-spider-threat-profile/",
+    "domain": "flashpoint.io",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://gambit.security/blog-posts/aurora-ransomware-targets-esxi-abuses-cursor-agent-for-exploitation",
+    "domain": "gambit.security",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://home.treasury.gov/news/press-releases/jy0768",
+    "domain": "home.treasury.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://home.treasury.gov/news/press-releases/jy1486",
+    "domain": "home.treasury.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://home.treasury.gov/news/press-releases/jy2326",
+    "domain": "home.treasury.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://invaders.ie/services/ransomware-tracker/groups/safepay",
+    "domain": "invaders.ie",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+    "domain": "krebsonsecurity.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+    "domain": "krebsonsecurity.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://kudelskisecurity.com/research/unmasking-blackbasta-inside-the-ransomware-syndicates-leaked-operations",
+    "domain": "kudelskisecurity.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-aurora-ransomware-cursor-ai-abuse-20260901/",
+    "domain": "labs.cloudsecurityalliance.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://malwaretips.com/blogs/krybit-ransomware/",
+    "domain": "malwaretips.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://osintsearch.org/blog/joeleoli-username-vs-email-footprint",
+    "domain": "osintsearch.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://ransomnews.com/ransomtracker/group/qilin/",
+    "domain": "ransomnews.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://ransomnews.com/safepay-ransomware-group-profile-2026/",
+    "domain": "ransomnews.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://ransomwarewire.com/articles/krybit-ransomware-raas-group-profile-2026/",
+    "domain": "ransomwarewire.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://redpiranha.net.au/news/threat-intelligence-report-november-19-november-25-2024",
+    "domain": "redpiranha.net.au",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://research.checkpoint.com/2026/dfir-report-the-gentlemen/",
+    "domain": "research.checkpoint.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://research.checkpoint.com/2026/the-state-of-ransomware-q1-2026/",
+    "domain": "research.checkpoint.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/",
+    "domain": "research.checkpoint.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://securityaffairs.com/185447/data-breach/oracle-ebs-zero-day-used-by-clop-to-breach-barts-health-nhs.html",
+    "domain": "securityaffairs.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://securityarsenal.com/blog/krybit-ransomware-gang-13-victims-in-48-hours-cross-sector-campaign-analysis-cve-exploitation-ties-and-detection-rules",
+    "domain": "securityarsenal.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://securityarsenal.com/blog/krybit-ransomware-gang-4-new-victims-posted-sector-targeting-analysis-and-detection-rules",
+    "domain": "securityarsenal.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://securityarsenal.com/blog/krybit-ransomware-gang-5-new-victims-posted-in-24-hours-french-smb-surge-cross-continent-reach-and-detection-rules",
+    "domain": "securityarsenal.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://securitytribune.com/en/news/ransomware-hits-s-latam-august",
+    "domain": "securitytribune.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://techcrunch.com/2021/06/16/ukrainian-police-arrest-multiple-clop-ransomware-gang-suspects/",
+    "domain": "techcrunch.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://techcrunch.com/2023/06/05/microsoft-clop-moveit-hacks-victims/",
+    "domain": "techcrunch.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://techcrunch.com/2023/06/15/moveit-clop-mass-hacks-banks-universities/",
+    "domain": "techcrunch.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://techcrunch.com/2023/09/14/mgm-cyberattack-outage-scattered-spider/",
+    "domain": "techcrunch.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://techcrunch.com/2024/02/26/lockbit-ransomware-takedown-now-what/",
+    "domain": "techcrunch.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://techcrunch.com/2025/01/16/clop-ransomware-gang-names-dozens-of-victims-hit-by-cleo-mass-hack-but-several-firms-dispute-breaches/",
+    "domain": "techcrunch.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/02/05/data-breach-at-govtech-giant-conduent-balloons-affecting-millions-more-americans/",
+    "domain": "techcrunch.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://thehackernews.com/2025/02/leaked-black-basta-ransomware-chat-logs.html",
+    "domain": "thehackernews.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://thehackernews.com/2025/04/ransomhub-went-dark-april-1-affiliates.html",
+    "domain": "thehackernews.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://thehackernews.com/2025/06/qilin-ransomware-adds-call-lawyer.html",
+    "domain": "thehackernews.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://thehackernews.com/2025/11/qilin-ransomware-turns-south-korean-msp.html",
+    "domain": "thehackernews.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://thehackernews.com/2026/01/black-basta-ransomware-leader-added-to.html",
+    "domain": "thehackernews.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+    "domain": "thehackernews.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://therecord.media/",
+    "domain": "therecord.media",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://therecord.media/dutch-police-take-down-127-servers-sanctioned-host",
+    "domain": "therecord.media",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://therecord.media/lockbit-developer-panev-extradited-us",
+    "domain": "therecord.media",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://threatpaper.com/cases/scattered-spider-what-the-elbadawy-docket-actually-shows-against-what-got-reported-this",
+    "domain": "threatpaper.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://time.com/6984811/ticketmaster-data-breach-customers-livenation-everything-to-know/",
+    "domain": "time.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://unit42.paloaltonetworks.com/2025-ransomware-extortion-trends/",
+    "domain": "unit42.paloaltonetworks.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://unit42.paloaltonetworks.com/clop-ransomware/",
+    "domain": "unit42.paloaltonetworks.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://unit42.paloaltonetworks.com/inc-ransomware-rebrand-to-lynx/",
+    "domain": "unit42.paloaltonetworks.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://unit42.paloaltonetworks.com/unit-42-ransomware-leak-site-data-analysis/",
+    "domain": "unit42.paloaltonetworks.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.abc.net.au/news/2024-11-12/alleged-hackers-arrested/104590598",
+    "domain": "www.abc.net.au",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.adaptivesecurity.com/blog/akira-ransomware",
+    "domain": "www.adaptivesecurity.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.adaptivesecurity.com/blog/qilin-ransomware",
+    "domain": "www.adaptivesecurity.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.axios.com/local/atlanta/2025/05/02/cobb-county-ransomware-breach-data-leak",
+    "domain": "www.axios.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bankinfosecurity.com/karakurt-ransomware-group-suspect-appears-in-us-courtroom-a-26127",
+    "domain": "www.bankinfosecurity.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bankinfosecurity.net/texan-scattered-spider-member-receives-45-month-sentence-a-32905",
+    "domain": "www.bankinfosecurity.net",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bitdefender.com/en-us/blog/businessinsights/dragonforce-ransomware-cartel",
+    "domain": "www.bitdefender.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bitdefender.com/en-us/blog/businessinsights/korean-leaks-campaign-targets-south-korean-financial-services-qilin-ransomware",
+    "domain": "www.bitdefender.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bitdefender.com/en-us/blog/businessinsights/safepay-ransomware-attacks-ttps",
+    "domain": "www.bitdefender.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-vanilla-tempest-hackers-hit-healthcare-with-inc-ransomware/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-confirms-data-theft-after-inc-ransomware-claims-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/akira-ransomware-breaching-mfa-protected-sonicwall-vpn-accounts/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/akira-ransomware-exploiting-critical-sonicwall-sslvpn-bug-again/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/breachforums-hacked-data-of-4-000-members-leaked/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-relaunches-after-law-enforcement-seizure/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/clop-now-leaks-data-stolen-in-moveit-attacks-on-clearweb-sites/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-gang-exploits-goanywhere-mft-zero-day/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-gang-starts-extorting-moveit-data-theft-victims/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-is-now-extorting-66-cleo-data-theft-victims/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/co-op-confirms-data-of-65-million-members-stolen-in-cyberattack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/co-op-confirms-data-theft-after-dragonforce-ransomware-claims-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/co-op-says-it-lost-107-million-after-scattered-spider-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-finally-shuts-down-data-leak-negotiation-sites/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-shows-signs-of-being-ryuks-successor/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-shuts-down-operation-rebrands-into-smaller-units/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/critical-fortinet-flaws-now-exploited-in-qilin-ransomware-attacks/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/deep-dive-into-dragonforce-ransomware-and-its-scattered-spider-connection/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/dragonforce-expands-ransomware-model-with-white-label-branding-scheme/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/dragonforce-ransomware-abuses-simplehelp-in-msp-supply-chain-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrods-cyberattacks/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/inc-ransomware-source-code-selling-on-hacking-forums-for-300000/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/linux-version-of-akira-ransomware-targets-vmware-esxi-servers/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/linux-version-of-qilin-ransomware-focuses-on-vmware-esxi/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/lockbit-ransomware-gang-claims-to-have-hacked-fbi-after-takedown/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/lockbit-ransomware-group-launches-new-version-with-automatic-data-exfiltration/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/lockbit-ransomware-shows-signs-of-ryuks-successor/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/mands-confirms-social-engineering-led-to-massive-ransomware-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/mands-says-customer-data-stolen-in-cyberattack-forces-password-resets/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/marks-spencer-breach-linked-to-scattered-spider-ransomware-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/mclaren-health-care-says-data-breach-impacts-743-000-patients/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/mclaren-hospitals-disruption-linked-to-inc-ransomware-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/media-giant-lee-enterprises-says-data-breach-affects-39-000-people/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-scattered-spider-hackers-to-qilin-ransomware-attacks/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-north-korean-hackers-now-deploying-qilin-ransomware/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/ohio-lottery-hit-by-cyberattack-claimed-by-dragonforce-ransomware/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/ohio-lottery-ransomware-attack-impacts-over-538000-individuals/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/onsolve-codered-cyberattack-disrupts-emergency-alert-systems-nationwide/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/panama-ministry-of-economy-discloses-breach-claimed-by-inc-ransomware/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/pennsylvania-ag-confirms-data-breach-after-inc-ransom-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/qilin-esxi-encryptor-analysis/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/qilin-ransomware-abuses-wsl-to-run-linux-encryptors-in-windows/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/qilin-ransomware-gang-linked-to-attack-on-london-hospitals/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-gang-encrypted-network-from-a-webcam-to-bypass-edr/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-breach-instructures-salesforce-instance/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-leak-microsoft-github-source-code/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-target-education-sector-with-salesforce-attacks/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-leaks-73gb-of-tokopedia-user-data/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/surge-of-akira-ransomware-attacks-hits-sonicwall-firewall-devices/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/texas-state-bar-warns-of-data-breach-after-inc-ransomware-claims-attack/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-may-17th-2024-mailbombing-is-back/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/ticketmaster-hacked-shinyhunters-claims-to-have-stolen-1-3tb-of-data/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/uk-shares-security-tips-after-major-retail-cyberattacks/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/yakult-australia-confirms-cyber-incident-after-95-gb-data-leak/",
+    "domain": "www.bleepingcomputer.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.broadcom.com/support/security-center/protection-bulletin/qilin-linux-ransomware-variant-targets-vmware-esxi",
+    "domain": "www.broadcom.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.broadcom.com/support/security-center/protection-bulletin/safepay-ransomware",
+    "domain": "www.broadcom.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2019-CTI-009/",
+    "domain": "www.cert.ssi.gouv.fr",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.checkpoint.com/resources/items/report--the-state-of-ransomware-q2-2026",
+    "domain": "www.checkpoint.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-039a",
+    "domain": "www.cisa.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-040a",
+    "domain": "www.cisa.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a",
+    "domain": "www.cisa.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a-scattered-spider",
+    "domain": "www.cisa.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cisa.gov/sites/default/files/2024-04/aa24-109a-stopransomware-akira-ransomware_2.pdf",
+    "domain": "www.cisa.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cloudsek.com/blog/aurora-ransomware-affiliate-ai-attack-planning-crypto-payments",
+    "domain": "www.cloudsek.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.computerweekly.com/news/366619691/Ransomware-from-REvil-to-Black-Basta-what-do-we-know-about-Tramp",
+    "domain": "www.computerweekly.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.crn.com/news/security/2025/5-things-to-know-on-the-safepay-ransomware-group",
+    "domain": "www.crn.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.crowdstrike.com/blog/not-a-simulation-crowdstrike-investigations-reveal-intrusion-campaign-targeting-telco-and-bpo-companies/",
+    "domain": "www.crowdstrike.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/inc-ransom-affiliate-model-enabling-targeting-of-critical-networks",
+    "domain": "www.cyber.gov.au",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/scattered-spider",
+    "domain": "www.cyber.gov.au",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cyber.gov.au/about-us/view-all-content/news/inc-ransom-and-affiliate-network-operating-in-australia-new-zealand-and-the-pacific-island-states",
+    "domain": "www.cyber.gov.au",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cyberbreaches.org/en/incidents/conduent-2025-01-13",
+    "domain": "www.cyberbreaches.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cyberscotland.com/wp-content/uploads/2024/12/SC3-Monthly-Ransomware-Report-November-2024.pdf",
+    "domain": "www.cyberscotland.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cyfirma.com/news/weekly-intelligence-report-22-may-2026/",
+    "domain": "www.cyfirma.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.cynet.com/blog/2026-1h-echo-insights-the-anatomy-of-an-akira-intrusion/",
+    "domain": "www.cynet.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.darktrace.com/blog/inside-akiras-sonicwall-campaign-darktraces-detection-and-response",
+    "domain": "www.darktrace.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.elliptic.co/insights/black-basta-and-beyond-leaked-chats-provide-insights-for-attributing-the-ecosystem",
+    "domain": "www.elliptic.co",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.elliptic.co/insights/conti-leaks-investigation/",
+    "domain": "www.elliptic.co",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.ervik.as/ransomware-groups/krybit",
+    "domain": "www.ervik.as",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.esentire.com/security-advisories/clop-cl0p-ransomware-gang-currently-claims-57-victims-on-leak-site-as-six-clop-gang-members-arrested-in-ukraine-today",
+    "domain": "www.esentire.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.eset.com/int/about/newsroom/press-releases-1/eset-threat-report-h1-2025/",
+    "domain": "www.eset.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.europol.europa.eu/how-we-work/operations/operation-endgame",
+    "domain": "www.europol.europa.eu",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-disrupt-worlds-biggest-ransomware-operation",
+    "domain": "www.europol.europa.eu",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.europol.europa.eu/media-press/newsroom/news/lockbit-power-cut-four-new-arrests-and-financial-sanctions-against-affiliates",
+    "domain": "www.europol.europa.eu",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.europol.europa.eu/media-press/newsroom/news/operation-endgame-follow-leads-to-five-detentions-and-interrogations-well-server-takedowns",
+    "domain": "www.europol.europa.eu",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.fbi.gov/file-repository/cyber-alerts/scattered-spider-072925.pdf/view",
+    "domain": "www.fbi.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.ft.com/content/773c031b-a4e9-4120-bea6-d3d4c3eecdc4",
+    "domain": "www.ft.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.galaxywarden.com/blog/breach/aruba-productions-akira-2024-12",
+    "domain": "www.galaxywarden.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.galaxywarden.com/blog/breach/pss-ht-krybit-2026-09",
+    "domain": "www.galaxywarden.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.galaxywarden.com/blog/breach/seafrigo-dragonforce-2024-06",
+    "domain": "www.galaxywarden.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.gov.uk/government/consultations/ransomware-proposals-to-increase-incident-reporting-and-reduce-payments-to-criminals/ransomware-legislative-proposals-reducing-payments-to-cyber-criminals-and-increasing-incident-reporting-accessible",
+    "domain": "www.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.gov.uk/government/news/new-uk-sanctions-target-russian-cybercrime-network",
+    "domain": "www.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.gov.uk/government/news/uk-and-allies-sanction-prolific-cyber-hacker",
+    "domain": "www.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.gov.uk/government/news/uk-cracks-down-on-ransomware-actors",
+    "domain": "www.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.gov.uk/government/news/uk-sanctions-members-of-notorious-evil-corp-cyber-crime-gang-after-lammy-calls-out-putins-mafia-state",
+    "domain": "www.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.gov.uk/government/news/uk-smashes-russian-cybercrime-networks-responsible-for-attacks-on-uk-businesses",
+    "domain": "www.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.group-ib.com/blog/dragonforce-ransomware/",
+    "domain": "www.group-ib.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.group-ib.com/blog/qilin-ransomware/",
+    "domain": "www.group-ib.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.group-ib.com/blog/shinyhunters/",
+    "domain": "www.group-ib.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.halcyon.ai/attacks?beb9dacc_page=38",
+    "domain": "www.halcyon.ai",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.halcyon.ai/attacks?beb9dacc_page=57",
+    "domain": "www.halcyon.ai",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.halcyon.ai/ransomware-research-reports/0apt-vs-krybit-ransomware-actors-list-opposing-operators-as-victims",
+    "domain": "www.halcyon.ai",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.halcyon.ai/threat-group/inc-ransom",
+    "domain": "www.halcyon.ai",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.halcyon.ai/threat-group/krybit",
+    "domain": "www.halcyon.ai",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.hhs.gov/sites/default/files/qilin-threat-profile-tlpclear.pdf",
+    "domain": "www.hhs.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.huntress.com/blog/2024-revisiting-a-year-in-threats",
+    "domain": "www.huntress.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.huntress.com/blog/its-not-safe-to-pay-safepay",
+    "domain": "www.huntress.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.infosecurity-magazine.com/news-features/top-10-most-active-ransomware/",
+    "domain": "www.infosecurity-magazine.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.infosecurity-magazine.com/news-features/unmasking-safepay-ransomware-group/",
+    "domain": "www.infosecurity-magazine.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.infosecurity-magazine.com/news/abuse-cursor-agent-ransomware/",
+    "domain": "www.infosecurity-magazine.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.infosecurity-magazine.com/news/dragonforce-ransomware-lockbit/",
+    "domain": "www.infosecurity-magazine.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.infosecurity-magazine.com/news/dragonforce-turf-war-ransomware/",
+    "domain": "www.infosecurity-magazine.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.infosecurity-magazine.com/news/inc-ransom-claims-cyberattack-uk/",
+    "domain": "www.infosecurity-magazine.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.infosecurity-magazine.com/news/qilin-ransomware-40-cases-monthly/",
+    "domain": "www.infosecurity-magazine.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.infosecurity-magazine.com/news/ransomware-turf-war-0apt-krybit/",
+    "domain": "www.infosecurity-magazine.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.interpol.int/News-and-Events/News/2021/INTERPOL-led-operation-takes-down-prolific-cybercrime-ring",
+    "domain": "www.interpol.int",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.itpro.com/security/inc-ransom-group-claims-latest-uk-victim-with-leicester-city-council-but-who-are-the-new-kids-on-the-digital-extortion-block",
+    "domain": "www.itpro.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/d9/2024-11/usa_v_elbadawy_et_al_indictment.pdf",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/breachforums-founder-arrested-and-charged",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/member-prolific-russian-ransomware-group-sentenced-prison",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/ukrainian-national-extradited-ireland-connection-conti-ransomware",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/ukrainian-national-pleads-guilty-wire-fraud-conspiracy-connection-conti-ransomware",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/ukrainian-national-sentenced-four-years-prison-wire-fraud-conspiracy-connection-conti",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/united-kingdom-national-charged-connection-multiple-cyber-attacks-including-critical",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/us-charges-russian-national-deploying-lockbit-ransomware",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/us-charges-russian-national-lockbit-ransomware-attacks",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-cdca/pr/5-defendants-charged-federally-running-scheme-targeted-victim-companies-phishing-text",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-cdca/pr/british-national-pleads-guilty-hacking-companies-and-stealing-least-8-million-virtual",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-mdfl/pr/palm-coast-hacker-sentenced-10-years-prison",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-mdtn/pr/multiple-foreign-nationals-charged-connection-conti-ransomware-and-trickbot-malware",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-mdtn/pr/ukrainian-national-extradited-ireland-connection-conti-ransomware",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-ndil/pr/alleged-member-criminal-cyber-hacking-group-scattered-spider-arrested-finland-and",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-nj/pr/dual-russian-and-israeli-national-extradited-united-states-his-role-lockbit-ransomware",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-nj/pr/two-foreign-nationals-plead-guilty-participation-lockbit-ransomware-group",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-nj/pr/us-and-uk-disrupt-lockbit-ransomware-variant",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-nj/pr/us-charges-dual-russian-and-israeli-national-developer-lockbit-ransomware-group",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-nj/pr/us-charges-russian-national-developing-and-operating-lockbit-ransomware",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/justice-department-unseals-indictment-against-alleged-breachforums-administrator",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-wdwa/pr/alleged-french-cybercriminal-appear-seattle-indictment-conspiracy-computer-intrusion",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-wdwa/pr/canadian-pleads-guilty-hacking-us-cloud-storage-provider-and-extorting-its-customers",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-wdwa/pr/member-notorious-international-hacking-crew-sentenced-prison",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.justice.gov/usao-wdwa/pr/two-men-charged-snowflake-data-thefts",
+    "domain": "www.justice.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.kelacyber.com/blog/inside-the-gentlemen-leak-how-a-new-raas-captured-10-of-2026s-global-ransomware-victims/",
+    "domain": "www.kelacyber.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.kelacyber.com/blog/surviving-the-qakbot-takedown-black-basta-and-knight-ransomware-operations/",
+    "domain": "www.kelacyber.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.lemagit.fr/conseil/Ransomware-apercu-de-linterface-de-negociation-de-Qilin",
+    "domain": "www.lemagit.fr",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.lemonde.fr/pixels/article/2025/06/25/quatre-pirates-presumes-interpelles-en-france-soupconnes-d-etre-derriere-un-celebre-site-de-revente-de-donnees_6615911_4408996.html",
+    "domain": "www.lemonde.fr",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.mandiant.com/resources/blog/snowflake-customer-instances-threat-actor",
+    "domain": "www.mandiant.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.mandiant.com/resources/blog/unc6040",
+    "domain": "www.mandiant.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/",
+    "domain": "www.microsoft.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+    "domain": "www.microsoft.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Ransom%3AWin32%2FSafePay.MKV%21MTB",
+    "domain": "www.microsoft.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Ransom%3AWin32%2FSafepay.A",
+    "domain": "www.microsoft.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.moxfive.com/resources/moxfive-threat-actor-spotlight-inc-ransom",
+    "domain": "www.moxfive.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.nationalcrimeagency.gov.uk/news/lockbit-leader-unmasked-and-sanctioned",
+    "domain": "www.nationalcrimeagency.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.nationalcrimeagency.gov.uk/news/nca-leads-international-investigation-targeting-worlds-most-harmful-ransomware-group",
+    "domain": "www.nationalcrimeagency.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.nationalcrimeagency.gov.uk/news/two-charged-for-tfl-cyber-attack",
+    "domain": "www.nationalcrimeagency.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.nationalcrimeagency.gov.uk/news/two-sentenced-for-hacking-transport-for-london-in-uk-s-biggest-ever-cyber-crime-case",
+    "domain": "www.nationalcrimeagency.gov.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.nccgroup.com/newsroom/ncc-group-monthly-threat-pulse-review-of-may-2025/",
+    "domain": "www.nccgroup.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.ncsc.nl/nieuws/ncsc-waarschuwt-voor-cl0p-campagnes-die-zich-richten-op-filetransfer-systemen",
+    "domain": "www.ncsc.nl",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.nomoreransom.org/en/decryption-tools.html",
+    "domain": "www.nomoreransom.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.picussecurity.com/resource/blog/akira-ransomware-analysis-simulation-and-mitigation-cisa-alert-aa24-109a",
+    "domain": "www.picussecurity.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.politie.nl/nieuws/2024/juni/5/verdachte-ransomware-opgepakt.html",
+    "domain": "www.politie.nl",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.rapid7.com/blog/post/2022/03/01/conti-ransomware-group-internal-chats-leaked-over-russia-ukraine-conflict/",
+    "domain": "www.rapid7.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.reuters.com/business/retail-consumer/uk-police-arrest-four-connection-with-ms-co-op-cyberattacks-2025-07-10/",
+    "domain": "www.reuters.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.reuters.com/legal/government/cybercrime-feud-erupts-dark-web-notorious-group-claims-hijack-rivals-website-2026-09-21/",
+    "domain": "www.reuters.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.reuters.com/legal/government/us-federal-agency-confirms-data-breach-wake-claims-by-ransomware-group-2026-08-27/",
+    "domain": "www.reuters.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.reuters.com/world/asia-pacific/cybercriminals-claim-hack-japans-asahi-group-2025-10-07/",
+    "domain": "www.reuters.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.reuters.com/world/shinyhunters-hackers-say-they-breached-federal-bureau-investigation-no-immediate-2026-09-22/",
+    "domain": "www.reuters.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.reuters.com/world/us/hackers-who-breached-casino-giants-mgm-caesars-also-hit-3-other-firms-okta-says-2023-09-19/",
+    "domain": "www.reuters.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.s-rminform.com/latest-thinking/ransomware-in-focus-meet-qilin",
+    "domain": "www.s-rminform.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.sans.org/blog/evolution-qilin-raas",
+    "domain": "www.sans.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.sans.org/newsletters/newsbites/xxvii-44",
+    "domain": "www.sans.org",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/POLIZEI/Fahndungen/fahndungen_taeter/bka_NEFEDOV_black_basta_2026/bka_NEFEDOV_black_basta_2026",
+    "domain": "www.schleswig-holstein.de",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.securityweek.com/europol-says-qilin-ransomware-reward-fake/",
+    "domain": "www.securityweek.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.securityweek.com/lee-enterprises-says-40000-hit-by-ransomware-caused-data-breach/",
+    "domain": "www.securityweek.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.silentpush.com/blog/gentlemen-ransomware/",
+    "domain": "www.silentpush.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.silentpush.com/blog/scattered-spider-2025/",
+    "domain": "www.silentpush.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.sophos.com/en-gb/blog/gold-ionic-deploys-inc-ransomware",
+    "domain": "www.sophos.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.sophos.com/en-gb/blog/qilin-ransomware-caught-stealing-credentials-stored-in-google-chrome",
+    "domain": "www.sophos.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.sophos.com/fr-fr/blog/taking-the-shine-off-breachforums",
+    "domain": "www.sophos.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.state.gov/rewards-for-information-leading-to-the-arrest-and-or-conviction-of-lockbit-ransomware-group-members/",
+    "domain": "www.state.gov",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.sygnia.co/blog/safepay-onedrive-exfiltration-technique/",
+    "domain": "www.sygnia.co",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.techradar.com/pro/security/akira-ransomware-is-now-targeting-nutanix-vms-and-scoring-big-rewards",
+    "domain": "www.techradar.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.techradar.com/pro/security/ransomware-gang-crashes-own-attack-with-no-one-to-blame-but-themselves",
+    "domain": "www.techradar.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.techradar.com/pro/security/ransomware-gang-sets-deadline-to-leak-huge-cache-of-stolen-ingram-micro-data",
+    "domain": "www.techradar.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.techradar.com/pro/security/shinyhunters-hackers-claim-to-have-hit-data-center-provider-used-by-microsoft-and-meta",
+    "domain": "www.techradar.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.thaicert.or.th/en/2026/04/30/infighting-in-the-ransomware-scene-0apt-vs-krybit-leads-to-data-leaks/",
+    "domain": "www.thaicert.or.th",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.theguardian.com/society/article/2024/jun/21/records-on-300m-patient-interactions-with-nhs-stolen-in-russian-hack",
+    "domain": "www.theguardian.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.theguardian.com/technology/2025/may/21/scattered-spider-national-crime-agency-inquiry-cyber-attacks-uk-retailers",
+    "domain": "www.theguardian.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.theguardian.com/us-news/article/2024/jul/05/taylor-swift-eras-tour-ticketmaster-hack-ransom",
+    "domain": "www.theguardian.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.theregister.com/2025/05/31/gangexposed_conti_ransomware_leaks/",
+    "domain": "www.theregister.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.theregister.com/cyber-crime/2026/06/09/qilin-nhs-breach-tally-grows-as-essex-trust-confirms-stolen-records/5252663",
+    "domain": "www.theregister.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.theregister.com/security/2023/09/14/caesars-confirms-data-theft-as-mgm-casino-outage-drags-on/",
+    "domain": "www.theregister.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.theregister.com/security/2026/04/14/0apt-ransomware-gang-extorts-krybit-amid-doxxing-threat/",
+    "domain": "www.theregister.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.theregister.com/security/2026/08/27/atf-responds-to-major-cybersecurity-incident-after-ransomware-gangs-claims/5292990",
+    "domain": "www.theregister.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.threatcluster.io/cluster/krybit-ransomware-claims-victims-in-t%C3%BCrkiye-and-germany-7878a516",
+    "domain": "www.threatcluster.io",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.threatdown.com/blog/ransomware-review-january-2024/",
+    "domain": "www.threatdown.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.trellix.com/blogs/research/analysis-of-black-basta-ransomware-chat-leaks/",
+    "domain": "www.trellix.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.trendmicro.com/en_us/research/25/i/unmasking-the-gentlemen-ransomware.html",
+    "domain": "www.trendmicro.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-lockbit",
+    "domain": "www.trendmicro.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.trmlabs.com/resources/intel-library/akira",
+    "domain": "www.trmlabs.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.ukdefencejournal.org.uk/hackers-threaten-to-release-huge-amount-of-nhs-scotland-data/",
+    "domain": "www.ukdefencejournal.org.uk",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.uvcyber.com/resources/reports/threat-advisory-aurora-ransomware-and-ai-assisted-exploitation",
+    "domain": "www.uvcyber.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/",
+    "domain": "www.welivesecurity.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.wired.com/story/conti-leaks-ransomware-work-life/",
+    "domain": "www.wired.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.wired.com/story/conti-ransomware-crypto-payments/",
+    "domain": "www.wired.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.wired.com/story/conti-ransomware-russia",
+    "domain": "www.wired.com",
+    "category": "unknown",
+    "monitor": false
+  },
+  {
+    "url": "https://www.zerofox.com/intelligence/flash-report-european-law-enforcement-raids-black-basta-actors-homes/",
+    "domain": "www.zerofox.com",
+    "category": "unknown",
+    "monitor": false
+  }
+]
