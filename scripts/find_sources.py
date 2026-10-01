@@ -189,6 +189,21 @@ if SOURCES_FILE.exists():
     except (json.JSONDecodeError, KeyError, TypeError):
         existing_monitor_settings = {}
 
+# Preserve existing feed settings
+existing_feed_settings = {}
+
+if SOURCES_FILE.exists():
+    try:
+        with open(SOURCES_FILE, "r", encoding="utf-8") as file:
+            existing_sources = json.load(file)
+
+        for source in existing_sources:
+            if source.get("feed"):
+                existing_feed_settings[source["url"]] = source["feed"]
+
+    except (json.JSONDecodeError, KeyError, TypeError):
+        existing_feed_settings = {}
+
 source_list = []
 
 for url in sorted(sources):
@@ -196,12 +211,12 @@ for url in sorted(sources):
     domain = parsed.netloc.lower()
 
     source_list.append({
-        "url": url,
-        "domain": domain,
-        "category": classify_domain(domain),
-        "monitor": existing_monitor_settings.get(url, False)
-    })
-
+    "url": url,
+    "domain": domain,
+    "category": classify_domain(domain),
+    "monitor": existing_monitor_settings.get(url, False),
+    "feed": existing_feed_settings.get(url)
+})
 
 SOURCES_FILE.parent.mkdir(parents=True, exist_ok=True)
 
