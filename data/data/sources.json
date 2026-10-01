@@ -4,6 +4,7 @@
     "domain": "activesoc.blackhillsinfosec.com",
     "category": "security_research",
     "monitor": true
+    "feed": "https://activesoc.blackhillsinfosec.com/rss.xml"
   },
   {
     "url": "https://attack.mitre.org/campaigns/C0027/",
