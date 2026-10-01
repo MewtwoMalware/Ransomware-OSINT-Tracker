@@ -175,6 +175,19 @@ for file in BASE_DIR.rglob("*.md"):
         url = url.rstrip(".,;:")
         sources.add(url)
 
+# Preserve existing monitoring settings
+existing_monitor_settings = {}
+
+if SOURCES_FILE.exists():
+    try:
+        with open(SOURCES_FILE, "r", encoding="utf-8") as file:
+            existing_sources = json.load(file)
+
+        for source in existing_sources:
+            existing_monitor_settings[source["url"]] = source.get("monitor", False)
+
+    except (json.JSONDecodeError, KeyError, TypeError):
+        existing_monitor_settings = {}
 
 source_list = []
 
@@ -186,7 +199,7 @@ for url in sorted(sources):
         "url": url,
         "domain": domain,
         "category": classify_domain(domain),
-        "monitor": False
+        "monitor": existing_monitor_settings.get(url, False)
     })
 
 
