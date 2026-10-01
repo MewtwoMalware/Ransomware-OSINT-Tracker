@@ -3,7 +3,7 @@
     "url": "https://activesoc.blackhillsinfosec.com/blog/introducing-the-aur0ra-ransomware-group/",
     "domain": "activesoc.blackhillsinfosec.com",
     "category": "security_research",
-    "monitor": false
+    "monitor": true
   },
   {
     "url": "https://attack.mitre.org/campaigns/C0027/",
