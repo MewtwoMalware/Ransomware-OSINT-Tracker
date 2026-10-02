@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 # Find the repository root
 BASE_DIR = Path(__file__).resolve().parent.parent
 SOURCES_FILE = BASE_DIR / "data" / "data" / "sources.json"
-MARKDOWN_DIR = BASE_DIR / "data" / "data"
+MARKDOWN_DIR = BASE_DIR
 
 
 def load_json(path):
