@@ -21,17 +21,26 @@ def get_markdown_urls():
     for markdown_file in MARKDOWN_DIR.glob("*.md"):
         with open(markdown_file, "r", encoding="utf-8") as file:
             for line in file:
-                line = line.strip()
+                start = 0
 
-                if line.startswith("http://") or line.startswith("https://"):
-                    urls.add(line)
+                while True:
+                    start = line.find("](", start)
 
-                if "|" in line:
-                    parts = [part.strip() for part in line.split("|")]
+                    if start == -1:
+                        break
 
-                    for part in parts:
-                        if part.startswith("http://") or part.startswith("https://"):
-                            urls.add(part)
+                    start += 2
+                    end = line.find(")", start)
+
+                    if end == -1:
+                        break
+
+                    url = line[start:end].strip()
+
+                    if url.startswith("http://") or url.startswith("https://"):
+                        urls.add(url)
+
+                    start = end + 1
 
     return urls
 
