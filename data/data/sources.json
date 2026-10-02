@@ -3,7 +3,7 @@
     "url": "https://activesoc.blackhillsinfosec.com/blog/introducing-the-aur0ra-ransomware-group/",
     "domain": "activesoc.blackhillsinfosec.com",
     "category": "security_research",
-    "monitor": true
+    "monitor": true,
     "feed": "https://activesoc.blackhillsinfosec.com/rss.xml"
   },
   {
