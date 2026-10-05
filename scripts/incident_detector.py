@@ -124,10 +124,10 @@ def looks_like_incident_candidate(item):
 def main():
     print("Ransomware Incident Detector")
     print("============================")
-
-markdown_urls = get_markdown_urls()
-print(f"Existing Markdown URLs: {len(markdown_urls)}")
-
+    
+    markdown_urls = get_markdown_urls()
+    print(f"Existing Markdown URLs: {len(markdown_urls)}")
+    
     sources = load_monitored_sources()
 
     print(f"Monitored RSS sources: {len(sources)}")
@@ -148,12 +148,13 @@ print(f"Existing Markdown URLs: {len(markdown_urls)}")
             print(f"Feed error: {error}")
             continue
 
-       candidates = [
-    item
-    for item in items
-    if item.get("link") not in markdown_urls
-    and looks_like_incident_candidate(item)
-]
+        candidates = [
+            item
+            for item in items
+            if item.get("link") not in markdown_urls
+            and looks_like_incident_candidate(item)
+        ]
+
 
         print(f"Feed items: {len(items)}")
         print(f"Possible incident candidates: {len(candidates)}")
