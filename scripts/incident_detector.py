@@ -43,6 +43,34 @@ def load_monitored_sources():
         for source in sources
         if source.get("monitor") is True and source.get("feed")
     ]
+def get_markdown_urls():
+    urls = set()
+
+    for markdown_file in MARKDOWN_DIR.glob("*.md"):
+        with open(markdown_file, "r", encoding="utf-8") as file:
+            for line in file:
+                start = 0
+
+                while True:
+                    start = line.find("](", start)
+
+                    if start == -1:
+                        break
+
+                    start += 2
+                    end = line.find(")", start)
+
+                    if end == -1:
+                        break
+
+                    url = line[start:end].strip()
+
+                    if url.startswith("http://") or url.startswith("https://"):
+                        urls.add(url)
+
+                    start = end + 1
+
+    return urls
 
 
 def get_feed_items(feed_url):
@@ -97,6 +125,9 @@ def main():
     print("Ransomware Incident Detector")
     print("============================")
 
+markdown_urls = get_markdown_urls()
+print(f"Existing Markdown URLs: {len(markdown_urls)}")
+
     sources = load_monitored_sources()
 
     print(f"Monitored RSS sources: {len(sources)}")
@@ -117,11 +148,12 @@ def main():
             print(f"Feed error: {error}")
             continue
 
-        candidates = [
-            item
-            for item in items
-            if looks_like_incident_candidate(item)
-        ]
+       candidates = [
+    item
+    for item in items
+    if item.get("link") not in markdown_urls
+    and looks_like_incident_candidate(item)
+]
 
         print(f"Feed items: {len(items)}")
         print(f"Possible incident candidates: {len(candidates)}")
