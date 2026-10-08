@@ -1,16 +1,3 @@
 {
-  "pending": [
-    {
-      "group": "Black Basta",
-      "victim": "Example Corporation",
-      "date": "2026-10-08",
-      "status": "claimed",
-      "confidence": "high",
-      "country": "United States",
-      "sector": "Technology",
-      "source": "https://example.com",
-      "source_title": "Test Victim Record",
-      "notes": "TEST RECORD - REMOVE"
-    }
-  ]
+  "pending": []
 }
