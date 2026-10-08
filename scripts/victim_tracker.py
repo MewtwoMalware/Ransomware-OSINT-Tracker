@@ -2,22 +2,16 @@
 
 """
 Ransomware OSINT Tracker
-Victim Database Generator
+Victim Database Processor
 
-This program works alongside the existing ransomware
-timeline Markdown files.
+Processes manually/automatically submitted victim records.
 
-The Markdown files are NOT modified.
-
-Victims are stored separately in:
-
-data/victims.json
-data/victim_aliases.json
-data/statistics.json
+The ransomware Markdown timeline files are NOT modified.
 """
 
 from pathlib import Path
 from datetime import datetime, timezone
+import hashlib
 import json
 import re
 
@@ -31,41 +25,27 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 
 VICTIMS_FILE = DATA_DIR / "victims.json"
-
 ALIASES_FILE = DATA_DIR / "victim_aliases.json"
-
+QUEUE_FILE = DATA_DIR / "victim_queue.json"
 STATISTICS_FILE = DATA_DIR / "statistics.json"
 
 
 # =========================================================
-# DIRECTORY SETTINGS
+# HELPERS
 # =========================================================
 
-IGNORED_DIRECTORIES = {
-    ".git",
-    ".github",
-    "scripts",
-    "data",
-    "node_modules",
-}
+def timestamp():
+    return datetime.now(
+        timezone.utc
+    ).isoformat()
 
-
-# =========================================================
-# BASIC HELPERS
-# =========================================================
 
 def normalize_name(name):
     """
-    Creates a normalized version of a victim name.
-
-    This helps prevent obvious duplicates such as:
-
-    Acme Corp
-    Acme Corporation
-    ACME CORP.
+    Normalize victim names for duplicate detection.
     """
 
-    name = name.lower().strip()
+    name = str(name).lower().strip()
 
     name = re.sub(
         r"[^\w\s]",
@@ -103,182 +83,308 @@ def normalize_name(name):
     return name
 
 
-def current_timestamp():
+def create_id(group, victim):
     """
-    Returns the current UTC timestamp.
+    Create a stable ID for a group/victim combination.
     """
 
-    return datetime.now(
-        timezone.utc
-    ).isoformat()
-
-
-# =========================================================
-# FIND GROUP FILES
-# =========================================================
-
-def find_group_files():
-
-    files = []
-
-    for file in ROOT_DIR.rglob("*.md"):
-
-        if any(
-            directory in file.parts
-            for directory in IGNORED_DIRECTORIES
-        ):
-            continue
-
-        if file.name.lower() == "readme.md":
-            continue
-
-        files.append(file)
-
-    return sorted(files)
-
-
-# =========================================================
-# IDENTIFY GROUP
-# =========================================================
-
-def get_group_name(file):
-
-    try:
-
-        content = file.read_text(
-            encoding="utf-8",
-            errors="ignore"
-        )
-
-    except Exception:
-
-        return file.stem
-
-    match = re.search(
-        r"^#\s+(.+?)\s*$",
-        content,
-        re.MULTILINE
+    raw = (
+        normalize_name(group)
+        + ":"
+        + normalize_name(victim)
     )
 
-    if match:
-
-        return match.group(1).strip()
-
-    return file.stem
+    return hashlib.sha256(
+        raw.encode("utf-8")
+    ).hexdigest()[:16]
 
 
 # =========================================================
-# READ EXISTING VICTIM DATABASE
+# JSON LOADING
 # =========================================================
 
-def load_victims():
+def load_json(path, default):
 
-    if not VICTIMS_FILE.exists():
+    if not path.exists():
 
-        return []
-
-    try:
-
-        data = json.loads(
-            VICTIMS_FILE.read_text(
-                encoding="utf-8"
-            )
-        )
-
-        return data.get(
-            "victims",
-            []
-        )
-
-    except Exception:
-
-        print(
-            "Warning: Could not read victims.json"
-        )
-
-        return []
-
-
-# =========================================================
-# READ ALIASES
-# =========================================================
-
-def load_aliases():
-
-    if not ALIASES_FILE.exists():
-
-        return {}
+        return default
 
     try:
 
         return json.loads(
-            ALIASES_FILE.read_text(
+            path.read_text(
                 encoding="utf-8"
             )
         )
 
-    except Exception:
+    except Exception as error:
 
         print(
-            "Warning: Could not read victim_aliases.json"
+            f"Warning: Could not read {path}"
         )
 
-        return {}
+        print(error)
+
+        return default
 
 
-# =========================================================
-# SAVE VICTIMS
-# =========================================================
-
-def save_victims(victims):
+def save_json(path, data):
 
     DATA_DIR.mkdir(
         parents=True,
         exist_ok=True
     )
 
-    output = {
+    path.write_text(
 
-        "last_updated":
-            current_timestamp(),
+        json.dumps(
+            data,
+            indent=2,
+            ensure_ascii=False
+        ),
 
-        "victims":
-            victims
+        encoding="utf-8"
+    )
 
+
+# =========================================================
+# LOAD DATABASES
+# =========================================================
+
+def load_victims():
+
+    data = load_json(
+        VICTIMS_FILE,
+        {
+            "last_updated": None,
+            "victims": []
+        }
+    )
+
+    return data.get(
+        "victims",
+        []
+    )
+
+
+def load_aliases():
+
+    return load_json(
+        ALIASES_FILE,
+        {}
+    )
+
+
+def load_queue():
+
+    data = load_json(
+        QUEUE_FILE,
+        {
+            "pending": []
+        }
+    )
+
+    return data.get(
+        "pending",
+        []
+    )
+
+
+# =========================================================
+# APPLY ALIASES
+# =========================================================
+
+def apply_alias(name, aliases):
+
+    normalized = normalize_name(
+        name
+    )
+
+    if normalized in aliases:
+
+        return aliases[
+            normalized
+        ]
+
+    return name
+
+
+# =========================================================
+# PROCESS QUEUE
+# =========================================================
+
+def process_queue(victims, aliases):
+
+    pending = load_queue()
+
+    if not pending:
+
+        print(
+            "No pending victim records."
+        )
+
+        return victims, 0, 0
+
+    print(
+        f"Pending victim records: "
+        f"{len(pending)}"
+    )
+
+    existing_ids = {
+        victim.get("id")
+        for victim in victims
     }
 
-    VICTIMS_FILE.write_text(
+    added = 0
+    duplicates = 0
 
-        json.dumps(
-            output,
-            indent=2,
-            ensure_ascii=False
-        ),
+    remaining = []
 
-        encoding="utf-8"
+    for record in pending:
+
+        group = str(
+            record.get(
+                "group",
+                ""
+            )
+        ).strip()
+
+        victim_name = str(
+            record.get(
+                "victim",
+                ""
+            )
+        ).strip()
+
+        if not group or not victim_name:
+
+            print(
+                "Skipping invalid record:"
+            )
+
+            print(record)
+
+            remaining.append(
+                record
+            )
+
+            continue
+
+        victim_name = apply_alias(
+            victim_name,
+            aliases
+        )
+
+        record_id = create_id(
+            group,
+            victim_name
+        )
+
+        if record_id in existing_ids:
+
+            print(
+                f"DUPLICATE: "
+                f"{group} -> {victim_name}"
+            )
+
+            duplicates += 1
+
+            continue
+
+        new_victim = {
+
+            "id":
+                record_id,
+
+            "group":
+                group,
+
+            "victim":
+                victim_name,
+
+            "normalized_name":
+                normalize_name(
+                    victim_name
+                ),
+
+            "date":
+                record.get(
+                    "date",
+                    None
+                ),
+
+            "status":
+                record.get(
+                    "status",
+                    "unknown"
+                ),
+
+            "confidence":
+                record.get(
+                    "confidence",
+                    "unknown"
+                ),
+
+            "country":
+                record.get(
+                    "country",
+                    "Unknown"
+                ),
+
+            "sector":
+                record.get(
+                    "sector",
+                    "Unknown"
+                ),
+
+            "source":
+                record.get(
+                    "source",
+                    ""
+                ),
+
+            "source_title":
+                record.get(
+                    "source_title",
+                    ""
+                ),
+
+            "notes":
+                record.get(
+                    "notes",
+                    ""
+                ),
+
+            "added_at":
+                timestamp()
+        }
+
+        victims.append(
+            new_victim
+        )
+
+        existing_ids.add(
+            record_id
+        )
+
+        added += 1
+
+        print(
+            f"ADDED: "
+            f"{group} -> {victim_name}"
+        )
+
+    save_json(
+        QUEUE_FILE,
+        {
+            "pending": remaining
+        }
     )
 
-
-# =========================================================
-# SAVE ALIASES
-# =========================================================
-
-def save_aliases(aliases):
-
-    DATA_DIR.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    ALIASES_FILE.write_text(
-
-        json.dumps(
-            aliases,
-            indent=2,
-            ensure_ascii=False
-        ),
-
-        encoding="utf-8"
+    return (
+        victims,
+        added,
+        duplicates
     )
 
 
@@ -288,13 +394,10 @@ def save_aliases(aliases):
 
 def generate_statistics(victims):
 
-    group_counts = {}
-
-    status_counts = {}
-
-    country_counts = {}
-
-    sector_counts = {}
+    victims_by_group = {}
+    victims_by_status = {}
+    victims_by_country = {}
+    victims_by_sector = {}
 
     for victim in victims:
 
@@ -318,49 +421,49 @@ def generate_statistics(victims):
             "Unknown"
         )
 
-        group_counts[group] = (
-            group_counts.get(
+        victims_by_group[group] = (
+            victims_by_group.get(
                 group,
                 0
             ) + 1
         )
 
-        status_counts[status] = (
-            status_counts.get(
+        victims_by_status[status] = (
+            victims_by_status.get(
                 status,
                 0
             ) + 1
         )
 
-        country_counts[country] = (
-            country_counts.get(
+        victims_by_country[country] = (
+            victims_by_country.get(
                 country,
                 0
             ) + 1
         )
 
-        sector_counts[sector] = (
-            sector_counts.get(
+        victims_by_sector[sector] = (
+            victims_by_sector.get(
                 sector,
                 0
             ) + 1
         )
 
-    statistics = {
+    return {
 
         "last_updated":
-            current_timestamp(),
+            timestamp(),
 
         "total_unique_victims":
             len(victims),
 
         "total_groups":
-            len(group_counts),
+            len(victims_by_group),
 
         "victims_by_group":
             dict(
                 sorted(
-                    group_counts.items(),
+                    victims_by_group.items(),
                     key=lambda item:
                         item[1],
                     reverse=True
@@ -370,7 +473,7 @@ def generate_statistics(victims):
         "victims_by_status":
             dict(
                 sorted(
-                    status_counts.items(),
+                    victims_by_status.items(),
                     key=lambda item:
                         item[1],
                     reverse=True
@@ -380,7 +483,7 @@ def generate_statistics(victims):
         "victims_by_country":
             dict(
                 sorted(
-                    country_counts.items(),
+                    victims_by_country.items(),
                     key=lambda item:
                         item[1],
                     reverse=True
@@ -390,7 +493,7 @@ def generate_statistics(victims):
         "victims_by_sector":
             dict(
                 sorted(
-                    sector_counts.items(),
+                    victims_by_sector.items(),
                     key=lambda item:
                         item[1],
                     reverse=True
@@ -398,18 +501,25 @@ def generate_statistics(victims):
             )
     }
 
-    STATISTICS_FILE.write_text(
 
-        json.dumps(
-            statistics,
-            indent=2,
-            ensure_ascii=False
-        ),
+# =========================================================
+# SAVE DATABASE
+# =========================================================
 
-        encoding="utf-8"
+def save_victims(victims):
+
+    save_json(
+
+        VICTIMS_FILE,
+
+        {
+            "last_updated":
+                timestamp(),
+
+            "victims":
+                victims
+        }
     )
-
-    return statistics
 
 
 # =========================================================
@@ -419,82 +529,61 @@ def generate_statistics(victims):
 def main():
 
     print()
-    print(
-        "=" * 60
-    )
-
+    print("=" * 60)
     print(
         "RANSOMWARE OSINT VICTIM TRACKER"
     )
-
-    print(
-        "=" * 60
-    )
-
-    group_files = find_group_files()
-
-    print(
-        f"\nMarkdown group files found: "
-        f"{len(group_files)}"
-    )
-
-    for file in group_files:
-
-        group = get_group_name(
-            file
-        )
-
-        print(
-            f"  - {group}"
-        )
+    print("=" * 60)
 
     victims = load_victims()
 
     aliases = load_aliases()
 
+    print()
     print(
-        f"\nExisting victim records: "
+        f"Existing victims: "
         f"{len(victims)}"
     )
 
-    print(
-        f"Existing aliases: "
-        f"{len(aliases)}"
-    )
-
-    statistics = generate_statistics(
-        victims
+    (
+        victims,
+        added,
+        duplicates
+    ) = process_queue(
+        victims,
+        aliases
     )
 
     save_victims(
         victims
     )
 
-    save_aliases(
-        aliases
+    statistics = generate_statistics(
+        victims
+    )
+
+    save_json(
+        STATISTICS_FILE,
+        statistics
     )
 
     print()
+    print("=" * 60)
+    print("RESULT")
+    print("=" * 60)
+
     print(
-        "=" * 60
+        f"Added: {added}"
     )
 
     print(
-        "CURRENT STATISTICS"
+        f"Duplicates ignored: "
+        f"{duplicates}"
     )
 
     print(
-        "=" * 60
-    )
-
-    print(
-        f"Total victims: "
+        f"Total unique victims: "
         f"{statistics['total_unique_victims']}"
-    )
-
-    print(
-        f"Groups represented: "
-        f"{statistics['total_groups']}"
     )
 
     print()
@@ -514,24 +603,7 @@ def main():
 
     print()
     print(
-        "Tracker files generated:"
-    )
-
-    print(
-        f"  {VICTIMS_FILE}"
-    )
-
-    print(
-        f"  {ALIASES_FILE}"
-    )
-
-    print(
-        f"  {STATISTICS_FILE}"
-    )
-
-    print()
-    print(
-        "Existing Markdown files were NOT modified."
+        "Victim tracker completed."
     )
 
 
