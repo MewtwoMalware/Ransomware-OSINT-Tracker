@@ -1,0 +1,15 @@
+{
+  "last_updated": "2026-10-08T00:00:00Z",
+  "victims": [
+    {
+      "group": "Black Basta",
+      "victim": "Example Corporation",
+      "date": "2026-10-08",
+      "status": "claimed",
+      "country": "United States",
+      "sector": "Technology",
+      "source": "https://example.com",
+      "notes": "TEST RECORD - remove later"
+    }
+  ]
+}
