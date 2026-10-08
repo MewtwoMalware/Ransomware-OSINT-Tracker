@@ -1,0 +1,27 @@
+name: Ransomware Victim Tracker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-victim-tracker:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run victim tracker
+        run: |
+          python scripts/victim_tracker.py
+
+      - name: Show generated statistics
+        run: |
+          cat data/statistics.json
