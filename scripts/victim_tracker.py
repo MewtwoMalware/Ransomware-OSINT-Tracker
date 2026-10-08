@@ -1,46 +1,83 @@
 #!/usr/bin/env python3
 
 """
-Ransomware OSINT Tracker - Victim Counter
+Ransomware OSINT Tracker
+Victim Database Generator
 
-Scans ransomware Markdown files and generates victim statistics.
+This program works alongside the existing ransomware
+timeline Markdown files.
+
+The Markdown files are NOT modified.
+
+Victims are stored separately in:
+
+data/victims.json
+data/victim_aliases.json
+data/statistics.json
 """
 
 from pathlib import Path
+from datetime import datetime, timezone
 import json
 import re
-from collections import defaultdict
-from datetime import datetime, timezone
 
+
+# =========================================================
+# PATHS
+# =========================================================
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
+
 DATA_DIR = ROOT_DIR / "data"
 
-VICTIM_COUNTS_FILE = DATA_DIR / "victim_counts.json"
 VICTIMS_FILE = DATA_DIR / "victims.json"
 
+ALIASES_FILE = DATA_DIR / "victim_aliases.json"
 
-IGNORE_FILES = {
-    "README.md",
-}
+STATISTICS_FILE = DATA_DIR / "statistics.json"
 
-IGNORE_DIRS = {
+
+# =========================================================
+# DIRECTORY SETTINGS
+# =========================================================
+
+IGNORED_DIRECTORIES = {
     ".git",
     ".github",
-    "data",
     "scripts",
+    "data",
     "node_modules",
 }
 
 
+# =========================================================
+# BASIC HELPERS
+# =========================================================
+
 def normalize_name(name):
-    """Normalize an organization name for duplicate detection."""
+    """
+    Creates a normalized version of a victim name.
 
-    name = name.strip().lower()
+    This helps prevent obvious duplicates such as:
 
-    name = re.sub(r"[^\w\s]", "", name)
+    Acme Corp
+    Acme Corporation
+    ACME CORP.
+    """
 
-    name = re.sub(r"\s+", " ", name)
+    name = name.lower().strip()
+
+    name = re.sub(
+        r"[^\w\s]",
+        "",
+        name
+    )
+
+    name = re.sub(
+        r"\s+",
+        " ",
+        name
+    )
 
     suffixes = [
         " corporation",
@@ -56,83 +93,66 @@ def normalize_name(name):
     ]
 
     for suffix in suffixes:
+
         if name.endswith(suffix):
-            name = name[:-len(suffix)].strip()
+
+            name = name[
+                :-len(suffix)
+            ].strip()
 
     return name
 
 
-def clean_victim_name(name):
-    """Clean extracted victim text."""
+def current_timestamp():
+    """
+    Returns the current UTC timestamp.
+    """
 
-    name = name.strip()
-
-    name = re.sub(r"[*_`]", "", name)
-
-    name = name.rstrip(".,;:")
-
-    return name
+    return datetime.now(
+        timezone.utc
+    ).isoformat()
 
 
-def is_probable_victim(name):
-    """Filter obvious non-victim text."""
+# =========================================================
+# FIND GROUP FILES
+# =========================================================
 
-    if not name:
-        return False
-
-    if len(name) < 3:
-        return False
-
-    ignored = {
-        "ransomware",
-        "victim",
-        "victims",
-        "company",
-        "organization",
-        "organisation",
-        "group",
-        "government",
-        "researchers",
-        "researcher",
-        "security",
-        "law enforcement",
-        "unknown",
-    }
-
-    if name.lower() in ignored:
-        return False
-
-    return True
-
-
-def find_markdown_files():
-    """Find ransomware Markdown files in the repository."""
+def find_group_files():
 
     files = []
 
-    for path in ROOT_DIR.rglob("*.md"):
+    for file in ROOT_DIR.rglob("*.md"):
 
-        if any(part in IGNORE_DIRS for part in path.parts):
+        if any(
+            directory in file.parts
+            for directory in IGNORED_DIRECTORIES
+        ):
             continue
 
-        if path.name in IGNORE_FILES:
+        if file.name.lower() == "readme.md":
             continue
 
-        files.append(path)
+        files.append(file)
 
     return sorted(files)
 
 
-def get_group_name(path):
-    """Extract ransomware group name from the first Markdown heading."""
+# =========================================================
+# IDENTIFY GROUP
+# =========================================================
+
+def get_group_name(file):
 
     try:
-        content = path.read_text(
+
+        content = file.read_text(
             encoding="utf-8",
             errors="ignore"
         )
+
     except Exception:
-        return path.stem
+
+        return file.stem
 
     match = re.search(
         r"^#\s+(.+?)\s*$",
@@ -141,184 +161,351 @@ def get_group_name(path):
     )
 
     if match:
+
         return match.group(1).strip()
 
-    return path.stem
+    return file.stem
 
 
-def extract_victims_from_markdown(path):
-    """
-    Extract candidate victims.
+# =========================================================
+# READ EXISTING VICTIM DATABASE
+# =========================================================
 
-    Currently supports:
+def load_victims():
 
-    |Source|Date|Victim|Details|
-    """
+    if not VICTIMS_FILE.exists():
 
-    content = path.read_text(
-        encoding="utf-8",
-        errors="ignore"
-    )
+        return []
 
-    victims = []
+    try:
 
-    table_pattern = re.compile(
-        r"^\s*\|?\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|?\s*$",
-        re.MULTILINE
-    )
+        data = json.loads(
+            VICTIMS_FILE.read_text(
+                encoding="utf-8"
+            )
+        )
 
-    for match in table_pattern.finditer(content):
+        return data.get(
+            "victims",
+            []
+        )
 
-        source = match.group(1).strip()
-        date = match.group(2).strip()
-        victim = match.group(3).strip()
-        details = match.group(4).strip()
+    except Exception:
 
-        if victim.lower() == "victim":
-            continue
+        print(
+            "Warning: Could not read victims.json"
+        )
 
-        if set(victim) <= {"-", ":"}:
-            continue
-
-        if is_probable_victim(victim):
-
-            victims.append({
-                "victim": clean_victim_name(victim),
-                "date": date,
-                "source": source,
-                "details": details,
-            })
-
-    return victims
+        return []
 
 
-def main():
+# =========================================================
+# READ ALIASES
+# =========================================================
+
+def load_aliases():
+
+    if not ALIASES_FILE.exists():
+
+        return {}
+
+    try:
+
+        return json.loads(
+            ALIASES_FILE.read_text(
+                encoding="utf-8"
+            )
+        )
+
+    except Exception:
+
+        print(
+            "Warning: Could not read victim_aliases.json"
+        )
+
+        return {}
+
+
+# =========================================================
+# SAVE VICTIMS
+# =========================================================
+
+def save_victims(victims):
 
     DATA_DIR.mkdir(
         parents=True,
         exist_ok=True
     )
 
-    markdown_files = find_markdown_files()
+    output = {
 
-    print(
-        f"Found {len(markdown_files)} Markdown files."
-    )
+        "last_updated":
+            current_timestamp(),
 
-    all_victims = []
+        "victims":
+            victims
 
-    for markdown_file in markdown_files:
-
-        group = get_group_name(markdown_file)
-
-        candidates = extract_victims_from_markdown(
-            markdown_file
-        )
-
-        for candidate in candidates:
-
-            candidate["group"] = group
-
-            candidate["file"] = str(
-                markdown_file.relative_to(ROOT_DIR)
-            )
-
-            all_victims.append(candidate)
-
-    unique_victims = {}
-
-    for victim in all_victims:
-
-        normalized = normalize_name(
-            victim["victim"]
-        )
-
-        key = (
-            victim["group"].lower(),
-            normalized
-        )
-
-        if key not in unique_victims:
-
-            unique_victims[key] = victim
-
-    unique_victims = list(
-        unique_victims.values()
-    )
-
-    group_counts = defaultdict(int)
-
-    for victim in unique_victims:
-
-        group_counts[
-            victim["group"]
-        ] += 1
-
-    statistics = {
-        "generated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
-
-        "groups": len(group_counts),
-
-        "unique_victim_records": len(
-            unique_victims
-        ),
-
-        "victims_by_group": dict(
-            sorted(
-                group_counts.items(),
-                key=lambda x: x[1],
-                reverse=True
-            )
-        )
-    }
-
-    victims_output = {
-        "generated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
-
-        "victims": unique_victims
     }
 
     VICTIMS_FILE.write_text(
+
         json.dumps(
-            victims_output,
+            output,
             indent=2,
             ensure_ascii=False
         ),
+
         encoding="utf-8"
     )
 
-    VICTIM_COUNTS_FILE.write_text(
+
+# =========================================================
+# SAVE ALIASES
+# =========================================================
+
+def save_aliases(aliases):
+
+    DATA_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    ALIASES_FILE.write_text(
+
+        json.dumps(
+            aliases,
+            indent=2,
+            ensure_ascii=False
+        ),
+
+        encoding="utf-8"
+    )
+
+
+# =========================================================
+# GENERATE STATISTICS
+# =========================================================
+
+def generate_statistics(victims):
+
+    group_counts = {}
+
+    status_counts = {}
+
+    country_counts = {}
+
+    sector_counts = {}
+
+    for victim in victims:
+
+        group = victim.get(
+            "group",
+            "Unknown"
+        )
+
+        status = victim.get(
+            "status",
+            "unknown"
+        )
+
+        country = victim.get(
+            "country",
+            "Unknown"
+        )
+
+        sector = victim.get(
+            "sector",
+            "Unknown"
+        )
+
+        group_counts[group] = (
+            group_counts.get(
+                group,
+                0
+            ) + 1
+        )
+
+        status_counts[status] = (
+            status_counts.get(
+                status,
+                0
+            ) + 1
+        )
+
+        country_counts[country] = (
+            country_counts.get(
+                country,
+                0
+            ) + 1
+        )
+
+        sector_counts[sector] = (
+            sector_counts.get(
+                sector,
+                0
+            ) + 1
+        )
+
+    statistics = {
+
+        "last_updated":
+            current_timestamp(),
+
+        "total_unique_victims":
+            len(victims),
+
+        "total_groups":
+            len(group_counts),
+
+        "victims_by_group":
+            dict(
+                sorted(
+                    group_counts.items(),
+                    key=lambda item:
+                        item[1],
+                    reverse=True
+                )
+            ),
+
+        "victims_by_status":
+            dict(
+                sorted(
+                    status_counts.items(),
+                    key=lambda item:
+                        item[1],
+                    reverse=True
+                )
+            ),
+
+        "victims_by_country":
+            dict(
+                sorted(
+                    country_counts.items(),
+                    key=lambda item:
+                        item[1],
+                    reverse=True
+                )
+            ),
+
+        "victims_by_sector":
+            dict(
+                sorted(
+                    sector_counts.items(),
+                    key=lambda item:
+                        item[1],
+                    reverse=True
+                )
+            )
+    }
+
+    STATISTICS_FILE.write_text(
+
         json.dumps(
             statistics,
             indent=2,
             ensure_ascii=False
         ),
+
         encoding="utf-8"
     )
 
-    print()
-    print("=" * 60)
-    print("RANSOMWARE VICTIM TRACKER")
-    print("=" * 60)
+    return statistics
 
+
+# =========================================================
+# MAIN
+# =========================================================
+
+def main():
+
+    print()
     print(
-        f"Groups found: {statistics['groups']}"
+        "=" * 60
     )
 
     print(
-        f"Unique victim records: "
-        f"{statistics['unique_victim_records']}"
+        "RANSOMWARE OSINT VICTIM TRACKER"
+    )
+
+    print(
+        "=" * 60
+    )
+
+    group_files = find_group_files()
+
+    print(
+        f"\nMarkdown group files found: "
+        f"{len(group_files)}"
+    )
+
+    for file in group_files:
+
+        group = get_group_name(
+            file
+        )
+
+        print(
+            f"  - {group}"
+        )
+
+    victims = load_victims()
+
+    aliases = load_aliases()
+
+    print(
+        f"\nExisting victim records: "
+        f"{len(victims)}"
+    )
+
+    print(
+        f"Existing aliases: "
+        f"{len(aliases)}"
+    )
+
+    statistics = generate_statistics(
+        victims
+    )
+
+    save_victims(
+        victims
+    )
+
+    save_aliases(
+        aliases
     )
 
     print()
-    print("Victims by group:")
+    print(
+        "=" * 60
+    )
+
+    print(
+        "CURRENT STATISTICS"
+    )
+
+    print(
+        "=" * 60
+    )
+
+    print(
+        f"Total victims: "
+        f"{statistics['total_unique_victims']}"
+    )
+
+    print(
+        f"Groups represented: "
+        f"{statistics['total_groups']}"
+    )
+
+    print()
+    print(
+        "Victims by group:"
+    )
 
     for group, count in (
-        statistics["victims_by_group"].items()
+        statistics[
+            "victims_by_group"
+        ].items()
     ):
 
         print(
@@ -327,13 +514,27 @@ def main():
 
     print()
     print(
-        f"Created: {VICTIMS_FILE}"
+        "Tracker files generated:"
     )
 
     print(
-        f"Created: {VICTIM_COUNTS_FILE}"
+        f"  {VICTIMS_FILE}"
+    )
+
+    print(
+        f"  {ALIASES_FILE}"
+    )
+
+    print(
+        f"  {STATISTICS_FILE}"
+    )
+
+    print()
+    print(
+        "Existing Markdown files were NOT modified."
     )
 
 
 if __name__ == "__main__":
+
     main()
