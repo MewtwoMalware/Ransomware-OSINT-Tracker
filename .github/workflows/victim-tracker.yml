@@ -25,6 +25,10 @@ jobs:
         run: |
           python scripts/victim_tracker.py
 
+      - name: Generate victim dashboard
+        run: |
+          python scripts/generate_victim_dashboard.py
+
       - name: Show generated statistics
         run: |
           cat data/statistics.json
