@@ -2,20 +2,17 @@ name: Ransomware Victim Tracker
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *"
 
 permissions:
   contents: write
 
-  schedule:
-    - cron: "0 3 * * *"
-
 jobs:
   update-victim-tracker:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -31,7 +28,7 @@ jobs:
       - name: Show generated statistics
         run: |
           cat data/statistics.json
-      
+
       - name: Commit updated tracker data
         run: |
           git config user.name "github-actions[bot]"
@@ -39,5 +36,3 @@ jobs:
           git add data/
           git diff --cached --quiet || git commit -m "Update ransomware victim statistics"
           git push
-
-          
