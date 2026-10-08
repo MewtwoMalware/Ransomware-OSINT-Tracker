@@ -3,6 +3,9 @@ name: Ransomware Victim Tracker
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
   schedule:
     - cron: "0 3 * * *"
 
