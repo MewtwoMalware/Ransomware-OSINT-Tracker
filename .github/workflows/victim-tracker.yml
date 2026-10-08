@@ -28,3 +28,13 @@ jobs:
       - name: Show generated statistics
         run: |
           cat data/statistics.json
+      
+      - name: Commit updated tracker data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Update ransomware victim statistics"
+          git push
+
+          
