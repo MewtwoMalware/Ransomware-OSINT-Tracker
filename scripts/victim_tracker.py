@@ -34,6 +34,14 @@ STATISTICS_FILE = DATA_DIR / "statistics.json"
 # HELPERS
 # =========================================================
 
+def is_approved(record):
+    """
+    Return True only when a record has been
+    explicitly approved for ingestion.
+    """
+
+    return record.get("review_status") == "approved"
+
 def timestamp():
     return datetime.now(
         timezone.utc
@@ -217,17 +225,92 @@ def process_queue(victims, aliases):
 
     pending = load_queue()
 
+    if not pending:
+        print("No pending victim records.")
+        return victims, 0, 0
+
     print(
-        f"Pending victim records awaiting manual review: "
-        f"{len(pending)}"
+        f"Records awaiting review: {len(pending)}"
     )
 
-    # Safety rule:
-    # Pending records must never be added automatically.
-    # They will remain in the queue until an approval
-    # mechanism is implemented.
+    existing_ids = {
+        victim.get("id")
+        for victim in victims
+    }
 
-    return victims, 0, 0
+    added = 0
+    duplicates = 0
+    remaining = []
+
+    for record in pending:
+
+        if not is_approved(record):
+            remaining.append(record)
+            continue
+
+        group = str(
+            record.get("group", "")
+        ).strip()
+
+        victim_name = str(
+            record.get("victim", "")
+        ).strip()
+
+        if not group or not victim_name:
+            print(
+                "Approved record has missing group or victim; "
+                "leaving it in the queue."
+            )
+            remaining.append(record)
+            continue
+
+        victim_name = apply_alias(
+            victim_name,
+            aliases
+        )
+
+        record_id = create_id(
+            group,
+            victim_name
+        )
+
+        if record_id in existing_ids:
+            print(
+                f"DUPLICATE: {group} -> {victim_name}"
+            )
+            duplicates += 1
+            continue
+
+        new_victim = {
+            "id": record_id,
+            "group": group,
+            "victim": victim_name,
+            "normalized_name": normalize_name(victim_name),
+            "date": record.get("date"),
+            "status": record.get("status", "unknown"),
+            "confidence": record.get("confidence", "unknown"),
+            "country": record.get("country", "Unknown"),
+            "sector": record.get("sector", "Unknown"),
+            "source": record.get("source", ""),
+            "source_title": record.get("source_title", ""),
+            "notes": record.get("notes", ""),
+            "added_at": timestamp()
+        }
+
+        victims.append(new_victim)
+        existing_ids.add(record_id)
+        added += 1
+
+        print(
+            f"APPROVED AND ADDED: {group} -> {victim_name}"
+        )
+
+    save_json(
+        QUEUE_FILE,
+        {"pending": remaining}
+    )
+
+    return victims, added, duplicates
 
 
 # =========================================================
