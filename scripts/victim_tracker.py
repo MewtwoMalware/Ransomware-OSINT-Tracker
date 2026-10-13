@@ -499,6 +499,10 @@ def main():
 
     aliases = load_aliases()
 
+    pending = load_queue()
+
+    print_review_summary(pending)
+
     print()
     print(
         f"Existing victims: "
