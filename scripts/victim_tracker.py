@@ -50,6 +50,33 @@ def is_pending_review(record):
 
     return record.get("review_status", "pending") == "pending
 
+def print_review_summary(pending):
+    """
+    Display how many records need manual review.
+    """
+
+    awaiting_review = sum(
+        1 for record in pending
+        if is_pending_review(record)
+    )
+
+    approved = sum(
+        1 for record in pending
+        if is_approved(record)
+    )
+
+    rejected = sum(
+        1 for record in pending
+        if record.get("review_status") == "rejected"
+    )
+
+    print()
+    print("VICTIM QUEUE REVIEW SUMMARY")
+    print("-" * 35)
+    print(f"Awaiting review: {awaiting_review}")
+    print(f"Approved, awaiting processing: {approved}")
+    print(f"Rejected, awaiting cleanup: {rejected}")
+
 def timestamp():
     return datetime.now(
         timezone.utc
