@@ -529,6 +529,7 @@ def main():
     pending = load_queue()
 
     print_review_summary(pending)
+    print_pending_records(pending)
 
     print()
     print(
