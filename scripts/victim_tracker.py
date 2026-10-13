@@ -42,6 +42,14 @@ def is_approved(record):
 
     return record.get("review_status") == "approved"
 
+def is_pending_review(record):
+    """
+    Return True when a record has not yet been approved
+    or rejected.
+    """
+
+    return record.get("review_status", "pending") == "pending
+
 def timestamp():
     return datetime.now(
         timezone.utc
