@@ -48,7 +48,7 @@ def is_pending_review(record):
     or rejected.
     """
 
-    return record.get("review_status", "pending") == "pending
+    return record.get("review_status", "pending") == "pending"
 
 def print_review_summary(pending):
     """
