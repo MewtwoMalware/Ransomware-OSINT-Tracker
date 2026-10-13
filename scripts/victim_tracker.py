@@ -77,6 +77,33 @@ def print_review_summary(pending):
     print(f"Approved, awaiting processing: {approved}")
     print(f"Rejected, awaiting cleanup: {rejected}")
 
+def print_pending_records(pending):
+    """
+    List records awaiting manual review.
+    Does not approve, reject, or modify records.
+    """
+
+    awaiting = [
+        record for record in pending
+        if is_pending_review(record)
+    ]
+
+    print()
+    print("RECORDS AWAITING MANUAL REVIEW")
+    print("-" * 35)
+
+    if not awaiting:
+        print("No records awaiting review.")
+        return
+
+    for index, record in enumerate(awaiting, start=1):
+        group = record.get("group", "Unknown")
+        victim = record.get("victim", "Unknown")
+        source = record.get("source", "Not provided")
+
+        print(f"{index}. {group} -> {victim}")
+        print(f"   Source: {source}")
+
 def timestamp():
     return datetime.now(
         timezone.utc
