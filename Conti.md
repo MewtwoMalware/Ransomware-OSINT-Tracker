@@ -27,4 +27,5 @@
 
 # Conti Leaks
 |Source|Date|Details|
+| ------ | ------ | ------ |
 | [Complete Translation of Leaked Conti Ransomware Chats](https://github.com/NorthwaveSecurity/complete_translation_leaked_chats_conti_ransomware/tree/main) | 2022 | Northwave Security published English translations of leaked internal Conti ransomware group communications. The dataset provides insight into the group's internal discussions, organizational structure and activities. The original messages were in Russian and were translated into English for analysis. |
