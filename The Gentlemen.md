@@ -24,4 +24,5 @@
 
 # The Gentlemen Leaks
 |Source|Date|Details|
+| ------ | ------ | ------ |
 | [Gentlemen Ransomware Leaked Chats](https://www.mediafire.com/folder/MKTT1RUW4PEBC/456) | Unknown | A collection of leaked internal chat logs associated with the Gentlemen ransomware group. The communications may provide insight into the group's internal discussions, organizational structure and operational activities. The archive could support research into the group's tactics, techniques and procedures (TTPs), as well as its broader ransomware operations. |
