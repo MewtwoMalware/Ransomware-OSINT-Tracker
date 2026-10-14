@@ -17,3 +17,8 @@
 | [Public Search for Oleg Evgenievich Nefedov](https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/POLIZEI/Fahndungen/fahndungen_taeter/bka_NEFEDOV_black_basta_2026/bka_NEFEDOV_black_basta_2026) | 15 Jan 2026 | German authorities publicly identified Oleg Evgenievich Nefedov as the alleged founder and leader of Black Basta and issued a public wanted notice. |
 | [Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice](https://thehackernews.com/2026/01/black-basta-ransomware-leader-added-to.html) | 17 Jan 2026 | Nefedov was reported as being added to international wanted mechanisms including the INTERPOL Red Notice and EU Most Wanted list. |
 | [Lessons from Black Basta's collapse](https://blog.barracuda.com/2026/02/02/lessons-from-black-basta-s-collapse) | 02 Feb 2026 | Retrospective analysis of the factors behind Black Basta's collapse, including the QakBot disruption, internal conflicts and the 2025 chat leak. |
+
+# Black Basta Leaks
+|Source|Date|Details|
+| ------ | ------ | ------ |
+| [Black Basta Leaked Internal Chats](https://bastachats.armada-ops.com/) | 11 Feb 2025 | Black Basta's internal chat logs were leaked, exposing communications covering the period from September 2023 to September 2024. The messages provide insight into the group's internal organization, operational activities, relationships with affiliates, cryptocurrency transactions and ransomware operations. The leak offers researchers valuable information for investigating the group's activities and understanding its connections to the wider cybercrime ecosystem. |
