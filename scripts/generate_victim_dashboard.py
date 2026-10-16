@@ -20,6 +20,7 @@ def load_statistics():
         return {
             "last_updated": None,
             "total_unique_victims": 0,
+            "total_recorded_claims": 0,
             "total_groups": 0,
             "victims_by_group": {},
             "victims_by_status": {},
