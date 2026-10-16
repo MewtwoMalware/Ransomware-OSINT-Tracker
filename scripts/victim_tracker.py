@@ -176,11 +176,9 @@ def create_id(group, victim):
 def load_json(path, default):
 
     if not path.exists():
-
         return default
 
     try:
-
         return json.loads(
             path.read_text(
                 encoding="utf-8"
@@ -188,14 +186,10 @@ def load_json(path, default):
         )
 
     except Exception as error:
-
-        print(
-            f"Warning: Could not read {path}"
-        )
-
-        print(error)
-
-        return default
+        raise RuntimeError(
+            f"Could not read or parse {path}. "
+            "Please fix the file before running the tracker again."
+        ) from error
 
 
 def save_json(path, data):
