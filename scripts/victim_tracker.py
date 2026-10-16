@@ -435,6 +435,9 @@ def generate_statistics(victims):
         "total_unique_victims":
             len(victims),
 
+        "total_recorded_claims":
+            len(victims),
+
         "total_groups":
             len(victims_by_group),
 
