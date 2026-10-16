@@ -260,15 +260,12 @@ def load_queue():
 
 def apply_alias(name, aliases):
 
-    normalized = normalize_name(
-        name
-    )
+    normalized = normalize_name(name)
 
-    if normalized in aliases:
+    for alias, canonical_name in aliases.items():
 
-        return aliases[
-            normalized
-        ]
+        if normalize_name(alias) == normalized:
+            return canonical_name
 
     return name
 
