@@ -60,6 +60,11 @@ def main():
     )
 
     lines.append(
+        f"- **Total recorded claims:** "
+        f"{statistics.get('total_recorded_claims', 0)}"
+    )
+
+    lines.append(
         f"- **Groups represented:** "
         f"{statistics.get('total_groups', 0)}"
     )
