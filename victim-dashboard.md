@@ -1,10 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-10-21T08:01:53.893425+00:00
+**Last updated:** 2026-10-21T17:36:07.174889+00:00
 
 ## Overview
 
 - **Total unique victims:** 0
+- **Total recorded claims:** 0
 - **Groups represented:** 0
 
 ## Victims by Ransomware Group
