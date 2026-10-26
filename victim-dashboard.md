@@ -1,6 +1,6 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-10-25T07:50:35.842513+00:00
+**Last updated:** 2026-10-26T08:10:04.108019+00:00
 
 ## Overview
 
