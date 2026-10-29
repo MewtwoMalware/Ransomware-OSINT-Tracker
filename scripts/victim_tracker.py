@@ -527,6 +527,16 @@ def save_victims(victims):
         }
     )
 
+def save_organizations(organizations):
+
+    save_json(
+        ORGANIZATIONS_FILE,
+        {
+            "last_updated": timestamp(),
+            "organizations": organizations
+        }
+    )
+
 
 # =========================================================
 # MAIN
