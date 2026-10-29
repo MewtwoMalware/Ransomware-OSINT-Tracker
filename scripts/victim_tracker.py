@@ -26,6 +26,7 @@ DATA_DIR = ROOT_DIR / "data"
 
 VICTIMS_FILE = DATA_DIR / "victims.json"
 ALIASES_FILE = DATA_DIR / "victim_aliases.json"
+ORGANIZATIONS_FILE = DATA_DIR / "organizations.json"
 QUEUE_FILE = DATA_DIR / "victim_queue.json"
 STATISTICS_FILE = DATA_DIR / "statistics.json"
 
