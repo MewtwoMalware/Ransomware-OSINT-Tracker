@@ -231,6 +231,30 @@ def load_victims():
         []
     )
 
+def load_organizations():
+
+    data = load_json(
+        ORGANIZATIONS_FILE,
+        {
+            "last_updated": None,
+            "organizations": []
+        }
+    )
+
+    if not isinstance(data, dict):
+        raise ValueError(
+            "Organization registry must be a JSON object."
+        )
+
+    organizations = data.get("organizations")
+
+    if not isinstance(organizations, list):
+        raise ValueError(
+            "Organization registry must contain "
+            "an organizations list."
+        )
+
+    return organizations
 
 def load_aliases():
 
