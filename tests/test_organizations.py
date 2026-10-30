@@ -72,6 +72,31 @@ def test_invalid_top_level_structure_raises_error():
             victim_tracker.ORGANIZATIONS_FILE = original_path
 
 
+def test_invalid_organizations_field_raises_error():
+    with tempfile.TemporaryDirectory() as temp_dir:
+        original_path = victim_tracker.ORGANIZATIONS_FILE
+
+        try:
+            registry_path = Path(temp_dir) / "organizations.json"
+
+            registry_path.write_text(
+                '{"last_updated": null, "organizations": "invalid"}',
+                encoding="utf-8"
+            )
+
+            victim_tracker.ORGANIZATIONS_FILE = registry_path
+
+            try:
+                victim_tracker.load_organizations()
+                assert False, "Expected ValueError for invalid organizations field"
+
+            except ValueError:
+                pass
+
+        finally:
+            victim_tracker.ORGANIZATIONS_FILE = original_path
+
+
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
     print("PASS: Missing registry returns an empty list.")
@@ -81,4 +106,7 @@ if __name__ == "__main__":
 
     test_invalid_top_level_structure_raises_error()
     print("PASS: Invalid top-level structure raises ValueError.")
+
+    test_invalid_organizations_field_raises_error()
+    print("PASS: Invalid organizations field raises ValueError.")
 
