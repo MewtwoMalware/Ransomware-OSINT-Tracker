@@ -121,6 +121,17 @@ def test_save_empty_registry():
             victim_tracker.ORGANIZATIONS_FILE = original_path
 
 
+def test_organization_must_be_dictionary():
+    try:
+        victim_tracker.validate_organization("invalid")
+        assert False, "Expected ValueError for non-dictionary organization"
+
+    except ValueError as error:
+        assert str(error) == (
+            "Organization entry must be a JSON object."
+        )
+
+
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
     print("PASS: Missing registry returns an empty list.")
@@ -136,5 +147,9 @@ if __name__ == "__main__":
 
     test_save_empty_registry()
     print("PASS: Empty registry saves successfully.")
+
+    test_organization_must_be_dictionary()
+    print("PASS: Organization entry must be a dictionary.")
+
 
 
