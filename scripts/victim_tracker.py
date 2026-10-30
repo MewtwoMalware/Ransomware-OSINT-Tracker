@@ -231,6 +231,128 @@ def load_victims():
         []
     )
 
+def validate_organization(organization):
+
+    if not isinstance(organization, dict):
+        raise ValueError(
+            "Organization entry must be a JSON object."
+        )
+
+    required_fields = [
+        "organization_id",
+        "canonical_name",
+        "aliases",
+        "identity_status",
+        "evidence",
+        "created_at",
+        "updated_at"
+    ]
+
+    for field in required_fields:
+        if field not in organization:
+            raise ValueError(
+                f"Organization is missing required field: {field}"
+            )
+
+    organization_id = organization["organization_id"]
+
+    if not isinstance(organization_id, str) or not re.fullmatch(
+        r"ORG-\d{6}", organization_id
+    ):
+        raise ValueError("Invalid organization ID format.")
+
+    canonical_name = organization["canonical_name"]
+
+    if not isinstance(canonical_name, str) or not canonical_name.strip():
+        raise ValueError("Canonical name must be a non-empty string.")
+
+    aliases = organization["aliases"]
+
+    if not isinstance(aliases, list):
+        raise ValueError("Organization aliases must be a list.")
+
+    for alias in aliases:
+        if not isinstance(alias, str) or not alias.strip():
+            raise ValueError("Every alias must be a non-empty string.")
+
+    identity_status = organization["identity_status"]
+
+    allowed_statuses = {
+        "verified",
+        "under_review",
+        "unresolved"
+    }
+
+     if (
+        not isinstance(identity_status, str)
+        or identity_status not in allowed_statuses
+    ):
+        raise ValueError("Invalid organization identity status.")
+
+    for field in ("country", "sector"):
+        value = organization.get(field)
+
+        if value is not None and not isinstance(value, str):
+            raise ValueError(
+                f"Organization {field} must be a string or null."
+            )
+
+
+    evidence = organization["evidence"]
+
+    if not isinstance(evidence, list):
+        raise ValueError("Organization evidence must be a list.")
+
+    if identity_status == "verified" and not evidence:
+        raise ValueError(
+            "Verified organizations must have supporting evidence."
+        )
+
+    evidence_fields = [
+        "source_name",
+        "source_url",
+        "description",
+        "checked_at"
+    ]
+
+    for item in evidence:
+        if not isinstance(item, dict):
+            raise ValueError("Evidence entries must be JSON objects.")
+
+        for field in evidence_fields:
+            if field not in item:
+                raise ValueError(
+                    f"Evidence is missing required field: {field}"
+                )
+
+            if not isinstance(item[field], str) or not item[field].strip():
+                raise ValueError(
+                    f"Evidence field {field} must be a non-empty string."
+                )
+
+        if not item["source_url"].startswith(("https://", "http://")):
+            raise ValueError("Evidence source URL must use HTTP or HTTPS.")
+
+        try:
+            datetime.fromisoformat(item["checked_at"])
+        except ValueError:
+            raise ValueError("Evidence checked_at must be a valid ISO timestamp.")
+
+    for field in ("created_at", "updated_at"):
+        try:
+            if not isinstance(organization[field], str):
+                raise ValueError()
+
+            datetime.fromisoformat(organization[field])
+
+        except ValueError:
+            raise ValueError(
+                f"Organization {field} must be a valid ISO timestamp."
+            )
+
+    return True
+
+
 def load_organizations():
 
     data = load_json(
