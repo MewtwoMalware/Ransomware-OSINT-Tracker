@@ -97,6 +97,30 @@ def test_invalid_organizations_field_raises_error():
             victim_tracker.ORGANIZATIONS_FILE = original_path
 
 
+def test_save_empty_registry():
+    with tempfile.TemporaryDirectory() as temp_dir:
+        original_path = victim_tracker.ORGANIZATIONS_FILE
+
+        try:
+            registry_path = Path(temp_dir) / "organizations.json"
+
+            victim_tracker.ORGANIZATIONS_FILE = registry_path
+
+            victim_tracker.save_organizations([])
+
+            import json
+
+            saved_data = json.loads(
+                registry_path.read_text(encoding="utf-8")
+            )
+
+            assert saved_data["organizations"] == []
+            assert saved_data["last_updated"] is not None
+
+        finally:
+            victim_tracker.ORGANIZATIONS_FILE = original_path
+
+
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
     print("PASS: Missing registry returns an empty list.")
@@ -109,4 +133,8 @@ if __name__ == "__main__":
 
     test_invalid_organizations_field_raises_error()
     print("PASS: Invalid organizations field raises ValueError.")
+
+    test_save_empty_registry()
+    print("PASS: Empty registry saves successfully.")
+
 
