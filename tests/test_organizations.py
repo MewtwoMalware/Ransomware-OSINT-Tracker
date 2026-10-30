@@ -25,6 +25,28 @@ def test_missing_registry_returns_empty_list():
             victim_tracker.ORGANIZATIONS_FILE = original_path
 
 
+def test_valid_registry_loads_successfully():
+    with tempfile.TemporaryDirectory() as temp_dir:
+        original_path = victim_tracker.ORGANIZATIONS_FILE
+
+        try:
+            registry_path = Path(temp_dir) / "organizations.json"
+
+            registry_path.write_text(
+                '{"last_updated": null, "organizations": []}',
+                encoding="utf-8"
+            )
+
+            victim_tracker.ORGANIZATIONS_FILE = registry_path
+
+            organizations = victim_tracker.load_organizations()
+
+            assert organizations == []
+
+        finally:
+            victim_tracker.ORGANIZATIONS_FILE = original_path
+
+
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
     print("PASS: Missing registry returns an empty list.")
