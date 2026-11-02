@@ -186,6 +186,24 @@ def test_empty_canonical_name():
     except ValueError as error:
         assert str(error) == "Canonical name must be a non-empty string."
 
+def test_canonical_name_cannot_contain_only_spaces():
+    organization = {
+        "organization_id": "ORG-000002",
+        "canonical_name": "   ",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for whitespace-only canonical name"
+
+    except ValueError as error:
+        assert str(error) == "Canonical name must be a non-empty string."
+
 
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
@@ -214,6 +232,10 @@ if __name__ == "__main__":
         
     test_empty_canonical_name()
     print("PASS: Empty canonical name raises ValueError.")
+        
+    test_canonical_name_cannot_contain_only_spaces()
+    print("PASS: Whitespace-only canonical name raises ValueError.")
+
 
 
 
