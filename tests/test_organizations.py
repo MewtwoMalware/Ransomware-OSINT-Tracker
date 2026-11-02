@@ -204,6 +204,254 @@ def test_canonical_name_cannot_contain_only_spaces():
     except ValueError as error:
         assert str(error) == "Canonical name must be a non-empty string."
 
+def test_aliases_must_be_a_list():
+    organization = {
+        "organization_id": "ORG-000003",
+        "canonical_name": "Example Organization",
+        "aliases": "Example",
+        "identity_status": "unresolved",
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid aliases"
+
+    except ValueError as error:
+        assert str(error) == "Organization aliases must be a list."
+
+
+def test_alias_cannot_be_empty():
+    organization = {
+        "organization_id": "ORG-000004",
+        "canonical_name": "Example Organization",
+        "aliases": [""],
+        "identity_status": "unresolved",
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for empty alias"
+
+    except ValueError as error:
+        assert str(error) == "Every alias must be a non-empty string."
+
+
+def test_invalid_identity_status():
+    organization = {
+        "organization_id": "ORG-000005",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unknown",
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid identity status"
+
+    except ValueError as error:
+        assert str(error) == "Invalid organization identity status."
+
+
+def test_invalid_country_type():
+    organization = {
+        "organization_id": "ORG-000006",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "country": 123,
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid country"
+
+    except ValueError as error:
+        assert str(error) == "Organization country must be a string or null."
+
+
+def test_invalid_sector_type():
+    organization = {
+        "organization_id": "ORG-000007",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "sector": 123,
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid sector"
+
+    except ValueError as error:
+        assert str(error) == "Organization sector must be a string or null."
+
+
+def test_evidence_must_be_a_list():
+    organization = {
+        "organization_id": "ORG-000008",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": "invalid",
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid evidence"
+
+    except ValueError as error:
+        assert str(error) == "Organization evidence must be a list."
+
+
+def test_verified_organization_requires_evidence():
+    organization = {
+        "organization_id": "ORG-000009",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "verified",
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for missing evidence"
+
+    except ValueError as error:
+        assert str(error) == (
+            "Verified organizations must have supporting evidence."
+        )
+
+
+def test_invalid_evidence_entry():
+    organization = {
+        "organization_id": "ORG-000010",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": ["invalid"],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid evidence entry"
+
+    except ValueError as error:
+        assert str(error) == "Evidence entries must be JSON objects."
+
+
+def test_invalid_evidence_url():
+    organization = {
+        "organization_id": "ORG-000011",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": [{
+            "source_name": "Example Source",
+            "source_url": "invalid-url",
+            "description": "Example description",
+            "checked_at": "2026-11-02T12:00:00"
+        }],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid evidence URL"
+
+    except ValueError as error:
+        assert str(error) == (
+            "Evidence source URL must use HTTP or HTTPS."
+        )
+
+
+def test_invalid_evidence_timestamp():
+    organization = {
+        "organization_id": "ORG-000012",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": [{
+            "source_name": "Example Source",
+            "source_url": "https://example.com",
+            "description": "Example description",
+            "checked_at": "invalid-date"
+        }],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid evidence timestamp"
+
+    except ValueError as error:
+        assert str(error) == (
+            "Evidence checked_at must be a valid ISO timestamp."
+        )
+
+
+def test_invalid_created_at():
+    organization = {
+        "organization_id": "ORG-000013",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": [],
+        "created_at": "invalid-date",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid created_at"
+
+    except ValueError as error:
+        assert str(error) == (
+            "Organization created_at must be a valid ISO timestamp."
+        )
+
+def test_invalid_updated_at():
+    organization = {
+        "organization_id": "ORG-000014",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "invalid-date"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid updated_at"
+
+    except ValueError as error:
+        assert str(error) == (
+            "Organization updated_at must be a valid ISO timestamp."
+        )
+
 
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
@@ -235,6 +483,43 @@ if __name__ == "__main__":
         
     test_canonical_name_cannot_contain_only_spaces()
     print("PASS: Whitespace-only canonical name raises ValueError.")
+        
+    test_aliases_must_be_a_list()
+    print("PASS: Aliases must be a list.")
+
+    test_alias_cannot_be_empty()
+    print("PASS: Empty aliases rejected.")
+
+    test_invalid_identity_status()
+    print("PASS: Invalid identity status rejected.")
+
+    test_invalid_country_type()
+    print("PASS: Invalid country type rejected.")
+
+    test_invalid_sector_type()
+    print("PASS: Invalid sector type rejected.")
+
+    test_evidence_must_be_a_list()
+    print("PASS: Evidence must be a list.")
+
+    test_verified_organization_requires_evidence()
+    print("PASS: Verified organizations require evidence.")
+
+    test_invalid_evidence_entry()
+    print("PASS: Invalid evidence entries rejected.")
+
+    test_invalid_evidence_url()
+    print("PASS: Invalid evidence URLs rejected.")
+
+    test_invalid_evidence_timestamp()
+    print("PASS: Invalid evidence timestamps rejected.")
+
+    test_invalid_created_at()
+    print("PASS: Invalid created_at rejected.")
+
+    test_invalid_updated_at()
+    print("PASS: Invalid updated_at rejected.")
+
 
 
 
