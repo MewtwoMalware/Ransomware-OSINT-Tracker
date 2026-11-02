@@ -131,6 +131,25 @@ def test_organization_must_be_dictionary():
             "Organization entry must be a JSON object."
         )
 
+def test_missing_required_organization_field():
+    organization = {
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for missing organization_id"
+
+    except ValueError as error:
+        assert str(error) == (
+            "Organization is missing required field: organization_id"
+        )
+
 
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
@@ -150,6 +169,12 @@ if __name__ == "__main__":
 
     test_organization_must_be_dictionary()
     print("PASS: Organization entry must be a dictionary.")
+    
+    test_missing_required_organization_field()
+    print("PASS: Missing required organization field raises ValueError.")
+
+
+
 
 
 
