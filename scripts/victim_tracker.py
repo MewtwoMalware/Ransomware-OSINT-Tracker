@@ -283,7 +283,7 @@ def validate_organization(organization):
         "unresolved"
     }
 
-     if (
+    if (
         not isinstance(identity_status, str)
         or identity_status not in allowed_statuses
     ):
