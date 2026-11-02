@@ -150,6 +150,24 @@ def test_missing_required_organization_field():
             "Organization is missing required field: organization_id"
         )
 
+def test_invalid_organization_id_format():
+    organization = {
+        "organization_id": "ORG-123",
+        "canonical_name": "Example Organization",
+        "aliases": [],
+        "identity_status": "unresolved",
+        "evidence": [],
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-02T12:00:00"
+    }
+
+    try:
+        victim_tracker.validate_organization(organization)
+        assert False, "Expected ValueError for invalid organization ID"
+
+    except ValueError as error:
+        assert str(error) == "Invalid organization ID format."
+
 
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
@@ -172,6 +190,10 @@ if __name__ == "__main__":
     
     test_missing_required_organization_field()
     print("PASS: Missing required organization field raises ValueError.")
+    
+    test_invalid_organization_id_format()
+    print("PASS: Invalid organization ID format raises ValueError.")
+
 
 
 
