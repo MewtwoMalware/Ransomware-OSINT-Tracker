@@ -550,6 +550,70 @@ def test_valid_organization_with_empty_aliases():
     organization["aliases"] = []
 
     assert victim_tracker.validate_organization(organization) is True
+def test_valid_evidence_with_https_url():
+    organization = create_valid_organization(
+        identity_status="verified",
+        evidence=[
+            {
+                "source_name": "Illustrative HTTPS Source",
+                "source_url": "https://example.com/report",
+                "description": "Illustrative supporting evidence.",
+                "checked_at": "2026-11-04T10:00:00"
+            }
+        ]
+    )
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_evidence_with_http_url():
+    organization = create_valid_organization(
+        identity_status="verified",
+        evidence=[
+            {
+                "source_name": "Illustrative HTTP Source",
+                "source_url": "http://example.com/report",
+                "description": "Illustrative supporting evidence.",
+                "checked_at": "2026-11-04T10:00:00"
+            }
+        ]
+    )
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_evidence_with_timezone_timestamp():
+    organization = create_valid_organization(
+        identity_status="verified",
+        evidence=[
+            {
+                "source_name": "Illustrative Timestamp Source",
+                "source_url": "https://example.com/report",
+                "description": "Illustrative supporting evidence.",
+                "checked_at": "2026-11-04T10:00:00+01:00"
+            }
+        ]
+    )
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_evidence_with_long_description():
+    organization = create_valid_organization(
+        identity_status="verified",
+        evidence=[
+            {
+                "source_name": "Illustrative Detailed Source",
+                "source_url": "https://example.com/report",
+                "description": (
+                    "This is illustrative supporting evidence. " * 20
+                ),
+                "checked_at": "2026-11-04T10:00:00"
+            }
+        ]
+    )
+
+    assert victim_tracker.validate_organization(organization) is True
 
 
 if __name__ == "__main__":
