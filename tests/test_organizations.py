@@ -523,6 +523,33 @@ def test_valid_verified_organization_with_one_evidence_record():
 
     assert victim_tracker.validate_organization(organization) is True
 
+def test_valid_organization_without_country():
+    organization = create_valid_organization()
+    organization.pop("country")
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_organization_without_sector():
+    organization = create_valid_organization()
+    organization.pop("sector")
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_organization_without_country_or_sector():
+    organization = create_valid_organization()
+    organization.pop("country")
+    organization.pop("sector")
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_organization_with_empty_aliases():
+    organization = create_valid_organization()
+    organization["aliases"] = []
+
+    assert victim_tracker.validate_organization(organization) is True
 
 
 if __name__ == "__main__":
