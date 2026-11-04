@@ -452,6 +452,78 @@ def test_invalid_updated_at():
             "Organization updated_at must be a valid ISO timestamp."
         )
 
+def create_valid_organization(identity_status="unresolved", evidence=None):
+    if evidence is None:
+        evidence = []
+
+    return {
+        "organization_id": "ORG-000100",
+        "canonical_name": "Example Research Organization",
+        "aliases": [
+            "Example Research",
+            "ERO"
+        ],
+        "identity_status": identity_status,
+        "country": "Netherlands",
+        "sector": "Technology",
+        "evidence": evidence,
+        "created_at": "2026-11-02T12:00:00",
+        "updated_at": "2026-11-04T12:00:00"
+    }
+
+
+def test_valid_unresolved_organization():
+    organization = create_valid_organization()
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_organization_under_review():
+    organization = create_valid_organization(
+        identity_status="under_review"
+    )
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_verified_organization_with_supporting_evidence():
+    organization = create_valid_organization(
+        identity_status="verified",
+        evidence=[
+            {
+                "source_name": "Illustrative Official Source",
+                "source_url": "https://example.com/official-report",
+                "description": "Illustrative supporting organization identification.",
+                "checked_at": "2026-11-04T10:00:00"
+            },
+            {
+                "source_name": "Illustrative Secondary Source",
+                "source_url": "https://example.org/organization-record",
+                "description": "Illustrative independent supporting identification.",
+                "checked_at": "2026-11-04T11:00:00"
+            }
+        ]
+    )
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
+def test_valid_verified_organization_with_one_evidence_record():
+    organization = create_valid_organization(
+        identity_status="verified",
+        evidence=[
+            {
+                "source_name": "Illustrative Official Source",
+                "source_url": "https://example.com/organization",
+                "description": "Illustrative supporting evidence.",
+                "checked_at": "2026-11-04T10:00:00"
+            }
+        ]
+    )
+
+    assert victim_tracker.validate_organization(organization) is True
+
+
 
 if __name__ == "__main__":
     test_missing_registry_returns_empty_list()
@@ -519,13 +591,20 @@ if __name__ == "__main__":
 
     test_invalid_updated_at()
     print("PASS: Invalid updated_at rejected.")
+        
+    test_valid_unresolved_organization()
+    print("PASS: Valid unresolved organization accepted.")
 
+    test_valid_organization_under_review()
+    print("PASS: Valid organization under review accepted.")
 
+    test_valid_verified_organization_with_supporting_evidence()
+    print("PASS: Verified organization with multiple evidence records accepted.")
 
+    test_valid_verified_organization_with_one_evidence_record()
+    print("PASS: Verified organization with one evidence record accepted.")
 
-
-
-
+   
 
 
 
