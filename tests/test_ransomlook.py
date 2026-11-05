@@ -83,12 +83,69 @@ class TestRansomLook(unittest.TestCase):
             victim_tracker.fetch_ransomlook_posts()
 
     @patch("scripts.victim_tracker.urllib.request.urlopen")
+    
     def test_timeout(self, mock_urlopen):
         mock_urlopen.side_effect = TimeoutError()
 
         with self.assertRaises(TimeoutError):
             victim_tracker.fetch_ransomlook_posts()
 
+    def test_convert_ransomlook_post(self):
+        post = {
+            "group_name": "TestGroup",
+            "post_title": "Example Victim",
+            "discovered": "2026-11-05"
+        }
+
+        record = victim_tracker.convert_ransomlook_post(post)
+
+        self.assertIsNotNone(record)
+        self.assertEqual(record["group"], "TestGroup")
+        self.assertEqual(record["victim"], "Example Victim")
+        self.assertEqual(record["status"], "claimed")
+        self.assertEqual(record["confidence"], "unverified")
+        self.assertEqual(record["source"], "RansomLook")
+
+    def test_convert_invalid_post(self):
+        post = {
+            "group_name": "",
+            "post_title": "Example Victim"
+        }
+
+        record = victim_tracker.convert_ransomlook_post(post)
+
+        self.assertIsNone(record)
+
+    def test_import_skips_duplicates(self):
+        post = {
+            "group_name": "TestGroup",
+            "post_title": "Example Victim",
+            "discovered": "2026-11-05"
+        }
+
+        existing_record = victim_tracker.convert_ransomlook_post(post)
+
+        imported = victim_tracker.import_ransomlook_posts(
+            [post],
+            [existing_record]
+        )
+
+        self.assertEqual(imported, [])
+
+    def test_import_new_victim(self):
+        post = {
+            "group_name": "TestGroup",
+            "post_title": "New Victim",
+            "discovered": "2026-11-05"
+        }
+
+        imported = victim_tracker.import_ransomlook_posts(
+            [post],
+            []
+        )
+
+        self.assertEqual(len(imported), 1)
+        self.assertEqual(imported[0]["victim"], "New Victim")
 
 if __name__ == "__main__":
     unittest.main()
