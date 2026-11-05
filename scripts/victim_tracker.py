@@ -348,6 +348,29 @@ def convert_ransomlook_post(post):
         "added_at": timestamp()
     }
 
+def convert_ransomlook_historical_post(post):
+    """
+    Convert a historical RansomLook post.
+    Skip posts without a discovery date.
+    """
+
+    if not isinstance(post, dict):
+        return None
+
+    discovered = post.get("discovered")
+
+    if not isinstance(discovered, str) or not discovered.strip():
+        return None
+
+    record = convert_ransomlook_post(post)
+
+    if record is None:
+        return None
+
+    record["date"] = discovered.strip()
+
+    return record
+
 def import_ransomlook_posts(posts, existing_victims, aliases=None):
     if aliases is None:
         aliases = {}
