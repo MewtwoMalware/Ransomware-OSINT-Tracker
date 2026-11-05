@@ -14,7 +14,8 @@ from datetime import datetime, timezone
 import hashlib
 import json
 import re
-
+import urllib.request
+import urllib.error
 
 # =========================================================
 # PATHS
@@ -110,6 +111,112 @@ def timestamp():
         timezone.utc
     ).isoformat()
 
+# =========================================================
+# RANSOMLOOK API
+# =========================================================
+
+RANSOMLOOK_API_URL = (
+    "https://www.ransomlook.io/api/posts?days=7"
+)
+
+RANSOMLOOK_TIMEOUT = 15
+
+
+def fetch_ransomlook_posts(
+    url=RANSOMLOOK_API_URL,
+    timeout=RANSOMLOOK_TIMEOUT
+):
+    """
+    Fetch recent victim claims from the RansomLook API.
+
+    Returns:
+        list: Validated list of RansomLook posts.
+
+    Raises:
+        ValueError: Invalid JSON or unexpected response structure.
+        TimeoutError: API connection timed out.
+        RuntimeError: HTTP or connection errors.
+    """
+
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Ransomware-OSINT-Tracker/1.0",
+            "Accept": "application/json"
+        }
+    )
+
+    try:
+
+        with urllib.request.urlopen(
+            request,
+            timeout=timeout
+        ) as response:
+
+            response_data = response.read().decode("utf-8")
+
+    except urllib.error.HTTPError as error:
+
+        raise RuntimeError(
+            f"RansomLook API returned HTTP {error.code}."
+        ) from error
+
+    except TimeoutError as error:
+
+        raise TimeoutError(
+            "Connection to RansomLook API timed out."
+        ) from error
+
+    except urllib.error.URLError as error:
+
+        if isinstance(error.reason, TimeoutError):
+            raise TimeoutError(
+                "Connection to RansomLook API timed out."
+            ) from error
+
+        raise RuntimeError(
+            f"Could not connect to RansomLook API: {error.reason}"
+        ) from error
+
+    except OSError as error:
+
+        raise RuntimeError(
+            f"RansomLook connection failed: {error}"
+        ) from error
+
+    try:
+
+        data = json.loads(response_data)
+
+    except json.JSONDecodeError as error:
+
+        raise ValueError(
+            "RansomLook API returned invalid JSON."
+        ) from error
+
+    if not isinstance(data, dict):
+
+        raise ValueError(
+            "Unexpected RansomLook API response structure."
+        )
+
+    posts = data.get("posts")
+
+    if not isinstance(posts, list):
+
+        raise ValueError(
+            "RansomLook API response must contain a posts list."
+        )
+
+    for post in posts:
+
+        if not isinstance(post, dict):
+
+            raise ValueError(
+                "RansomLook API contains an invalid post entry."
+            )
+
+    return posts
 
 def normalize_name(name):
     """
