@@ -146,5 +146,74 @@ class TestRansomLook(unittest.TestCase):
         self.assertEqual(len(imported), 1)
         self.assertEqual(imported[0]["victim"], "New Victim")
 
+    @patch("scripts.victim_tracker.urllib.request.urlopen")
+    def test_fetch_historical_valid_posts(self, mock_urlopen):
+        response = MagicMock()
+        response.read.return_value = json.dumps([
+            {
+                "group": "TestGroup",
+                "post_title": "Test Victim",
+                "discovered": "2026-01-15"
+            }
+        ]).encode("utf-8")
+
+        mock_urlopen.return_value.__enter__.return_value = response
+
+        posts = victim_tracker.fetch_ransomlook_historical_posts(
+            "2026-01-01",
+            "2026-02-01"
+        )
+
+        self.assertEqual(len(posts), 1)
+        self.assertEqual(posts[0]["group"], "TestGroup")
+
+        requested_url = mock_urlopen.call_args[0][0].full_url
+        self.assertIn("2026-01-01", requested_url)
+        self.assertIn("2026-02-01", requested_url)
+
+    @patch("scripts.victim_tracker.urllib.request.urlopen")
+    def test_fetch_historical_invalid_json(self, mock_urlopen):
+        response = MagicMock()
+        response.read.return_value = b"not valid json"
+
+        mock_urlopen.return_value.__enter__.return_value = response
+
+        with self.assertRaises(ValueError):
+            victim_tracker.fetch_ransomlook_historical_posts(
+                "2026-01-01",
+                "2026-02-01"
+            )
+
+    @patch("scripts.victim_tracker.urllib.request.urlopen")
+    def test_fetch_historical_response_not_list(self, mock_urlopen):
+        response = MagicMock()
+        response.read.return_value = json.dumps({
+            "posts": []
+        }).encode("utf-8")
+
+        mock_urlopen.return_value.__enter__.return_value = response
+
+        with self.assertRaises(ValueError):
+            victim_tracker.fetch_ransomlook_historical_posts(
+                "2026-01-01",
+                "2026-02-01"
+            )
+
+    @patch("scripts.victim_tracker.urllib.request.urlopen")
+    def test_fetch_historical_invalid_post_entry(self, mock_urlopen):
+        response = MagicMock()
+        response.read.return_value = json.dumps([
+            "not a post"
+        ]).encode("utf-8")
+
+        mock_urlopen.return_value.__enter__.return_value = response
+
+        with self.assertRaises(ValueError):
+            victim_tracker.fetch_ransomlook_historical_posts(
+                "2026-01-01",
+                "2026-02-01"
+            )
+
+
 if __name__ == "__main__":
     unittest.main()
