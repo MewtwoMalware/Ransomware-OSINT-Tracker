@@ -83,7 +83,6 @@ class TestRansomLook(unittest.TestCase):
             victim_tracker.fetch_ransomlook_posts()
 
     @patch("scripts.victim_tracker.urllib.request.urlopen")
-    
     def test_timeout(self, mock_urlopen):
         mock_urlopen.side_effect = TimeoutError()
 
