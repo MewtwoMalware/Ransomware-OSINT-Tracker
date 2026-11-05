@@ -217,6 +217,108 @@ def fetch_ransomlook_posts(
             )
 
     return posts
+# =========================================================
+# RANSOMLOOK VICTIM IMPORT
+# =========================================================
+
+def convert_ransomlook_post(post):
+    """
+    Convert a RansomLook post into a tracker victim record.
+
+    Imported records remain unverified claims.
+    """
+
+    if not isinstance(post, dict):
+        return None
+
+    group = post.get("group_name")
+    victim = post.get("post_title")
+
+    if not isinstance(group, str) or not group.strip():
+        return None
+
+    if not isinstance(victim, str) or not victim.strip():
+        return None
+
+    group = group.strip()
+    victim = victim.strip()
+
+    discovered = post.get("discovered")
+
+    if not isinstance(discovered, str) or not discovered.strip():
+        discovered = timestamp()
+
+    return {
+        "id": create_id(group, victim),
+        "group": group,
+        "victim": victim,
+        "date": discovered,
+        "status": "claimed",
+        "confidence": "unverified",
+        "source": "RansomLook",
+        "review_status": "pending",
+        "created_at": timestamp()
+    }
+
+def import_ransomlook_posts(posts, existing_victims):
+    """
+    Convert RansomLook posts and exclude existing duplicates.
+
+    Returns:
+        list: New victim records ready for import.
+    """
+
+    existing_ids = {
+        record.get("id")
+        for record in existing_victims
+        if isinstance(record, dict)
+    }
+
+    imported = []
+
+    for post in posts:
+        record = convert_ransomlook_post(post)
+
+        if record is None:
+            continue
+
+        if record["id"] in existing_ids:
+            continue
+
+        existing_ids.add(record["id"])
+        imported.append(record)
+
+    return imported
+
+def import_ransomlook_posts(posts, existing_victims):
+    """
+    Convert RansomLook posts and exclude existing duplicates.
+
+    Returns:
+        list: New victim records ready for import.
+    """
+
+    existing_ids = {
+        record.get("id")
+        for record in existing_victims
+        if isinstance(record, dict)
+    }
+
+    imported = []
+
+    for post in posts:
+        record = convert_ransomlook_post(post)
+
+        if record is None:
+            continue
+
+        if record["id"] in existing_ids:
+            continue
+
+        existing_ids.add(record["id"])
+        imported.append(record)
+
+    return imported
 
 def normalize_name(name):
     """
