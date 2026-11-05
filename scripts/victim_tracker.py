@@ -248,25 +248,25 @@ def convert_ransomlook_post(post):
     if not isinstance(discovered, str) or not discovered.strip():
         discovered = timestamp()
 
-    return {
+        return {
         "id": create_id(group, victim),
         "group": group,
         "victim": victim,
+        "normalized_name": normalize_name(victim),
         "date": discovered,
         "status": "claimed",
         "confidence": "unverified",
+        "country": "Unknown",
+        "sector": "Unknown",
         "source": "RansomLook",
-        "review_status": "pending",
-        "created_at": timestamp()
+        "source_title": "",
+        "notes": "",
+        "added_at": timestamp()
     }
 
-def import_ransomlook_posts(posts, existing_victims):
-    """
-    Convert RansomLook posts and exclude existing duplicates.
-
-    Returns:
-        list: New victim records ready for import.
-    """
+def import_ransomlook_posts(posts, existing_victims, aliases=None):
+    if aliases is None:
+        aliases = {}
 
     existing_ids = {
         record.get("id")
@@ -282,35 +282,19 @@ def import_ransomlook_posts(posts, existing_victims):
         if record is None:
             continue
 
-        if record["id"] in existing_ids:
-            continue
+        canonical_victim = apply_alias(
+            record["victim"],
+            aliases
+        )
 
-        existing_ids.add(record["id"])
-        imported.append(record)
-
-    return imported
-
-def import_ransomlook_posts(posts, existing_victims):
-    """
-    Convert RansomLook posts and exclude existing duplicates.
-
-    Returns:
-        list: New victim records ready for import.
-    """
-
-    existing_ids = {
-        record.get("id")
-        for record in existing_victims
-        if isinstance(record, dict)
-    }
-
-    imported = []
-
-    for post in posts:
-        record = convert_ransomlook_post(post)
-
-        if record is None:
-            continue
+        record["victim"] = canonical_victim
+        record["normalized_name"] = normalize_name(
+            canonical_victim
+        )
+        record["id"] = create_id(
+            record["group"],
+            canonical_victim
+        )
 
         if record["id"] in existing_ids:
             continue
@@ -886,6 +870,32 @@ def main():
 
     aliases = load_aliases()
 
+    # Import recent RansomLook victim claims
+    print()
+    print("Checking RansomLook for new victim claims...")
+
+    ransomlook_added = 0
+
+    try:
+        ransomlook_posts = fetch_ransomlook_posts()
+
+        ransomlook_victims = import_ransomlook_posts(
+            ransomlook_posts,
+            victims,
+            aliases
+        )
+
+        for record in ransomlook_victims:
+            victims.append(record)
+            ransomlook_added += 1
+
+        print(
+            f"RansomLook claims imported: {ransomlook_added}"
+        )
+
+    except (RuntimeError, ValueError, TimeoutError) as error:
+        print(f"RansomLook import unavailable: {error}")
+
     pending = load_queue()
 
     print_review_summary(pending)
@@ -925,7 +935,11 @@ def main():
     print("=" * 60)
 
     print(
-        f"Added: {added}"
+    f"Manually approved and added: {added}"
+    )
+
+    print(
+    f"RansomLook claims imported: {ransomlook_added}"
     )
 
     print(
