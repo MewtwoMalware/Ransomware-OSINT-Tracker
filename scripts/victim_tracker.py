@@ -248,7 +248,7 @@ def convert_ransomlook_post(post):
     if not isinstance(discovered, str) or not discovered.strip():
         discovered = timestamp()
 
-        return {
+    return {
         "id": create_id(group, victim),
         "group": group,
         "victim": victim,
