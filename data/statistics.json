@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-11-05T17:19:14.502301+00:00",
-  "total_unique_victims": 254,
-  "total_recorded_claims": 254,
+  "last_updated": "2026-11-05T22:47:17.092096+00:00",
+  "total_unique_victims": 262,
+  "total_recorded_claims": 262,
   "total_groups": 43,
   "victims_by_group": {
+    "n0n": 29,
     "the gentlemen": 28,
-    "qilin": 26,
+    "qilin": 27,
     "soul": 25,
-    "n0n": 24,
     "akira": 15,
     "brain cipher": 11,
-    "leakeddata": 9,
+    "leakeddata": 10,
     "genesis": 9,
     "safepay": 9,
     "interlock": 8,
@@ -37,11 +37,11 @@
     "vexy": 2,
     "hyflock": 2,
     "lockbit5": 2,
+    "redact": 2,
     "dragonforce": 1,
     "wallstreet": 1,
     "deadlock": 1,
     "leaknet": 1,
-    "redact": 1,
     "falcon": 1,
     "chaos": 1,
     "destello": 1,
@@ -49,12 +49,12 @@
     "beast": 1
   },
   "victims_by_status": {
-    "claimed": 254
+    "claimed": 262
   },
   "victims_by_country": {
-    "Unknown": 254
+    "Unknown": 262
   },
   "victims_by_sector": {
-    "Unknown": 254
+    "Unknown": 262
   }
 }
