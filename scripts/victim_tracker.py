@@ -121,6 +121,10 @@ RANSOMLOOK_API_URL = (
 
 RANSOMLOOK_TIMEOUT = 15
 
+RANSOMLOOK_HISTORICAL_API_URL = (
+    "https://www.ransomlook.io/api/posts/period/{start}/{end}"
+)
+
 
 def fetch_ransomlook_posts(
     url=RANSOMLOOK_API_URL,
@@ -217,6 +221,86 @@ def fetch_ransomlook_posts(
             )
 
     return posts
+
+def fetch_ransomlook_historical_posts(
+    start_date,
+    end_date,
+    timeout=RANSOMLOOK_TIMEOUT
+):
+    """
+    Fetch historical victim claims from RansomLook.
+
+    Returns:
+        list: Validated historical RansomLook posts.
+    """
+
+    url = RANSOMLOOK_HISTORICAL_API_URL.format(
+        start=start_date,
+        end=end_date
+    )
+
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Ransomware-OSINT-Tracker/1.0",
+            "Accept": "application/json"
+        }
+    )
+
+    try:
+        with urllib.request.urlopen(
+            request,
+            timeout=timeout
+        ) as response:
+            response_data = response.read().decode("utf-8")
+
+    except urllib.error.HTTPError as error:
+        raise RuntimeError(
+            f"RansomLook historical API returned HTTP {error.code}."
+        ) from error
+
+    except TimeoutError as error:
+        raise TimeoutError(
+            "RansomLook historical API timed out."
+        ) from error
+
+    except urllib.error.URLError as error:
+        if isinstance(error.reason, TimeoutError):
+            raise TimeoutError(
+                "RansomLook historical API timed out."
+            ) from error
+
+        raise RuntimeError(
+            f"Could not connect to RansomLook historical API: {error.reason}"
+        ) from error
+
+    except OSError as error:
+        raise RuntimeError(
+            f"RansomLook historical connection failed: {error}"
+        ) from error
+
+    try:
+        data = json.loads(response_data)
+
+    except json.JSONDecodeError as error:
+        raise ValueError(
+            "RansomLook historical API returned invalid JSON."
+        ) from error
+
+    if not isinstance(data, list):
+        raise ValueError(
+            "RansomLook historical API must return a list."
+        )
+
+    for post in data:
+        if not isinstance(post, dict):
+            raise ValueError(
+                "RansomLook historical API contains an invalid post entry."
+            )
+
+    return data
+
+
 # =========================================================
 # RANSOMLOOK VICTIM IMPORT
 # =========================================================
