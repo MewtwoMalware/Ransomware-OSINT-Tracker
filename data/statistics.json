@@ -1,10 +1,60 @@
 {
-  "last_updated": "2026-11-05T16:30:46.639744+00:00",
-  "total_unique_victims": 0,
-  "total_recorded_claims": 0,
-  "total_groups": 0,
-  "victims_by_group": {},
-  "victims_by_status": {},
-  "victims_by_country": {},
-  "victims_by_sector": {}
+  "last_updated": "2026-11-05T17:12:57.425751+00:00",
+  "total_unique_victims": 254,
+  "total_recorded_claims": 254,
+  "total_groups": 43,
+  "victims_by_group": {
+    "the gentlemen": 28,
+    "qilin": 26,
+    "soul": 25,
+    "n0n": 24,
+    "akira": 15,
+    "brain cipher": 11,
+    "leakeddata": 9,
+    "genesis": 9,
+    "safepay": 9,
+    "interlock": 8,
+    "rhysida": 6,
+    "audit team": 6,
+    "whitearmor": 5,
+    "pear": 5,
+    "ransomhouse": 5,
+    "play": 5,
+    "everstake": 4,
+    "payload": 4,
+    "orova": 4,
+    "booba team": 4,
+    "dark project": 4,
+    "global secret group": 3,
+    "payoutsking": 3,
+    "emperador": 3,
+    "byod": 3,
+    "direwolf": 2,
+    "shiba": 2,
+    "doommageddon": 2,
+    "aurora": 2,
+    "nightspire": 2,
+    "vexy": 2,
+    "hyflock": 2,
+    "lockbit5": 2,
+    "dragonforce": 1,
+    "wallstreet": 1,
+    "deadlock": 1,
+    "leaknet": 1,
+    "redact": 1,
+    "falcon": 1,
+    "chaos": 1,
+    "destello": 1,
+    "majinahanashi": 1,
+    "beast": 1
+  },
+  "victims_by_status": {
+    "claimed": 254
+  },
+  "victims_by_country": {
+    "Unknown": 254
+  },
+  "victims_by_sector": {
+    "Unknown": 254
+  }
 }
