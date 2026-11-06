@@ -239,7 +239,7 @@ class TestRansomLook(unittest.TestCase):
 
         self.assertIsNone(record)
 
-    def test_convert_historical_post_invalid_data(self):
+        def test_convert_historical_post_invalid_data(self):
         post = {
             "group_name": "",
             "post_title": "Invalid Victim",
@@ -249,7 +249,8 @@ class TestRansomLook(unittest.TestCase):
         record = victim_tracker.convert_ransomlook_historical_post(post)
 
         self.assertIsNone(record)
-        def test_historical_import_oldest_first(self):
+
+    def test_historical_import_oldest_first(self):
         posts = [
             {
                 "group_name": "TestGroup",
