@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T16:21:53.799014+00:00",
+  "last_updated": "2026-11-06T16:38:38.791273+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -4155,6 +4155,38 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-06T15:44:25.842413+00:00"
+    },
+    {
+      "id": "f7f51cbffe36fcc8",
+      "group": "akira",
+      "victim": "Houston Machine and Thread",
+      "normalized_name": "houston machine and thread",
+      "date": "2026-11-06T16:24:59.156609Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T16:38:38.791066+00:00"
+    },
+    {
+      "id": "814f977915948f86",
+      "group": "akira",
+      "victim": "Ligne Roset",
+      "normalized_name": "ligne roset",
+      "date": "2026-11-06T16:25:00.026168Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T16:38:38.791092+00:00"
     }
   ]
 }

@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-06T16:21:53.800269+00:00
+**Last updated:** 2026-11-06T16:38:38.792472+00:00
 
 ## Overview
 
-- **Total unique victims:** 277
-- **Total recorded claims:** 277
+- **Total unique victims:** 279
+- **Total recorded claims:** 279
 - **Groups represented:** 44
 
 ## Victims by Ransomware Group
@@ -16,7 +16,7 @@
 | 2 | the gentlemen | 28 |
 | 3 | qilin | 28 |
 | 4 | soul | 25 |
-| 5 | akira | 15 |
+| 5 | akira | 17 |
 | 6 | leakeddata | 11 |
 | 7 | brain cipher | 11 |
 | 8 | interlock | 9 |
@@ -61,19 +61,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 277 |
+| claimed | 279 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 277 |
+| Unknown | 279 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 277 |
+| Unknown | 279 |
 
 ---
 
