@@ -29,6 +29,8 @@ jobs:
           python-version: "3.x"
 
       - name: Run victim tracker
+        env:
+          HISTORICAL_BACKFILL: ${{ github.event_name == 'workflow_dispatch' && inputs.historical_backfill || 'false' }}
         run: |
           python scripts/victim_tracker.py
 
