@@ -511,6 +511,70 @@ def import_ransomlook_historical_posts(
 
     return imported
 
+def enrich_ransomlook_source_urls(posts, existing_victims, aliases=None):
+    """
+    Add missing RansomLook source URLs to existing victim records.
+    Never overwrite an existing source URL or other victim information.
+    """
+
+    if aliases is None:
+        aliases = {}
+
+    existing_records = {}
+
+    for record in existing_victims:
+        if not isinstance(record, dict):
+            continue
+
+        group = record.get("group", "")
+        victim = record.get("victim", "")
+
+        if not group or not victim:
+            continue
+
+        canonical_victim = apply_alias(victim, aliases)
+        record_id = create_id(group, canonical_victim)
+
+        existing_records[record_id] = record
+
+    updated = 0
+
+    for post in posts:
+        if not isinstance(post, dict):
+            continue
+
+        group = post.get("group_name", "")
+        victim = post.get("post_title", "")
+        source_url = post.get("link", "")
+
+        if not isinstance(group, str) or not group.strip():
+            continue
+
+        if not isinstance(victim, str) or not victim.strip():
+            continue
+
+        if not isinstance(source_url, str) or not source_url.strip():
+            continue
+
+        canonical_victim = apply_alias(victim.strip(), aliases)
+        record_id = create_id(group.strip(), canonical_victim)
+
+        record = existing_records.get(record_id)
+
+        if record is None:
+            continue
+
+        if record.get("source") != "RansomLook":
+            continue
+
+        if record.get("source_url"):
+            continue
+
+        record["source_url"] = source_url.strip()
+        updated += 1
+
+    return updated
+
 def run_ransomlook_historical_backfill(victims, aliases):
     """
     Fetch and import historical RansomLook claims month by month.
@@ -537,6 +601,12 @@ def run_ransomlook_historical_backfill(victims, aliases):
             end_date
         )
 
+        updated_urls = enrich_ransomlook_source_urls(
+            posts,
+            victims,
+            aliases
+        )
+
         imported = import_ransomlook_historical_posts(
             posts,
             victims,
@@ -547,6 +617,10 @@ def run_ransomlook_historical_backfill(victims, aliases):
 
         save_victims(victims)
 
+        print(
+            f"Existing victim records enriched with source URLs: {updated_urls}"
+        )        
+        
         batch_added = len(imported)
         total_added += batch_added
 
