@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-06T16:48:05.576877+00:00",
-  "total_unique_victims": 279,
-  "total_recorded_claims": 279,
+  "last_updated": "2026-11-06T18:15:25.183325+00:00",
+  "total_unique_victims": 280,
+  "total_recorded_claims": 280,
   "total_groups": 44,
   "victims_by_group": {
     "n0n": 37,
@@ -9,7 +9,7 @@
     "qilin": 28,
     "soul": 25,
     "akira": 17,
-    "leakeddata": 11,
+    "leakeddata": 12,
     "brain cipher": 11,
     "interlock": 9,
     "genesis": 9,
@@ -50,12 +50,12 @@
     "cloak": 1
   },
   "victims_by_status": {
-    "claimed": 279
+    "claimed": 280
   },
   "victims_by_country": {
-    "Unknown": 279
+    "Unknown": 280
   },
   "victims_by_sector": {
-    "Unknown": 279
+    "Unknown": 280
   }
 }
