@@ -165,7 +165,7 @@ class TestRansomLook(unittest.TestCase):
         )
 
         self.assertEqual(len(posts), 1)
-        self.assertEqual(posts[0]["group"], "TestGroup")
+        self.assertEqual(posts[0]["group_name"], "TestGroup")
 
         requested_url = mock_urlopen.call_args[0][0].full_url
         self.assertIn("2026-01-01", requested_url)
