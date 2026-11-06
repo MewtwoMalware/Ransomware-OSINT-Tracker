@@ -249,6 +249,92 @@ class TestRansomLook(unittest.TestCase):
         record = victim_tracker.convert_ransomlook_historical_post(post)
 
         self.assertIsNone(record)
+        def test_historical_import_oldest_first(self):
+        posts = [
+            {
+                "group_name": "TestGroup",
+                "post_title": "Newer Victim",
+                "discovered": "2026-03-15"
+            },
+            {
+                "group_name": "TestGroup",
+                "post_title": "Older Victim",
+                "discovered": "2026-01-15"
+            }
+        ]
+
+        imported = victim_tracker.import_ransomlook_historical_posts(
+            posts,
+            []
+        )
+
+        self.assertEqual(len(imported), 2)
+        self.assertEqual(imported[0]["victim"], "Older Victim")
+        self.assertEqual(imported[1]["victim"], "Newer Victim")
+
+    def test_historical_import_skips_missing_dates(self):
+        posts = [
+            {
+                "group_name": "TestGroup",
+                "post_title": "Valid Victim",
+                "discovered": "2026-01-15"
+            },
+            {
+                "group_name": "TestGroup",
+                "post_title": "Missing Date Victim"
+            }
+        ]
+
+        imported = victim_tracker.import_ransomlook_historical_posts(
+            posts,
+            []
+        )
+
+        self.assertEqual(len(imported), 1)
+        self.assertEqual(imported[0]["victim"], "Valid Victim")
+
+    def test_historical_import_prevents_duplicates(self):
+        posts = [
+            {
+                "group_name": "TestGroup",
+                "post_title": "Duplicate Victim",
+                "discovered": "2026-02-15"
+            },
+            {
+                "group_name": "TestGroup",
+                "post_title": "Duplicate Victim",
+                "discovered": "2026-01-15"
+            },
+            {
+                "group_name": "TestGroup",
+                "post_title": "Existing Victim",
+                "discovered": "2026-01-10"
+            }
+        ]
+
+        existing = [
+            {
+                "id": victim_tracker.create_id(
+                    "TestGroup",
+                    "Existing Victim"
+                )
+            }
+        ]
+
+        imported = victim_tracker.import_ransomlook_historical_posts(
+            posts,
+            existing
+        )
+
+        self.assertEqual(len(imported), 1)
+        self.assertEqual(
+            imported[0]["victim"],
+            "Duplicate Victim"
+        )
+        self.assertEqual(
+            imported[0]["date"],
+            "2026-01-15"
+        )
 
 if __name__ == "__main__":
     unittest.main()
