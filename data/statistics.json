@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-06T03:16:20.024877+00:00",
-  "total_unique_victims": 267,
-  "total_recorded_claims": 267,
-  "total_groups": 43,
+  "last_updated": "2026-11-06T11:21:45.800857+00:00",
+  "total_unique_victims": 269,
+  "total_recorded_claims": 269,
+  "total_groups": 44,
   "victims_by_group": {
     "n0n": 32,
     "the gentlemen": 28,
-    "qilin": 27,
+    "qilin": 28,
     "soul": 25,
     "akira": 15,
     "leakeddata": 11,
@@ -46,15 +46,16 @@
     "chaos": 1,
     "destello": 1,
     "majinahanashi": 1,
-    "beast": 1
+    "beast": 1,
+    "cloak": 1
   },
   "victims_by_status": {
-    "claimed": 267
+    "claimed": 269
   },
   "victims_by_country": {
-    "Unknown": 267
+    "Unknown": 269
   },
   "victims_by_sector": {
-    "Unknown": 267
+    "Unknown": 269
   }
 }

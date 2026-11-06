@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T03:16:20.023714+00:00",
+  "last_updated": "2026-11-06T11:21:45.799588+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -4005,6 +4005,36 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-06T03:16:20.023502+00:00"
+    },
+    {
+      "id": "76858030dbbb818d",
+      "group": "cloak",
+      "victim": "ele****ar.de",
+      "normalized_name": "elearde",
+      "date": "2026-11-06T08:25:30.477921Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T11:21:45.799365+00:00"
+    },
+    {
+      "id": "cb251a1783a68281",
+      "group": "qilin",
+      "victim": "Rotstein & Shiffman",
+      "normalized_name": "rotstein shiffman",
+      "date": "2026-11-06T09:25:08.782000Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T11:21:45.799396+00:00"
     }
   ]
 }
