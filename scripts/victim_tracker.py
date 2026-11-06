@@ -10,7 +10,7 @@ The ransomware Markdown timeline files are NOT modified.
 """
 
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 import hashlib
 import json
 import re
@@ -126,6 +126,8 @@ RANSOMLOOK_HISTORICAL_API_URL = (
     "https://www.ransomlook.io/api/posts/period/{start}/{end}"
 )
 
+RANSOMLOOK_BACKFILL_START = "2026-01-01"
+RANSOMLOOK_BACKFILL_END = "2026-11-06"
 
 def fetch_ransomlook_posts(
     url=RANSOMLOOK_API_URL,
@@ -222,6 +224,39 @@ def fetch_ransomlook_posts(
             )
 
     return posts
+
+def monthly_date_ranges(start_date, end_date):
+    start = date.fromisoformat(start_date)
+    end = date.fromisoformat(end_date)
+
+    if start > end:
+        raise ValueError(
+            "Backfill start date must be on or before end date."
+        )
+
+    current = start
+
+    while current <= end:
+        if current.month == 12:
+            next_month = date(current.year + 1, 1, 1)
+        else:
+            next_month = date(
+                current.year,
+                current.month + 1,
+                1
+            )
+
+        batch_end = min(
+            next_month - timedelta(days=1),
+            end
+        )
+
+        yield (
+            current.isoformat(),
+            batch_end.isoformat()
+        )
+
+        current = batch_end + timedelta(days=1)
 
 def fetch_ransomlook_historical_posts(
     start_date,
