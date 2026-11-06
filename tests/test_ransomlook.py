@@ -337,5 +337,32 @@ class TestRansomLook(unittest.TestCase):
             "2026-01-15"
         )
 
+    def test_monthly_date_ranges(self):
+        ranges = list(
+            victim_tracker.monthly_date_ranges(
+                "2026-01-01",
+                "2026-11-06"
+            )
+        )
+
+        self.assertEqual(len(ranges), 11)
+        self.assertEqual(
+            ranges[0],
+            ("2026-01-01", "2026-01-31")
+        )
+        self.assertEqual(
+            ranges[-1],
+            ("2026-11-01", "2026-11-06")
+        )
+
+    def test_monthly_date_ranges_invalid_order(self):
+        with self.assertRaises(ValueError):
+            list(
+                victim_tracker.monthly_date_ranges(
+                    "2026-11-06",
+                    "2026-01-01"
+                )
+            )
+
 if __name__ == "__main__":
     unittest.main()
