@@ -503,6 +503,57 @@ def import_ransomlook_historical_posts(
 
     return imported
 
+def run_ransomlook_historical_backfill(victims, aliases):
+    """
+    Fetch and import historical RansomLook claims month by month.
+    Save progress after each monthly batch.
+    """
+
+    total_added = 0
+
+    date_ranges = monthly_date_ranges(
+        RANSOMLOOK_BACKFILL_START,
+        RANSOMLOOK_BACKFILL_END
+    )
+
+    for start_date, end_date in date_ranges:
+
+        print()
+        print(
+            f"Historical backfill: "
+            f"{start_date} to {end_date}"
+        )
+
+        posts = fetch_ransomlook_historical_posts(
+            start_date,
+            end_date
+        )
+
+        imported = import_ransomlook_historical_posts(
+            posts,
+            victims,
+            aliases
+        )
+
+        victims.extend(imported)
+
+        save_victims(victims)
+
+        batch_added = len(imported)
+        total_added += batch_added
+
+        print(
+            f"Claims imported in this batch: {batch_added}"
+        )
+
+    print()
+    print(
+        f"Historical backfill completed. "
+        f"Total imported: {total_added}"
+    )
+
+    return total_added
+
 def normalize_name(name):
     """
     Normalize victim names for duplicate detection.
@@ -1069,6 +1120,24 @@ def main():
 
     aliases = load_aliases()
 
+    historical_added = 0
+
+    if os.environ.get("HISTORICAL_BACKFILL", "").lower() == "true":
+
+        print()
+        print("Starting historical RansomLook backfill...")
+
+        try:
+            historical_added = run_ransomlook_historical_backfill(
+                victims,
+                aliases
+            )
+
+        except (RuntimeError, ValueError, TimeoutError) as error:
+            print(
+                f"Historical backfill stopped: {error}"
+            )
+
     # Import recent RansomLook victim claims
     print()
     print("Checking RansomLook for new victim claims...")
@@ -1091,6 +1160,8 @@ def main():
         print(
             f"RansomLook claims imported: {ransomlook_added}"
         )
+        
+
 
     except (RuntimeError, ValueError, TimeoutError) as error:
         print(f"RansomLook import unavailable: {error}")
@@ -1139,6 +1210,10 @@ def main():
 
     print(
     f"RansomLook claims imported: {ransomlook_added}"
+    )
+    
+    print(
+    f"Historical claims imported: {historical_added}"
     )
 
     print(
