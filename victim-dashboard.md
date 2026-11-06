@@ -1,24 +1,24 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-05T22:47:17.092096+00:00
+**Last updated:** 2026-11-06T03:16:20.024877+00:00
 
 ## Overview
 
-- **Total unique victims:** 262
-- **Total recorded claims:** 262
+- **Total unique victims:** 267
+- **Total recorded claims:** 267
 - **Groups represented:** 43
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 29 |
+| 1 | n0n | 32 |
 | 2 | the gentlemen | 28 |
 | 3 | qilin | 27 |
 | 4 | soul | 25 |
 | 5 | akira | 15 |
-| 6 | brain cipher | 11 |
-| 7 | leakeddata | 10 |
+| 6 | leakeddata | 11 |
+| 7 | brain cipher | 11 |
 | 8 | genesis | 9 |
 | 9 | safepay | 9 |
 | 10 | interlock | 8 |
@@ -36,13 +36,13 @@
 | 22 | global secret group | 3 |
 | 23 | payoutsking | 3 |
 | 24 | emperador | 3 |
-| 25 | byod | 3 |
-| 26 | direwolf | 2 |
-| 27 | shiba | 2 |
-| 28 | doommageddon | 2 |
-| 29 | aurora | 2 |
-| 30 | nightspire | 2 |
-| 31 | vexy | 2 |
+| 25 | vexy | 3 |
+| 26 | byod | 3 |
+| 27 | direwolf | 2 |
+| 28 | shiba | 2 |
+| 29 | doommageddon | 2 |
+| 30 | aurora | 2 |
+| 31 | nightspire | 2 |
 | 32 | hyflock | 2 |
 | 33 | lockbit5 | 2 |
 | 34 | redact | 2 |
@@ -60,19 +60,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 262 |
+| claimed | 267 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 262 |
+| Unknown | 267 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 262 |
+| Unknown | 267 |
 
 ---
 

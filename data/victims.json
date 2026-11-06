@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T22:47:17.090937+00:00",
+  "last_updated": "2026-11-06T03:16:20.023714+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -3930,6 +3930,81 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-05T22:47:17.090731+00:00"
+    },
+    {
+      "id": "ec9d2325a20a57c6",
+      "group": "leakeddata",
+      "victim": "W... R...",
+      "normalized_name": "w r",
+      "date": "2026-11-05T23:22:34.104024Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T03:16:20.023359+00:00"
+    },
+    {
+      "id": "db7f520dc36ad035",
+      "group": "vexy",
+      "victim": "ZipAI",
+      "normalized_name": "zipai",
+      "date": "2026-11-06T00:23:49.712808Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T03:16:20.023394+00:00"
+    },
+    {
+      "id": "2e74be920fed298b",
+      "group": "n0n",
+      "victim": "Scry Analytics",
+      "normalized_name": "scry analytics",
+      "date": "2026-11-06T02:25:11.476199Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T03:16:20.023427+00:00"
+    },
+    {
+      "id": "29cda2e3dfae5f47",
+      "group": "n0n",
+      "victim": "Hallmark Cards, Inc.",
+      "normalized_name": "hallmark cards",
+      "date": "2026-11-06T02:25:12.328593Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T03:16:20.023466+00:00"
+    },
+    {
+      "id": "33b88b24e465e54e",
+      "group": "n0n",
+      "victim": "Max Fashion",
+      "normalized_name": "max fashion",
+      "date": "2026-11-06T02:25:13.144869Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-06T03:16:20.023502+00:00"
     }
   ]
 }
