@@ -151,7 +151,7 @@ class TestRansomLook(unittest.TestCase):
         response = MagicMock()
         response.read.return_value = json.dumps([
             {
-                "group": "TestGroup",
+                "group_name": "TestGroup",
                 "post_title": "Test Victim",
                 "discovered": "2026-01-15"
             }
@@ -363,6 +363,90 @@ class TestRansomLook(unittest.TestCase):
                     "2026-01-01"
                 )
             )
+
+    def test_historical_backfill_imports_and_saves(self):
+        victims = []
+        aliases = {}
+
+        posts = [
+            {
+                "group_name": "TestGroup",
+                "post_title": "Historical Victim",
+                "discovered": "2026-01-15"
+            }
+        ]
+
+        with patch.object(
+            victim_tracker,
+            "monthly_date_ranges",
+            return_value=[
+                ("2026-01-01", "2026-01-31")
+            ]
+        ), patch.object(
+            victim_tracker,
+            "fetch_ransomlook_historical_posts",
+            return_value=posts
+        ), patch.object(
+            victim_tracker,
+            "save_victims"
+        ) as mock_save:
+
+            added = victim_tracker.run_ransomlook_historical_backfill(
+                victims,
+                aliases
+            )
+
+        self.assertEqual(added, 1)
+        self.assertEqual(len(victims), 1)
+        self.assertEqual(
+            victims[0]["status"],
+            "claimed"
+        )
+        self.assertEqual(
+            victims[0]["confidence"],
+            "unverified"
+        )
+        self.assertEqual(
+            victims[0]["source"],
+            "RansomLook"
+        )
+        mock_save.assert_called_once_with(victims)
+
+    def test_historical_backfill_skips_duplicates(self):
+        victims = []
+        aliases = {}
+
+        posts = [
+            {
+                "group_name": "TestGroup",
+                "post_title": "Same Victim",
+                "discovered": "2026-01-15"
+            }
+        ]
+
+        with patch.object(
+            victim_tracker,
+            "monthly_date_ranges",
+            return_value=[
+                ("2026-01-01", "2026-01-31"),
+                ("2026-02-01", "2026-02-28")
+            ]
+        ), patch.object(
+            victim_tracker,
+            "fetch_ransomlook_historical_posts",
+            return_value=posts
+        ), patch.object(
+            victim_tracker,
+            "save_victims"
+        ):
+
+            added = victim_tracker.run_ransomlook_historical_backfill(
+                victims,
+                aliases
+            )
+
+        self.assertEqual(added, 1)
+        self.assertEqual(len(victims), 1)
 
 if __name__ == "__main__":
     unittest.main()
