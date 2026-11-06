@@ -367,6 +367,13 @@ def convert_ransomlook_post(post):
 
     if not isinstance(discovered, str) or not discovered.strip():
         discovered = timestamp()
+   
+    source_url = post.get("link", "")
+
+    if not isinstance(source_url, str):
+        source_url = ""
+
+    source_url = source_url.strip()
 
     return {
         "id": create_id(group, victim),
@@ -379,6 +386,7 @@ def convert_ransomlook_post(post):
         "country": "Unknown",
         "sector": "Unknown",
         "source": "RansomLook",
+        "source_url": source_url,
         "source_title": "",
         "notes": "",
         "added_at": timestamp()
