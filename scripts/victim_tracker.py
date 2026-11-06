@@ -411,6 +411,62 @@ def import_ransomlook_posts(posts, existing_victims, aliases=None):
 
     return imported
 
+def import_ransomlook_historical_posts(
+    posts,
+    existing_victims,
+    aliases=None
+):
+    """
+    Import historical RansomLook claims from oldest to newest.
+    Skip posts without discovery dates and prevent duplicates.
+    """
+
+    if aliases is None:
+        aliases = {}
+
+    existing_ids = {
+        record.get("id")
+        for record in existing_victims
+        if isinstance(record, dict)
+    }
+
+    imported = []
+
+    # Sort historical posts by discovery date, oldest first.
+    sorted_posts = sorted(
+        posts,
+        key=lambda post: str(post.get("discovered", ""))
+        if isinstance(post, dict) else ""
+    )
+
+    for post in sorted_posts:
+        record = convert_ransomlook_historical_post(post)
+
+        if record is None:
+            continue
+
+        canonical_victim = apply_alias(
+            record["victim"],
+            aliases
+        )
+
+        record["victim"] = canonical_victim
+        record["normalized_name"] = normalize_name(
+            canonical_victim
+        )
+        record["id"] = create_id(
+            record["group"],
+            canonical_victim
+        )
+
+        if record["id"] in existing_ids:
+            continue
+
+        existing_ids.add(record["id"])
+        imported.append(record)
+
+    return imported
+
 def normalize_name(name):
     """
     Normalize victim names for duplicate detection.
