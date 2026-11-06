@@ -35,14 +35,17 @@ jobs:
           python scripts/victim_tracker.py
 
       - name: Generate victim dashboard
+        if: always()
         run: |
           python scripts/generate_victim_dashboard.py
-
+      
       - name: Show generated statistics
+        if: always()
         run: |
           cat data/statistics.json
 
       - name: Commit updated tracker data
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
