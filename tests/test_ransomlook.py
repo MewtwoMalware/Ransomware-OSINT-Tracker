@@ -214,6 +214,41 @@ class TestRansomLook(unittest.TestCase):
                 "2026-02-01"
             )
 
+    def test_convert_historical_post(self):
+        post = {
+            "group_name": "TestGroup",
+            "post_title": "Historical Victim",
+            "discovered": "2026-01-15"
+        }
+
+        record = victim_tracker.convert_ransomlook_historical_post(post)
+
+        self.assertIsNotNone(record)
+        self.assertEqual(record["date"], "2026-01-15")
+        self.assertEqual(record["status"], "claimed")
+        self.assertEqual(record["confidence"], "unverified")
+        self.assertEqual(record["source"], "RansomLook")
+
+    def test_convert_historical_post_missing_date(self):
+        post = {
+            "group_name": "TestGroup",
+            "post_title": "Victim Without Date"
+        }
+
+        record = victim_tracker.convert_ransomlook_historical_post(post)
+
+        self.assertIsNone(record)
+
+    def test_convert_historical_post_invalid_data(self):
+        post = {
+            "group_name": "",
+            "post_title": "Invalid Victim",
+            "discovered": "2026-01-15"
+        }
+
+        record = victim_tracker.convert_ransomlook_historical_post(post)
+
+        self.assertIsNone(record)
 
 if __name__ == "__main__":
     unittest.main()
