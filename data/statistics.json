@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-11-06T11:21:45.800857+00:00",
-  "total_unique_victims": 269,
-  "total_recorded_claims": 269,
+  "last_updated": "2026-11-06T15:44:25.843927+00:00",
+  "total_unique_victims": 277,
+  "total_recorded_claims": 277,
   "total_groups": 44,
   "victims_by_group": {
-    "n0n": 32,
+    "n0n": 37,
     "the gentlemen": 28,
     "qilin": 28,
     "soul": 25,
     "akira": 15,
     "leakeddata": 11,
     "brain cipher": 11,
+    "interlock": 9,
     "genesis": 9,
     "safepay": 9,
-    "interlock": 8,
     "rhysida": 6,
     "audit team": 6,
     "whitearmor": 5,
@@ -25,13 +25,13 @@
     "orova": 4,
     "booba team": 4,
     "dark project": 4,
+    "direwolf": 3,
     "global secret group": 3,
     "payoutsking": 3,
+    "shiba": 3,
     "emperador": 3,
     "vexy": 3,
     "byod": 3,
-    "direwolf": 2,
-    "shiba": 2,
     "doommageddon": 2,
     "aurora": 2,
     "nightspire": 2,
@@ -50,12 +50,12 @@
     "cloak": 1
   },
   "victims_by_status": {
-    "claimed": 269
+    "claimed": 277
   },
   "victims_by_country": {
-    "Unknown": 269
+    "Unknown": 277
   },
   "victims_by_sector": {
-    "Unknown": 269
+    "Unknown": 277
   }
 }

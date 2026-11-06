@@ -1,27 +1,27 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-06T11:21:45.800857+00:00
+**Last updated:** 2026-11-06T15:44:25.843927+00:00
 
 ## Overview
 
-- **Total unique victims:** 269
-- **Total recorded claims:** 269
+- **Total unique victims:** 277
+- **Total recorded claims:** 277
 - **Groups represented:** 44
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 32 |
+| 1 | n0n | 37 |
 | 2 | the gentlemen | 28 |
 | 3 | qilin | 28 |
 | 4 | soul | 25 |
 | 5 | akira | 15 |
 | 6 | leakeddata | 11 |
 | 7 | brain cipher | 11 |
-| 8 | genesis | 9 |
-| 9 | safepay | 9 |
-| 10 | interlock | 8 |
+| 8 | interlock | 9 |
+| 9 | genesis | 9 |
+| 10 | safepay | 9 |
 | 11 | rhysida | 6 |
 | 12 | audit team | 6 |
 | 13 | whitearmor | 5 |
@@ -33,13 +33,13 @@
 | 19 | orova | 4 |
 | 20 | booba team | 4 |
 | 21 | dark project | 4 |
-| 22 | global secret group | 3 |
-| 23 | payoutsking | 3 |
-| 24 | emperador | 3 |
-| 25 | vexy | 3 |
-| 26 | byod | 3 |
-| 27 | direwolf | 2 |
-| 28 | shiba | 2 |
+| 22 | direwolf | 3 |
+| 23 | global secret group | 3 |
+| 24 | payoutsking | 3 |
+| 25 | shiba | 3 |
+| 26 | emperador | 3 |
+| 27 | vexy | 3 |
+| 28 | byod | 3 |
 | 29 | doommageddon | 2 |
 | 30 | aurora | 2 |
 | 31 | nightspire | 2 |
@@ -61,19 +61,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 269 |
+| claimed | 277 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 269 |
+| Unknown | 277 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 269 |
+| Unknown | 277 |
 
 ---
 
