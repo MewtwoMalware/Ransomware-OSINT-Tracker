@@ -90,10 +90,12 @@ class TestRansomLook(unittest.TestCase):
             victim_tracker.fetch_ransomlook_posts()
 
     def test_convert_ransomlook_post(self):
+        
         post = {
             "group_name": "TestGroup",
             "post_title": "Example Victim",
-            "discovered": "2026-11-05"
+            "discovered": "2026-11-05",
+            "link": "https://www.ransomlook.io/example-victim"
         }
 
         record = victim_tracker.convert_ransomlook_post(post)
@@ -104,6 +106,10 @@ class TestRansomLook(unittest.TestCase):
         self.assertEqual(record["status"], "claimed")
         self.assertEqual(record["confidence"], "unverified")
         self.assertEqual(record["source"], "RansomLook")
+        self.assertEqual(
+            record["source_url"],
+            "https://www.ransomlook.io/example-victim"
+        )
 
     def test_convert_invalid_post(self):
         post = {
@@ -115,6 +121,18 @@ class TestRansomLook(unittest.TestCase):
 
         self.assertIsNone(record)
 
+    def test_convert_post_without_source_url(self):
+    post = {
+        "group_name": "TestGroup",
+        "post_title": "Example Victim",
+        "discovered": "2026-11-05"
+    }
+
+    record = victim_tracker.convert_ransomlook_post(post)
+
+    self.assertIsNotNone(record)
+    self.assertEqual(record["source_url"], "")
+    
     def test_import_skips_duplicates(self):
         post = {
             "group_name": "TestGroup",
