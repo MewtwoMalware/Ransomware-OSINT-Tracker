@@ -2,6 +2,13 @@ name: Ransomware Victim Tracker
 
 on:
   workflow_dispatch:
+    inputs:
+      historical_backfill:
+        description: "Run the one-time historical RansomLook backfill"
+        required: true
+        type: boolean
+        default: false
+
   schedule:
     - cron: "*/15 * * * *"
 
