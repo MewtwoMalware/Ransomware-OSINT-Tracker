@@ -1135,8 +1135,9 @@ def main():
 
         except (RuntimeError, ValueError, TimeoutError) as error:
             print(
-                f"Historical backfill stopped: {error}"
+                f"Historical backfill FAILED: {error}"
             )
+            raise
 
     # Import recent RansomLook victim claims
     print()
