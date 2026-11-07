@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-07T10:11:32.454665+00:00",
-  "total_unique_victims": 294,
-  "total_recorded_claims": 294,
-  "total_groups": 46,
+  "last_updated": "2026-11-07T16:28:29.572633+00:00",
+  "total_unique_victims": 313,
+  "total_recorded_claims": 313,
+  "total_groups": 47,
   "victims_by_group": {
-    "n0n": 37,
-    "qilin": 29,
+    "n0n": 41,
+    "qilin": 32,
     "the gentlemen": 28,
     "soul": 25,
     "akira": 17,
@@ -14,7 +14,9 @@
     "genesis": 11,
     "interlock": 9,
     "safepay": 9,
-    "rhysida": 7,
+    "rhysida": 8,
+    "payload": 8,
+    "metaencryptor": 7,
     "whitearmor": 6,
     "audit team": 6,
     "pear": 5,
@@ -22,7 +24,6 @@
     "nightspire": 5,
     "play": 5,
     "everstake": 4,
-    "payload": 4,
     "orova": 4,
     "booba team": 4,
     "dark project": 4,
@@ -52,12 +53,12 @@
     "anubis": 1
   },
   "victims_by_status": {
-    "claimed": 294
+    "claimed": 313
   },
   "victims_by_country": {
-    "Unknown": 294
+    "Unknown": 313
   },
   "victims_by_sector": {
-    "Unknown": 294
+    "Unknown": 313
   }
 }
