@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-11-07T20:26:39.739702+00:00",
-  "total_unique_victims": 317,
-  "total_recorded_claims": 317,
+  "last_updated": "2026-11-07T23:50:03.051424+00:00",
+  "total_unique_victims": 330,
+  "total_recorded_claims": 330,
   "total_groups": 47,
   "victims_by_group": {
-    "n0n": 41,
-    "qilin": 36,
+    "n0n": 51,
+    "qilin": 38,
     "the gentlemen": 28,
     "soul": 25,
     "akira": 17,
     "leakeddata": 15,
     "brain cipher": 12,
     "genesis": 11,
+    "safepay": 10,
     "interlock": 9,
-    "safepay": 9,
     "rhysida": 8,
     "payload": 8,
     "metaencryptor": 7,
@@ -53,12 +53,12 @@
     "anubis": 1
   },
   "victims_by_status": {
-    "claimed": 317
+    "claimed": 330
   },
   "victims_by_country": {
-    "Unknown": 317
+    "Unknown": 330
   },
   "victims_by_sector": {
-    "Unknown": 317
+    "Unknown": 330
   }
 }

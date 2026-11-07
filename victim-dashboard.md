@@ -1,27 +1,27 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-07T20:26:39.739702+00:00
+**Last updated:** 2026-11-07T23:50:03.051424+00:00
 
 ## Overview
 
-- **Total unique victims:** 317
-- **Total recorded claims:** 317
+- **Total unique victims:** 330
+- **Total recorded claims:** 330
 - **Groups represented:** 47
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 41 |
-| 2 | qilin | 36 |
+| 1 | n0n | 51 |
+| 2 | qilin | 38 |
 | 3 | the gentlemen | 28 |
 | 4 | soul | 25 |
 | 5 | akira | 17 |
 | 6 | leakeddata | 15 |
 | 7 | brain cipher | 12 |
 | 8 | genesis | 11 |
-| 9 | interlock | 9 |
-| 10 | safepay | 9 |
+| 9 | safepay | 10 |
+| 10 | interlock | 9 |
 | 11 | rhysida | 8 |
 | 12 | payload | 8 |
 | 13 | metaencryptor | 7 |
@@ -64,19 +64,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 317 |
+| claimed | 330 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 317 |
+| Unknown | 330 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 317 |
+| Unknown | 330 |
 
 ---
 
