@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-07T03:03:11.785033+00:00
+**Last updated:** 2026-11-07T10:11:32.454665+00:00
 
 ## Overview
 
-- **Total unique victims:** 292
-- **Total recorded claims:** 292
+- **Total unique victims:** 294
+- **Total recorded claims:** 294
 - **Groups represented:** 46
 
 ## Victims by Ransomware Group
@@ -22,9 +22,9 @@
 | 8 | genesis | 11 |
 | 9 | interlock | 9 |
 | 10 | safepay | 9 |
-| 11 | rhysida | 6 |
-| 12 | audit team | 6 |
-| 13 | whitearmor | 5 |
+| 11 | rhysida | 7 |
+| 12 | whitearmor | 6 |
+| 13 | audit team | 6 |
 | 14 | pear | 5 |
 | 15 | ransomhouse | 5 |
 | 16 | nightspire | 5 |
@@ -63,19 +63,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 292 |
+| claimed | 294 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 292 |
+| Unknown | 294 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 292 |
+| Unknown | 294 |
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T03:03:11.783491+00:00",
+  "last_updated": "2026-11-07T10:11:32.453397+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -4395,6 +4395,38 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-07T03:03:11.783307+00:00"
+    },
+    {
+      "id": "816437d7edf7b015",
+      "group": "whitearmor",
+      "victim": "maersk",
+      "normalized_name": "maersk",
+      "date": "2026-11-07T04:29:06.783097Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-07T10:11:32.453162+00:00"
+    },
+    {
+      "id": "c6946319331de783",
+      "group": "rhysida",
+      "victim": "Treuhand & Immobilien Abt AG",
+      "normalized_name": "treuhand immobilien abt ag",
+      "date": "2026-11-07T08:26:45.812488Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-07T10:11:32.453198+00:00"
     }
   ]
 }
