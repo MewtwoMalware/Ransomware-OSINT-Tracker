@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-07T16:28:29.572633+00:00",
-  "total_unique_victims": 313,
-  "total_recorded_claims": 313,
+  "last_updated": "2026-11-07T20:26:39.739702+00:00",
+  "total_unique_victims": 317,
+  "total_recorded_claims": 317,
   "total_groups": 47,
   "victims_by_group": {
     "n0n": 41,
-    "qilin": 32,
+    "qilin": 36,
     "the gentlemen": 28,
     "soul": 25,
     "akira": 17,
@@ -53,12 +53,12 @@
     "anubis": 1
   },
   "victims_by_status": {
-    "claimed": 313
+    "claimed": 317
   },
   "victims_by_country": {
-    "Unknown": 313
+    "Unknown": 317
   },
   "victims_by_sector": {
-    "Unknown": 313
+    "Unknown": 317
   }
 }

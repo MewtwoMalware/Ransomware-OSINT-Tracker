@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T16:28:29.571234+00:00",
+  "last_updated": "2026-11-07T20:26:39.738343+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -4731,6 +4731,70 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-07T16:28:29.571056+00:00"
+    },
+    {
+      "id": "635954a1e607ca78",
+      "group": "qilin",
+      "victim": "AXE - EXPERTS",
+      "normalized_name": "axe experts",
+      "date": "2026-11-07T18:30:47.066908Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-07T20:26:39.738028+00:00"
+    },
+    {
+      "id": "07d3be3b0543f376",
+      "group": "qilin",
+      "victim": "Simply UK",
+      "normalized_name": "simply uk",
+      "date": "2026-11-07T19:27:54.120087Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-07T20:26:39.738064+00:00"
+    },
+    {
+      "id": "919629a6b9f2cb4d",
+      "group": "qilin",
+      "victim": "J. J. Louro Pereira",
+      "normalized_name": "j j louro pereira",
+      "date": "2026-11-07T19:27:54.967828Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-07T20:26:39.738101+00:00"
+    },
+    {
+      "id": "eedf44ae595e27a2",
+      "group": "qilin",
+      "victim": "BOSH Engineering Private Limited",
+      "normalized_name": "bosh engineering private",
+      "date": "2026-11-07T19:27:55.761436Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-07T20:26:39.738139+00:00"
     }
   ]
 }
