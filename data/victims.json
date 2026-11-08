@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T23:50:03.050283+00:00",
+  "last_updated": "2026-11-08T04:54:34.731519+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -5003,6 +5003,22 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-07T23:50:03.050119+00:00"
+    },
+    {
+      "id": "5bb8c1d2529d1bad",
+      "group": "whitearmor",
+      "victim": "Clínica La Sagrada Familia (Colombia)",
+      "normalized_name": "clínica la sagrada familia colombia",
+      "date": "2026-11-08T04:25:13.961646Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T04:54:34.731305+00:00"
     }
   ]
 }

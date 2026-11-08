@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-07T23:50:03.051424+00:00",
-  "total_unique_victims": 330,
-  "total_recorded_claims": 330,
+  "last_updated": "2026-11-08T04:54:34.732786+00:00",
+  "total_unique_victims": 331,
+  "total_recorded_claims": 331,
   "total_groups": 47,
   "victims_by_group": {
     "n0n": 51,
@@ -16,8 +16,8 @@
     "interlock": 9,
     "rhysida": 8,
     "payload": 8,
+    "whitearmor": 7,
     "metaencryptor": 7,
-    "whitearmor": 6,
     "audit team": 6,
     "pear": 5,
     "ransomhouse": 5,
@@ -53,12 +53,12 @@
     "anubis": 1
   },
   "victims_by_status": {
-    "claimed": 330
+    "claimed": 331
   },
   "victims_by_country": {
-    "Unknown": 330
+    "Unknown": 331
   },
   "victims_by_sector": {
-    "Unknown": 330
+    "Unknown": 331
   }
 }

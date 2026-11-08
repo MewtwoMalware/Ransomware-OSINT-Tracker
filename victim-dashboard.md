@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-07T23:50:03.051424+00:00
+**Last updated:** 2026-11-08T04:54:34.732786+00:00
 
 ## Overview
 
-- **Total unique victims:** 330
-- **Total recorded claims:** 330
+- **Total unique victims:** 331
+- **Total recorded claims:** 331
 - **Groups represented:** 47
 
 ## Victims by Ransomware Group
@@ -24,8 +24,8 @@
 | 10 | interlock | 9 |
 | 11 | rhysida | 8 |
 | 12 | payload | 8 |
-| 13 | metaencryptor | 7 |
-| 14 | whitearmor | 6 |
+| 13 | whitearmor | 7 |
+| 14 | metaencryptor | 7 |
 | 15 | audit team | 6 |
 | 16 | pear | 5 |
 | 17 | ransomhouse | 5 |
@@ -64,19 +64,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 330 |
+| claimed | 331 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 330 |
+| Unknown | 331 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 330 |
+| Unknown | 331 |
 
 ---
 
