@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-08T04:54:34.732786+00:00
+**Last updated:** 2026-11-08T11:45:14.205929+00:00
 
 ## Overview
 
-- **Total unique victims:** 331
-- **Total recorded claims:** 331
+- **Total unique victims:** 334
+- **Total recorded claims:** 334
 - **Groups represented:** 47
 
 ## Victims by Ransomware Group
@@ -35,26 +35,26 @@
 | 21 | orova | 4 |
 | 22 | booba team | 4 |
 | 23 | dark project | 4 |
-| 24 | direwolf | 3 |
-| 25 | global secret group | 3 |
-| 26 | payoutsking | 3 |
-| 27 | shiba | 3 |
-| 28 | emperador | 3 |
-| 29 | vexy | 3 |
-| 30 | byod | 3 |
-| 31 | doommageddon | 2 |
-| 32 | aurora | 2 |
-| 33 | hyflock | 2 |
-| 34 | lockbit5 | 2 |
-| 35 | redact | 2 |
-| 36 | dragonforce | 1 |
-| 37 | wallstreet | 1 |
-| 38 | deadlock | 1 |
-| 39 | leaknet | 1 |
-| 40 | falcon | 1 |
-| 41 | chaos | 1 |
-| 42 | destello | 1 |
-| 43 | majinahanashi | 1 |
+| 24 | majinahanashi | 4 |
+| 25 | direwolf | 3 |
+| 26 | global secret group | 3 |
+| 27 | payoutsking | 3 |
+| 28 | shiba | 3 |
+| 29 | emperador | 3 |
+| 30 | vexy | 3 |
+| 31 | byod | 3 |
+| 32 | doommageddon | 2 |
+| 33 | aurora | 2 |
+| 34 | hyflock | 2 |
+| 35 | lockbit5 | 2 |
+| 36 | redact | 2 |
+| 37 | dragonforce | 1 |
+| 38 | wallstreet | 1 |
+| 39 | deadlock | 1 |
+| 40 | leaknet | 1 |
+| 41 | falcon | 1 |
+| 42 | chaos | 1 |
+| 43 | destello | 1 |
 | 44 | beast | 1 |
 | 45 | cloak | 1 |
 | 46 | eclipse | 1 |
@@ -64,19 +64,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 331 |
+| claimed | 334 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 331 |
+| Unknown | 334 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 331 |
+| Unknown | 334 |
 
 ---
 

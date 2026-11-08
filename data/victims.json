@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T04:54:34.731519+00:00",
+  "last_updated": "2026-11-08T11:45:14.204627+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -5019,6 +5019,54 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-08T04:54:34.731305+00:00"
+    },
+    {
+      "id": "7d12db2c50b09133",
+      "group": "majinahanashi",
+      "victim": "SANTEX SAS",
+      "normalized_name": "santex sas",
+      "date": "2026-11-08T07:21:54.813115Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T11:45:14.204362+00:00"
+    },
+    {
+      "id": "fd505a869a88b108",
+      "group": "majinahanashi",
+      "victim": "Modehaus Schnitzler GmbH & Co. KG",
+      "normalized_name": "modehaus schnitzler gmbh co kg",
+      "date": "2026-11-08T07:21:55.666513Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T11:45:14.204400+00:00"
+    },
+    {
+      "id": "5b52514bd9af1fdf",
+      "group": "majinahanashi",
+      "victim": "SIFLOOR",
+      "normalized_name": "sifloor",
+      "date": "2026-11-08T07:21:56.485719Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T11:45:14.204437+00:00"
     }
   ]
 }
