@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-08T11:45:14.205929+00:00
+**Last updated:** 2026-11-08T17:42:57.471267+00:00
 
 ## Overview
 
-- **Total unique victims:** 334
-- **Total recorded claims:** 334
+- **Total unique victims:** 341
+- **Total recorded claims:** 341
 - **Groups represented:** 47
 
 ## Victims by Ransomware Group
@@ -27,30 +27,30 @@
 | 13 | whitearmor | 7 |
 | 14 | metaencryptor | 7 |
 | 15 | audit team | 6 |
-| 16 | pear | 5 |
-| 17 | ransomhouse | 5 |
-| 18 | nightspire | 5 |
-| 19 | play | 5 |
-| 20 | everstake | 4 |
-| 21 | orova | 4 |
-| 22 | booba team | 4 |
-| 23 | dark project | 4 |
-| 24 | majinahanashi | 4 |
-| 25 | direwolf | 3 |
-| 26 | global secret group | 3 |
-| 27 | payoutsking | 3 |
-| 28 | shiba | 3 |
-| 29 | emperador | 3 |
-| 30 | vexy | 3 |
-| 31 | byod | 3 |
-| 32 | doommageddon | 2 |
-| 33 | aurora | 2 |
-| 34 | hyflock | 2 |
-| 35 | lockbit5 | 2 |
-| 36 | redact | 2 |
-| 37 | dragonforce | 1 |
-| 38 | wallstreet | 1 |
-| 39 | deadlock | 1 |
+| 16 | lockbit5 | 6 |
+| 17 | pear | 5 |
+| 18 | ransomhouse | 5 |
+| 19 | nightspire | 5 |
+| 20 | orova | 5 |
+| 21 | play | 5 |
+| 22 | everstake | 4 |
+| 23 | byod | 4 |
+| 24 | booba team | 4 |
+| 25 | dark project | 4 |
+| 26 | majinahanashi | 4 |
+| 27 | direwolf | 3 |
+| 28 | global secret group | 3 |
+| 29 | payoutsking | 3 |
+| 30 | shiba | 3 |
+| 31 | emperador | 3 |
+| 32 | vexy | 3 |
+| 33 | doommageddon | 2 |
+| 34 | aurora | 2 |
+| 35 | deadlock | 2 |
+| 36 | hyflock | 2 |
+| 37 | redact | 2 |
+| 38 | dragonforce | 1 |
+| 39 | wallstreet | 1 |
 | 40 | leaknet | 1 |
 | 41 | falcon | 1 |
 | 42 | chaos | 1 |
@@ -64,19 +64,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 334 |
+| claimed | 341 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 334 |
+| Unknown | 341 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 334 |
+| Unknown | 341 |
 
 ---
 

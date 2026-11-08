@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-08T11:45:14.205929+00:00",
-  "total_unique_victims": 334,
-  "total_recorded_claims": 334,
+  "last_updated": "2026-11-08T17:42:57.471267+00:00",
+  "total_unique_victims": 341,
+  "total_recorded_claims": 341,
   "total_groups": 47,
   "victims_by_group": {
     "n0n": 51,
@@ -19,12 +19,14 @@
     "whitearmor": 7,
     "metaencryptor": 7,
     "audit team": 6,
+    "lockbit5": 6,
     "pear": 5,
     "ransomhouse": 5,
     "nightspire": 5,
+    "orova": 5,
     "play": 5,
     "everstake": 4,
-    "orova": 4,
+    "byod": 4,
     "booba team": 4,
     "dark project": 4,
     "majinahanashi": 4,
@@ -34,15 +36,13 @@
     "shiba": 3,
     "emperador": 3,
     "vexy": 3,
-    "byod": 3,
     "doommageddon": 2,
     "aurora": 2,
+    "deadlock": 2,
     "hyflock": 2,
-    "lockbit5": 2,
     "redact": 2,
     "dragonforce": 1,
     "wallstreet": 1,
-    "deadlock": 1,
     "leaknet": 1,
     "falcon": 1,
     "chaos": 1,
@@ -53,12 +53,12 @@
     "anubis": 1
   },
   "victims_by_status": {
-    "claimed": 334
+    "claimed": 341
   },
   "victims_by_country": {
-    "Unknown": 334
+    "Unknown": 341
   },
   "victims_by_sector": {
-    "Unknown": 334
+    "Unknown": 341
   }
 }
