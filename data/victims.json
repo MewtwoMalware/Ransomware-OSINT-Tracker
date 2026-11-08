@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T17:42:57.469907+00:00",
+  "last_updated": "2026-11-08T21:22:42.177681+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -5179,6 +5179,86 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-08T17:42:57.469712+00:00"
+    },
+    {
+      "id": "7a0c1e045189d101",
+      "group": "akira",
+      "victim": "Calmont Wire & Cable",
+      "normalized_name": "calmont wire cable",
+      "date": "2026-11-08T19:27:02.493924Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T21:22:42.177355+00:00"
+    },
+    {
+      "id": "14f71a8c4659dc8b",
+      "group": "deadlock",
+      "victim": "Coopebis",
+      "normalized_name": "coopebis",
+      "date": "2026-11-08T19:27:07.471588Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T21:22:42.177391+00:00"
+    },
+    {
+      "id": "f2e83629a959d1fd",
+      "group": "cloak",
+      "victim": "tekra.com.pl",
+      "normalized_name": "tekracompl",
+      "date": "2026-11-08T20:25:16.501866Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T21:22:42.177425+00:00"
+    },
+    {
+      "id": "94923a4ea8e8830f",
+      "group": "deadlock",
+      "victim": "NoseTea",
+      "normalized_name": "nosetea",
+      "date": "2026-11-08T20:25:41.709062Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T21:22:42.177458+00:00"
+    },
+    {
+      "id": "1732cfdd1314cb53",
+      "group": "deadlock",
+      "victim": "Fidex",
+      "normalized_name": "fidex",
+      "date": "2026-11-08T20:25:42.529686Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-08T21:22:42.177489+00:00"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-08T17:42:57.471267+00:00",
-  "total_unique_victims": 341,
-  "total_recorded_claims": 341,
+  "last_updated": "2026-11-08T21:22:42.179000+00:00",
+  "total_unique_victims": 346,
+  "total_recorded_claims": 346,
   "total_groups": 47,
   "victims_by_group": {
     "n0n": 51,
     "qilin": 38,
     "the gentlemen": 28,
     "soul": 25,
-    "akira": 17,
+    "akira": 18,
     "leakeddata": 15,
     "brain cipher": 12,
     "genesis": 11,
@@ -22,6 +22,7 @@
     "lockbit5": 6,
     "pear": 5,
     "ransomhouse": 5,
+    "deadlock": 5,
     "nightspire": 5,
     "orova": 5,
     "play": 5,
@@ -38,9 +39,9 @@
     "vexy": 3,
     "doommageddon": 2,
     "aurora": 2,
-    "deadlock": 2,
     "hyflock": 2,
     "redact": 2,
+    "cloak": 2,
     "dragonforce": 1,
     "wallstreet": 1,
     "leaknet": 1,
@@ -48,17 +49,16 @@
     "chaos": 1,
     "destello": 1,
     "beast": 1,
-    "cloak": 1,
     "eclipse": 1,
     "anubis": 1
   },
   "victims_by_status": {
-    "claimed": 341
+    "claimed": 346
   },
   "victims_by_country": {
-    "Unknown": 341
+    "Unknown": 346
   },
   "victims_by_sector": {
-    "Unknown": 341
+    "Unknown": 346
   }
 }
