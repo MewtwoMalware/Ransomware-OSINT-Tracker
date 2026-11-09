@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-08T21:22:42.179000+00:00
+**Last updated:** 2026-11-09T01:08:10.672028+00:00
 
 ## Overview
 
-- **Total unique victims:** 346
-- **Total recorded claims:** 346
+- **Total unique victims:** 347
+- **Total recorded claims:** 347
 - **Groups represented:** 47
 
 ## Victims by Ransomware Group
@@ -50,33 +50,33 @@
 | 36 | hyflock | 2 |
 | 37 | redact | 2 |
 | 38 | cloak | 2 |
-| 39 | dragonforce | 1 |
-| 40 | wallstreet | 1 |
-| 41 | leaknet | 1 |
-| 42 | falcon | 1 |
-| 43 | chaos | 1 |
-| 44 | destello | 1 |
-| 45 | beast | 1 |
-| 46 | eclipse | 1 |
-| 47 | anubis | 1 |
+| 39 | anubis | 2 |
+| 40 | dragonforce | 1 |
+| 41 | wallstreet | 1 |
+| 42 | leaknet | 1 |
+| 43 | falcon | 1 |
+| 44 | chaos | 1 |
+| 45 | destello | 1 |
+| 46 | beast | 1 |
+| 47 | eclipse | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 346 |
+| claimed | 347 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 346 |
+| Unknown | 347 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 346 |
+| Unknown | 347 |
 
 ---
 

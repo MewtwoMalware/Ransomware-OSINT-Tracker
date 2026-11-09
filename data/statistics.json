@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-08T21:22:42.179000+00:00",
-  "total_unique_victims": 346,
-  "total_recorded_claims": 346,
+  "last_updated": "2026-11-09T01:08:10.672028+00:00",
+  "total_unique_victims": 347,
+  "total_recorded_claims": 347,
   "total_groups": 47,
   "victims_by_group": {
     "n0n": 51,
@@ -42,6 +42,7 @@
     "hyflock": 2,
     "redact": 2,
     "cloak": 2,
+    "anubis": 2,
     "dragonforce": 1,
     "wallstreet": 1,
     "leaknet": 1,
@@ -49,16 +50,15 @@
     "chaos": 1,
     "destello": 1,
     "beast": 1,
-    "eclipse": 1,
-    "anubis": 1
+    "eclipse": 1
   },
   "victims_by_status": {
-    "claimed": 346
+    "claimed": 347
   },
   "victims_by_country": {
-    "Unknown": 346
+    "Unknown": 347
   },
   "victims_by_sector": {
-    "Unknown": 346
+    "Unknown": 347
   }
 }
