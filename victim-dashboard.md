@@ -1,18 +1,18 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-09T01:08:10.672028+00:00
+**Last updated:** 2026-11-09T07:59:12.552440+00:00
 
 ## Overview
 
-- **Total unique victims:** 347
-- **Total recorded claims:** 347
-- **Groups represented:** 47
+- **Total unique victims:** 350
+- **Total recorded claims:** 350
+- **Groups represented:** 49
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 51 |
+| 1 | n0n | 52 |
 | 2 | qilin | 38 |
 | 3 | the gentlemen | 28 |
 | 4 | soul | 25 |
@@ -59,24 +59,26 @@
 | 45 | destello | 1 |
 | 46 | beast | 1 |
 | 47 | eclipse | 1 |
+| 48 | black x | 1 |
+| 49 | panzer | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 347 |
+| claimed | 350 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 347 |
+| Unknown | 350 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 347 |
+| Unknown | 350 |
 
 ---
 

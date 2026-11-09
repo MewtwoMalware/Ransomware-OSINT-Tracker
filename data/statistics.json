@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-09T01:08:10.672028+00:00",
-  "total_unique_victims": 347,
-  "total_recorded_claims": 347,
-  "total_groups": 47,
+  "last_updated": "2026-11-09T07:59:12.552440+00:00",
+  "total_unique_victims": 350,
+  "total_recorded_claims": 350,
+  "total_groups": 49,
   "victims_by_group": {
-    "n0n": 51,
+    "n0n": 52,
     "qilin": 38,
     "the gentlemen": 28,
     "soul": 25,
@@ -50,15 +50,17 @@
     "chaos": 1,
     "destello": 1,
     "beast": 1,
-    "eclipse": 1
+    "eclipse": 1,
+    "black x": 1,
+    "panzer": 1
   },
   "victims_by_status": {
-    "claimed": 347
+    "claimed": 350
   },
   "victims_by_country": {
-    "Unknown": 347
+    "Unknown": 350
   },
   "victims_by_sector": {
-    "Unknown": 347
+    "Unknown": 350
   }
 }

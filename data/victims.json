@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T01:08:10.670763+00:00",
+  "last_updated": "2026-11-09T07:59:12.551070+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -5275,6 +5275,54 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-09T01:08:10.670583+00:00"
+    },
+    {
+      "id": "3ab8fd353856c690",
+      "group": "black x",
+      "victim": "Court Square Group",
+      "normalized_name": "court square group",
+      "date": "2026-11-09T02:24:51.983516Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-09T07:59:12.550838+00:00"
+    },
+    {
+      "id": "c15f8a58b431ec48",
+      "group": "n0n",
+      "victim": "Expedia Group, Inc.",
+      "normalized_name": "expedia group",
+      "date": "2026-11-09T03:21:13.005692Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-09T07:59:12.550866+00:00"
+    },
+    {
+      "id": "eddba851f0f3782d",
+      "group": "panzer",
+      "victim": "Grupa ABS",
+      "normalized_name": "grupa abs",
+      "date": "2026-11-09T03:21:15.273288Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-09T07:59:12.550893+00:00"
     }
   ]
 }
