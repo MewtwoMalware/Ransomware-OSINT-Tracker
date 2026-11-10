@@ -1,18 +1,18 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-10T01:46:38.097771+00:00
+**Last updated:** 2026-11-10T09:23:34.236946+00:00
 
 ## Overview
 
-- **Total unique victims:** 472
-- **Total recorded claims:** 472
+- **Total unique victims:** 474
+- **Total recorded claims:** 474
 - **Groups represented:** 53
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 118 |
+| 1 | n0n | 119 |
 | 2 | qilin | 38 |
 | 3 | the gentlemen | 28 |
 | 4 | soul | 25 |
@@ -28,8 +28,8 @@
 | 14 | rhysida | 9 |
 | 15 | metaencryptor | 9 |
 | 16 | payload | 8 |
-| 17 | whitearmor | 7 |
-| 18 | byod | 7 |
+| 17 | byod | 8 |
+| 18 | whitearmor | 7 |
 | 19 | lockbit5 | 6 |
 | 20 | global secret group | 5 |
 | 21 | pear | 5 |
@@ -70,19 +70,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 472 |
+| claimed | 474 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 472 |
+| Unknown | 474 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 472 |
+| Unknown | 474 |
 
 ---
 

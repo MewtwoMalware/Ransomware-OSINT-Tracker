@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T01:46:38.095432+00:00",
+  "last_updated": "2026-11-10T09:23:34.235864+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -7275,6 +7275,38 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-10T01:46:38.095142+00:00"
+    },
+    {
+      "id": "7b27f7446fd94edd",
+      "group": "n0n",
+      "victim": "Landmark Group",
+      "normalized_name": "landmark group",
+      "date": "2026-11-10T02:25:47.874687Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-10T09:23:34.235665+00:00"
+    },
+    {
+      "id": "46abef4550a23581",
+      "group": "byod",
+      "victim": "Twitter Account",
+      "normalized_name": "twitter account",
+      "date": "2026-11-10T03:25:52.484510Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-10T09:23:34.235686+00:00"
     }
   ]
 }

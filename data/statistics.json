@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-10T01:46:38.097771+00:00",
-  "total_unique_victims": 472,
-  "total_recorded_claims": 472,
+  "last_updated": "2026-11-10T09:23:34.236946+00:00",
+  "total_unique_victims": 474,
+  "total_recorded_claims": 474,
   "total_groups": 53,
   "victims_by_group": {
-    "n0n": 118,
+    "n0n": 119,
     "qilin": 38,
     "the gentlemen": 28,
     "soul": 25,
@@ -20,8 +20,8 @@
     "rhysida": 9,
     "metaencryptor": 9,
     "payload": 8,
+    "byod": 8,
     "whitearmor": 7,
-    "byod": 7,
     "lockbit5": 6,
     "global secret group": 5,
     "pear": 5,
@@ -59,12 +59,12 @@
     "iah647": 1
   },
   "victims_by_status": {
-    "claimed": 472
+    "claimed": 474
   },
   "victims_by_country": {
-    "Unknown": 472
+    "Unknown": 474
   },
   "victims_by_sector": {
-    "Unknown": 472
+    "Unknown": 474
   }
 }
