@@ -1,85 +1,88 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-09T18:41:19.777721+00:00
+**Last updated:** 2026-11-10T01:46:38.097771+00:00
 
 ## Overview
 
-- **Total unique victims:** 437
-- **Total recorded claims:** 437
-- **Groups represented:** 50
+- **Total unique victims:** 472
+- **Total recorded claims:** 472
+- **Groups represented:** 53
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 117 |
+| 1 | n0n | 118 |
 | 2 | qilin | 38 |
 | 3 | the gentlemen | 28 |
 | 4 | soul | 25 |
 | 5 | akira | 18 |
-| 6 | leakeddata | 15 |
-| 7 | brain cipher | 12 |
-| 8 | genesis | 11 |
-| 9 | interlock | 10 |
-| 10 | audit team | 10 |
-| 11 | safepay | 10 |
-| 12 | rhysida | 9 |
-| 13 | metaencryptor | 9 |
-| 14 | payload | 8 |
-| 15 | whitearmor | 7 |
-| 16 | byod | 7 |
-| 17 | lockbit5 | 6 |
-| 18 | pear | 5 |
-| 19 | ransomhouse | 5 |
-| 20 | deadlock | 5 |
-| 21 | everstake | 5 |
-| 22 | nightspire | 5 |
-| 23 | orova | 5 |
-| 24 | play | 5 |
-| 25 | krybit | 5 |
-| 26 | booba team | 4 |
-| 27 | dark project | 4 |
-| 28 | majinahanashi | 4 |
-| 29 | direwolf | 3 |
-| 30 | global secret group | 3 |
-| 31 | payoutsking | 3 |
-| 32 | shiba | 3 |
-| 33 | aurora | 3 |
-| 34 | emperador | 3 |
-| 35 | vexy | 3 |
-| 36 | hyflock | 3 |
-| 37 | cloak | 3 |
-| 38 | doommageddon | 2 |
-| 39 | leaknet | 2 |
-| 40 | redact | 2 |
-| 41 | anubis | 2 |
-| 42 | black x | 2 |
-| 43 | dragonforce | 1 |
-| 44 | wallstreet | 1 |
-| 45 | falcon | 1 |
-| 46 | chaos | 1 |
-| 47 | destello | 1 |
-| 48 | beast | 1 |
-| 49 | eclipse | 1 |
-| 50 | panzer | 1 |
+| 6 | leakeddata | 17 |
+| 7 | climax | 14 |
+| 8 | brain cipher | 12 |
+| 9 | genesis | 11 |
+| 10 | vortex | 11 |
+| 11 | interlock | 10 |
+| 12 | audit team | 10 |
+| 13 | safepay | 10 |
+| 14 | rhysida | 9 |
+| 15 | metaencryptor | 9 |
+| 16 | payload | 8 |
+| 17 | whitearmor | 7 |
+| 18 | byod | 7 |
+| 19 | lockbit5 | 6 |
+| 20 | global secret group | 5 |
+| 21 | pear | 5 |
+| 22 | ransomhouse | 5 |
+| 23 | deadlock | 5 |
+| 24 | everstake | 5 |
+| 25 | nightspire | 5 |
+| 26 | vexy | 5 |
+| 27 | orova | 5 |
+| 28 | play | 5 |
+| 29 | krybit | 5 |
+| 30 | booba team | 4 |
+| 31 | dark project | 4 |
+| 32 | majinahanashi | 4 |
+| 33 | direwolf | 3 |
+| 34 | payoutsking | 3 |
+| 35 | shiba | 3 |
+| 36 | aurora | 3 |
+| 37 | emperador | 3 |
+| 38 | hyflock | 3 |
+| 39 | cloak | 3 |
+| 40 | black x | 3 |
+| 41 | doommageddon | 2 |
+| 42 | leaknet | 2 |
+| 43 | redact | 2 |
+| 44 | eclipse | 2 |
+| 45 | anubis | 2 |
+| 46 | dragonforce | 1 |
+| 47 | wallstreet | 1 |
+| 48 | falcon | 1 |
+| 49 | chaos | 1 |
+| 50 | destello | 1 |
+| 51 | beast | 1 |
+| 52 | panzer | 1 |
+| 53 | iah647 | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 437 |
+| claimed | 472 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 437 |
+| Unknown | 472 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 437 |
+| Unknown | 472 |
 
 ---
 
