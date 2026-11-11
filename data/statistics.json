@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-11T02:06:07.374683+00:00",
-  "total_unique_victims": 559,
-  "total_recorded_claims": 559,
+  "last_updated": "2026-11-11T09:27:25.179774+00:00",
+  "total_unique_victims": 562,
+  "total_recorded_claims": 562,
   "total_groups": 58,
   "victims_by_group": {
     "n0n": 119,
-    "inc ransom": 46,
+    "inc ransom": 47,
     "qilin": 38,
     "the gentlemen": 28,
     "soul": 25,
@@ -27,6 +27,7 @@
     "aoqin leaks": 7,
     "lockbit5": 6,
     "orova": 6,
+    "dark project": 6,
     "krybit": 6,
     "obsoft": 6,
     "global secret group": 5,
@@ -38,7 +39,6 @@
     "vexy": 5,
     "play": 5,
     "pixelleaks": 5,
-    "dark project": 4,
     "majinahanashi": 4,
     "direwolf": 3,
     "payoutsking": 3,
@@ -64,12 +64,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 559
+    "claimed": 562
   },
   "victims_by_country": {
-    "Unknown": 559
+    "Unknown": 562
   },
   "victims_by_sector": {
-    "Unknown": 559
+    "Unknown": 562
   }
 }

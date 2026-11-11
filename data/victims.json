@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T02:06:07.372760+00:00",
+  "last_updated": "2026-11-11T09:27:25.178149+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -8667,6 +8667,54 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-11T02:06:07.372565+00:00"
+    },
+    {
+      "id": "d7cd10252e76d601",
+      "group": "dark project",
+      "victim": "Bear Valley Community Hospital",
+      "normalized_name": "bear valley community hospital",
+      "date": "2026-11-11T02:07:58.105050Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-11T09:27:25.177744+00:00"
+    },
+    {
+      "id": "16ea7408a74de58a",
+      "group": "dark project",
+      "victim": "MTM&O Gold Refinery DMCC",
+      "normalized_name": "mtmo gold refinery dmcc",
+      "date": "2026-11-11T02:07:58.984019Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-11T09:27:25.177850+00:00"
+    },
+    {
+      "id": "c6304c06f6cea13c",
+      "group": "inc ransom",
+      "victim": "https://www.jnattorney.com/",
+      "normalized_name": "httpswwwjnattorneycom",
+      "date": "2026-11-11T02:08:01.782826Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-11T09:27:25.177898+00:00"
     }
   ]
 }
