@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-11-11T17:23:16.789938+00:00",
-  "total_unique_victims": 582,
-  "total_recorded_claims": 582,
-  "total_groups": 58,
+  "last_updated": "2026-11-11T23:37:32.761769+00:00",
+  "total_unique_victims": 597,
+  "total_recorded_claims": 597,
+  "total_groups": 59,
   "victims_by_group": {
     "n0n": 119,
-    "the gentlemen": 48,
+    "the gentlemen": 50,
     "inc ransom": 47,
     "qilin": 38,
     "soul": 25,
+    "akira": 21,
     "vortex": 20,
-    "akira": 18,
     "leakeddata": 17,
     "climax": 16,
     "brain cipher": 12,
@@ -21,10 +21,12 @@
     "booba team": 10,
     "metaencryptor": 10,
     "rhysida": 9,
+    "curious worm": 9,
     "payload": 8,
     "byod": 8,
     "whitearmor": 7,
     "aoqin leaks": 7,
+    "deadlock": 6,
     "lockbit5": 6,
     "orova": 6,
     "dark project": 6,
@@ -33,7 +35,6 @@
     "global secret group": 5,
     "pear": 5,
     "ransomhouse": 5,
-    "deadlock": 5,
     "everstake": 5,
     "nightspire": 5,
     "vexy": 5,
@@ -64,12 +65,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 582
+    "claimed": 597
   },
   "victims_by_country": {
-    "Unknown": 582
+    "Unknown": 597
   },
   "victims_by_sector": {
-    "Unknown": 582
+    "Unknown": 597
   }
 }
