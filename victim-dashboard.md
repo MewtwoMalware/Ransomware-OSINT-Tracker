@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-11T09:27:25.179774+00:00
+**Last updated:** 2026-11-11T17:23:16.789938+00:00
 
 ## Overview
 
-- **Total unique victims:** 562
-- **Total recorded claims:** 562
+- **Total unique victims:** 582
+- **Total recorded claims:** 582
 - **Groups represented:** 58
 
 ## Victims by Ransomware Group
@@ -13,9 +13,9 @@
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
 | 1 | n0n | 119 |
-| 2 | inc ransom | 47 |
-| 3 | qilin | 38 |
-| 4 | the gentlemen | 28 |
+| 2 | the gentlemen | 48 |
+| 3 | inc ransom | 47 |
+| 4 | qilin | 38 |
 | 5 | soul | 25 |
 | 6 | vortex | 20 |
 | 7 | akira | 18 |
@@ -75,19 +75,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 562 |
+| claimed | 582 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 562 |
+| Unknown | 582 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 562 |
+| Unknown | 582 |
 
 ---
 
