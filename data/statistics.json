@@ -1,10 +1,11 @@
 {
-  "last_updated": "2026-11-10T22:24:37.776904+00:00",
-  "total_unique_victims": 513,
-  "total_recorded_claims": 513,
-  "total_groups": 57,
+  "last_updated": "2026-11-11T02:06:07.374683+00:00",
+  "total_unique_victims": 559,
+  "total_recorded_claims": 559,
+  "total_groups": 58,
   "victims_by_group": {
     "n0n": 119,
+    "inc ransom": 46,
     "qilin": 38,
     "the gentlemen": 28,
     "soul": 25,
@@ -63,12 +64,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 513
+    "claimed": 559
   },
   "victims_by_country": {
-    "Unknown": 513
+    "Unknown": 559
   },
   "victims_by_sector": {
-    "Unknown": 513
+    "Unknown": 559
   }
 }
