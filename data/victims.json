@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T01:43:19.220808+00:00",
+  "last_updated": "2026-11-13T08:47:50.827051+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -9275,6 +9275,22 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-11T23:37:32.759758+00:00"
+    },
+    {
+      "id": "ed07c80e35881d56",
+      "group": "krybit",
+      "victim": "cey-tech.com",
+      "normalized_name": "ceytechcom",
+      "date": "2026-11-13T07:21:09.400335Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-13T08:47:50.826843+00:00"
     }
   ]
 }

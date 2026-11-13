@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-13T01:43:19.222560+00:00",
-  "total_unique_victims": 597,
-  "total_recorded_claims": 597,
+  "last_updated": "2026-11-13T08:47:50.833678+00:00",
+  "total_unique_victims": 598,
+  "total_recorded_claims": 598,
   "total_groups": 59,
   "victims_by_group": {
     "n0n": 119,
@@ -25,12 +25,12 @@
     "payload": 8,
     "byod": 8,
     "whitearmor": 7,
+    "krybit": 7,
     "aoqin leaks": 7,
     "deadlock": 6,
     "lockbit5": 6,
     "orova": 6,
     "dark project": 6,
-    "krybit": 6,
     "obsoft": 6,
     "global secret group": 5,
     "pear": 5,
@@ -65,12 +65,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 597
+    "claimed": 598
   },
   "victims_by_country": {
-    "Unknown": 597
+    "Unknown": 598
   },
   "victims_by_sector": {
-    "Unknown": 597
+    "Unknown": 598
   }
 }

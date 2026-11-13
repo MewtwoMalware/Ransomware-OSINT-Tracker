@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-13T01:43:19.222560+00:00
+**Last updated:** 2026-11-13T08:47:50.833678+00:00
 
 ## Overview
 
-- **Total unique victims:** 597
-- **Total recorded claims:** 597
+- **Total unique victims:** 598
+- **Total recorded claims:** 598
 - **Groups represented:** 59
 
 ## Victims by Ransomware Group
@@ -33,12 +33,12 @@
 | 19 | payload | 8 |
 | 20 | byod | 8 |
 | 21 | whitearmor | 7 |
-| 22 | aoqin leaks | 7 |
-| 23 | deadlock | 6 |
-| 24 | lockbit5 | 6 |
-| 25 | orova | 6 |
-| 26 | dark project | 6 |
-| 27 | krybit | 6 |
+| 22 | krybit | 7 |
+| 23 | aoqin leaks | 7 |
+| 24 | deadlock | 6 |
+| 25 | lockbit5 | 6 |
+| 26 | orova | 6 |
+| 27 | dark project | 6 |
 | 28 | obsoft | 6 |
 | 29 | global secret group | 5 |
 | 30 | pear | 5 |
@@ -76,19 +76,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 597 |
+| claimed | 598 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 597 |
+| Unknown | 598 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 597 |
+| Unknown | 598 |
 
 ---
 
