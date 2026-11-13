@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-13T08:47:50.833678+00:00
+**Last updated:** 2026-11-13T16:58:57.822131+00:00
 
 ## Overview
 
-- **Total unique victims:** 598
-- **Total recorded claims:** 598
+- **Total unique victims:** 611
+- **Total recorded claims:** 611
 - **Groups represented:** 59
 
 ## Victims by Ransomware Group
@@ -19,35 +19,35 @@
 | 5 | soul | 25 |
 | 6 | akira | 21 |
 | 7 | vortex | 20 |
-| 8 | leakeddata | 17 |
-| 9 | climax | 16 |
-| 10 | brain cipher | 12 |
-| 11 | genesis | 11 |
-| 12 | interlock | 10 |
-| 13 | audit team | 10 |
-| 14 | safepay | 10 |
-| 15 | booba team | 10 |
-| 16 | metaencryptor | 10 |
-| 17 | rhysida | 9 |
-| 18 | curious worm | 9 |
-| 19 | payload | 8 |
-| 20 | byod | 8 |
-| 21 | whitearmor | 7 |
-| 22 | krybit | 7 |
-| 23 | aoqin leaks | 7 |
-| 24 | deadlock | 6 |
-| 25 | lockbit5 | 6 |
-| 26 | orova | 6 |
-| 27 | dark project | 6 |
-| 28 | obsoft | 6 |
-| 29 | global secret group | 5 |
-| 30 | pear | 5 |
-| 31 | ransomhouse | 5 |
-| 32 | everstake | 5 |
-| 33 | nightspire | 5 |
-| 34 | vexy | 5 |
-| 35 | play | 5 |
-| 36 | pixelleaks | 5 |
+| 8 | pixelleaks | 18 |
+| 9 | leakeddata | 17 |
+| 10 | climax | 16 |
+| 11 | brain cipher | 12 |
+| 12 | genesis | 11 |
+| 13 | interlock | 10 |
+| 14 | audit team | 10 |
+| 15 | safepay | 10 |
+| 16 | booba team | 10 |
+| 17 | metaencryptor | 10 |
+| 18 | rhysida | 9 |
+| 19 | curious worm | 9 |
+| 20 | payload | 8 |
+| 21 | byod | 8 |
+| 22 | whitearmor | 7 |
+| 23 | krybit | 7 |
+| 24 | aoqin leaks | 7 |
+| 25 | deadlock | 6 |
+| 26 | lockbit5 | 6 |
+| 27 | orova | 6 |
+| 28 | dark project | 6 |
+| 29 | obsoft | 6 |
+| 30 | global secret group | 5 |
+| 31 | pear | 5 |
+| 32 | ransomhouse | 5 |
+| 33 | everstake | 5 |
+| 34 | nightspire | 5 |
+| 35 | vexy | 5 |
+| 36 | play | 5 |
 | 37 | majinahanashi | 4 |
 | 38 | direwolf | 3 |
 | 39 | payoutsking | 3 |
@@ -76,19 +76,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 598 |
+| claimed | 611 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 598 |
+| Unknown | 611 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 598 |
+| Unknown | 611 |
 
 ---
 

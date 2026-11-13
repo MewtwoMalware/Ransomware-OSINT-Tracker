@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-13T08:47:50.833678+00:00",
-  "total_unique_victims": 598,
-  "total_recorded_claims": 598,
+  "last_updated": "2026-11-13T16:58:57.822131+00:00",
+  "total_unique_victims": 611,
+  "total_recorded_claims": 611,
   "total_groups": 59,
   "victims_by_group": {
     "n0n": 119,
@@ -11,6 +11,7 @@
     "soul": 25,
     "akira": 21,
     "vortex": 20,
+    "pixelleaks": 18,
     "leakeddata": 17,
     "climax": 16,
     "brain cipher": 12,
@@ -39,7 +40,6 @@
     "nightspire": 5,
     "vexy": 5,
     "play": 5,
-    "pixelleaks": 5,
     "majinahanashi": 4,
     "direwolf": 3,
     "payoutsking": 3,
@@ -65,12 +65,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 598
+    "claimed": 611
   },
   "victims_by_country": {
-    "Unknown": 598
+    "Unknown": 611
   },
   "victims_by_sector": {
-    "Unknown": 598
+    "Unknown": 611
   }
 }
