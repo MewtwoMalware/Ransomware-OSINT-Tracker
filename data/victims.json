@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T15:58:29.242478+00:00",
+  "last_updated": "2026-11-14T20:36:04.944808+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -10219,6 +10219,38 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-14T09:26:32.001315+00:00"
+    },
+    {
+      "id": "a7a0e822ef7af023",
+      "group": "safepay",
+      "victim": "toyokiki-thailand.com",
+      "normalized_name": "toyokikithailandcom",
+      "date": "2026-11-14T17:31:08.599011Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-14T20:36:04.944551+00:00"
+    },
+    {
+      "id": "f4d49a0080ef0ad9",
+      "group": "anubis",
+      "victim": "Home Instead",
+      "normalized_name": "home instead",
+      "date": "2026-11-14T20:21:20.651263Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-14T20:36:04.944586+00:00"
     }
   ]
 }

@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-14T15:58:29.245536+00:00
+**Last updated:** 2026-11-14T20:36:04.948422+00:00
 
 ## Overview
 
-- **Total unique victims:** 656
-- **Total recorded claims:** 656
+- **Total unique victims:** 658
+- **Total recorded claims:** 658
 - **Groups represented:** 61
 
 ## Victims by Ransomware Group
@@ -25,9 +25,9 @@
 | 11 | interlock | 12 |
 | 12 | brain cipher | 12 |
 | 13 | genesis | 11 |
-| 14 | play | 11 |
-| 15 | audit team | 10 |
-| 16 | safepay | 10 |
+| 14 | safepay | 11 |
+| 15 | play | 11 |
+| 16 | audit team | 10 |
 | 17 | booba team | 10 |
 | 18 | metaencryptor | 10 |
 | 19 | aoqin leaks | 10 |
@@ -52,12 +52,12 @@
 | 38 | emperador | 4 |
 | 39 | hyflock | 4 |
 | 40 | majinahanashi | 4 |
-| 41 | direwolf | 3 |
-| 42 | shiba | 3 |
-| 43 | doommageddon | 3 |
-| 44 | aurora | 3 |
-| 45 | cloak | 3 |
-| 46 | anubis | 3 |
+| 41 | anubis | 4 |
+| 42 | direwolf | 3 |
+| 43 | shiba | 3 |
+| 44 | doommageddon | 3 |
+| 45 | aurora | 3 |
+| 46 | cloak | 3 |
 | 47 | black x | 3 |
 | 48 | wallstreet | 2 |
 | 49 | leaknet | 2 |
@@ -78,19 +78,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 656 |
+| claimed | 658 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 656 |
+| Unknown | 658 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 656 |
+| Unknown | 658 |
 
 ---
 

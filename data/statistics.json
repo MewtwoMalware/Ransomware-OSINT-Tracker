@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-14T15:58:29.245536+00:00",
-  "total_unique_victims": 656,
-  "total_recorded_claims": 656,
+  "last_updated": "2026-11-14T20:36:04.948422+00:00",
+  "total_unique_victims": 658,
+  "total_recorded_claims": 658,
   "total_groups": 61,
   "victims_by_group": {
     "n0n": 128,
@@ -17,9 +17,9 @@
     "interlock": 12,
     "brain cipher": 12,
     "genesis": 11,
+    "safepay": 11,
     "play": 11,
     "audit team": 10,
-    "safepay": 10,
     "booba team": 10,
     "metaencryptor": 10,
     "aoqin leaks": 10,
@@ -44,12 +44,12 @@
     "emperador": 4,
     "hyflock": 4,
     "majinahanashi": 4,
+    "anubis": 4,
     "direwolf": 3,
     "shiba": 3,
     "doommageddon": 3,
     "aurora": 3,
     "cloak": 3,
-    "anubis": 3,
     "black x": 3,
     "wallstreet": 2,
     "leaknet": 2,
@@ -67,12 +67,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 656
+    "claimed": 658
   },
   "victims_by_country": {
-    "Unknown": 656
+    "Unknown": 658
   },
   "victims_by_sector": {
-    "Unknown": 656
+    "Unknown": 658
   }
 }
