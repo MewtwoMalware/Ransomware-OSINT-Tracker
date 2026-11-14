@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-11-14T02:39:04.851394+00:00",
-  "total_unique_victims": 648,
-  "total_recorded_claims": 648,
+  "last_updated": "2026-11-14T09:26:32.004926+00:00",
+  "total_unique_victims": 656,
+  "total_recorded_claims": 656,
   "total_groups": 61,
   "victims_by_group": {
     "n0n": 128,
     "the gentlemen": 51,
     "inc ransom": 49,
-    "qilin": 38,
+    "qilin": 43,
     "soul": 25,
-    "akira": 23,
+    "akira": 24,
     "vortex": 20,
     "pixelleaks": 19,
     "leakeddata": 18,
@@ -49,13 +49,14 @@
     "doommageddon": 3,
     "aurora": 3,
     "cloak": 3,
+    "anubis": 3,
     "black x": 3,
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
     "eclipse": 2,
-    "anubis": 2,
     "bravox": 2,
+    "everest": 2,
     "dragonforce": 1,
     "falcon": 1,
     "chaos": 1,
@@ -63,16 +64,15 @@
     "beast": 1,
     "panzer": 1,
     "iah647": 1,
-    "morpheus": 1,
-    "everest": 1
+    "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 648
+    "claimed": 656
   },
   "victims_by_country": {
-    "Unknown": 648
+    "Unknown": 656
   },
   "victims_by_sector": {
-    "Unknown": 648
+    "Unknown": 656
   }
 }

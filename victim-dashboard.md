@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-14T02:39:04.851394+00:00
+**Last updated:** 2026-11-14T09:26:32.004926+00:00
 
 ## Overview
 
-- **Total unique victims:** 648
-- **Total recorded claims:** 648
+- **Total unique victims:** 656
+- **Total recorded claims:** 656
 - **Groups represented:** 61
 
 ## Victims by Ransomware Group
@@ -15,9 +15,9 @@
 | 1 | n0n | 128 |
 | 2 | the gentlemen | 51 |
 | 3 | inc ransom | 49 |
-| 4 | qilin | 38 |
+| 4 | qilin | 43 |
 | 5 | soul | 25 |
-| 6 | akira | 23 |
+| 6 | akira | 24 |
 | 7 | vortex | 20 |
 | 8 | pixelleaks | 19 |
 | 9 | leakeddata | 18 |
@@ -57,40 +57,40 @@
 | 43 | doommageddon | 3 |
 | 44 | aurora | 3 |
 | 45 | cloak | 3 |
-| 46 | black x | 3 |
-| 47 | wallstreet | 2 |
-| 48 | leaknet | 2 |
-| 49 | redact | 2 |
-| 50 | eclipse | 2 |
-| 51 | anubis | 2 |
+| 46 | anubis | 3 |
+| 47 | black x | 3 |
+| 48 | wallstreet | 2 |
+| 49 | leaknet | 2 |
+| 50 | redact | 2 |
+| 51 | eclipse | 2 |
 | 52 | bravox | 2 |
-| 53 | dragonforce | 1 |
-| 54 | falcon | 1 |
-| 55 | chaos | 1 |
-| 56 | destello | 1 |
-| 57 | beast | 1 |
-| 58 | panzer | 1 |
-| 59 | iah647 | 1 |
-| 60 | morpheus | 1 |
-| 61 | everest | 1 |
+| 53 | everest | 2 |
+| 54 | dragonforce | 1 |
+| 55 | falcon | 1 |
+| 56 | chaos | 1 |
+| 57 | destello | 1 |
+| 58 | beast | 1 |
+| 59 | panzer | 1 |
+| 60 | iah647 | 1 |
+| 61 | morpheus | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 648 |
+| claimed | 656 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 648 |
+| Unknown | 656 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 648 |
+| Unknown | 656 |
 
 ---
 
