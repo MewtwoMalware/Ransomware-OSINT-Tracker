@@ -1,12 +1,12 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-13T22:29:14.469337+00:00
+**Last updated:** 2026-11-14T02:39:04.851394+00:00
 
 ## Overview
 
-- **Total unique victims:** 644
-- **Total recorded claims:** 644
-- **Groups represented:** 60
+- **Total unique victims:** 648
+- **Total recorded claims:** 648
+- **Groups represented:** 61
 
 ## Victims by Ransomware Group
 
@@ -19,8 +19,8 @@
 | 5 | soul | 25 |
 | 6 | akira | 23 |
 | 7 | vortex | 20 |
-| 8 | leakeddata | 18 |
-| 9 | pixelleaks | 18 |
+| 8 | pixelleaks | 19 |
+| 9 | leakeddata | 18 |
 | 10 | climax | 16 |
 | 11 | interlock | 12 |
 | 12 | brain cipher | 12 |
@@ -32,9 +32,9 @@
 | 18 | metaencryptor | 10 |
 | 19 | aoqin leaks | 10 |
 | 20 | rhysida | 9 |
-| 21 | curious worm | 9 |
-| 22 | payload | 8 |
-| 23 | byod | 8 |
+| 21 | byod | 9 |
+| 22 | curious worm | 9 |
+| 23 | payload | 8 |
 | 24 | whitearmor | 7 |
 | 25 | krybit | 7 |
 | 26 | deadlock | 6 |
@@ -48,11 +48,11 @@
 | 34 | ransomhouse | 5 |
 | 35 | nightspire | 5 |
 | 36 | vexy | 5 |
-| 37 | emperador | 4 |
-| 38 | hyflock | 4 |
-| 39 | majinahanashi | 4 |
-| 40 | direwolf | 3 |
-| 41 | payoutsking | 3 |
+| 37 | payoutsking | 4 |
+| 38 | emperador | 4 |
+| 39 | hyflock | 4 |
+| 40 | majinahanashi | 4 |
+| 41 | direwolf | 3 |
 | 42 | shiba | 3 |
 | 43 | doommageddon | 3 |
 | 44 | aurora | 3 |
@@ -72,24 +72,25 @@
 | 58 | panzer | 1 |
 | 59 | iah647 | 1 |
 | 60 | morpheus | 1 |
+| 61 | everest | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 644 |
+| claimed | 648 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 644 |
+| Unknown | 648 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 644 |
+| Unknown | 648 |
 
 ---
 

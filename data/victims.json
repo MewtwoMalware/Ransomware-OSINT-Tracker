@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T22:29:14.465779+00:00",
+  "last_updated": "2026-11-14T02:39:04.848211+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -10027,6 +10027,70 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-13T22:29:14.465570+00:00"
+    },
+    {
+      "id": "96439635ccf13653",
+      "group": "everest",
+      "victim": "Final Notice Before Publication",
+      "normalized_name": "final notice before publication",
+      "date": "2026-11-13T23:27:16.657033Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-14T02:39:04.847909+00:00"
+    },
+    {
+      "id": "727db39948121c2b",
+      "group": "byod",
+      "victim": "Toyota",
+      "normalized_name": "toyota",
+      "date": "2026-11-14T00:27:16.894196Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-14T02:39:04.847936+00:00"
+    },
+    {
+      "id": "30f5d46e171fafc4",
+      "group": "payoutsking",
+      "victim": "Washington Mills",
+      "normalized_name": "washington mills",
+      "date": "2026-11-14T02:27:11.183700Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-14T02:39:04.847961+00:00"
+    },
+    {
+      "id": "5421dfdd1dd47168",
+      "group": "pixelleaks",
+      "victim": "Huangshi Medical Laboratory (黄石医养医学检验) / Ezong Medical Group x Getein JV",
+      "normalized_name": "huangshi medical laboratory 黄石医养医学检验 ezong medical group x getein jv",
+      "date": "2026-11-14T02:27:12.232006Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-14T02:39:04.847996+00:00"
     }
   ]
 }
