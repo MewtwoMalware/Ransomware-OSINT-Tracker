@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T14:40:26.878909+00:00",
+  "last_updated": "2026-11-15T19:58:04.088888+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -10347,6 +10347,22 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-15T14:40:26.878730+00:00"
+    },
+    {
+      "id": "7c6f274a48d40230",
+      "group": "inc ransom",
+      "victim": "Sarimelati Kencana Tbk PT",
+      "normalized_name": "sarimelati kencana tbk pt",
+      "date": "2026-11-15T16:27:09.956342Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-15T19:58:04.088659+00:00"
     }
   ]
 }
