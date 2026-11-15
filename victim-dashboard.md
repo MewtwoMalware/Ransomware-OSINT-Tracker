@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-15T00:20:20.442437+00:00
+**Last updated:** 2026-11-15T06:58:51.924399+00:00
 
 ## Overview
 
-- **Total unique victims:** 661
-- **Total recorded claims:** 661
+- **Total unique victims:** 663
+- **Total recorded claims:** 663
 - **Groups represented:** 62
 
 ## Victims by Ransomware Group
@@ -19,7 +19,7 @@
 | 5 | soul | 25 |
 | 6 | akira | 24 |
 | 7 | vortex | 20 |
-| 8 | pixelleaks | 19 |
+| 8 | pixelleaks | 20 |
 | 9 | leakeddata | 18 |
 | 10 | climax | 16 |
 | 11 | interlock | 12 |
@@ -36,10 +36,10 @@
 | 22 | curious worm | 9 |
 | 23 | payload | 8 |
 | 24 | whitearmor | 7 |
-| 25 | krybit | 7 |
-| 26 | deadlock | 6 |
-| 27 | everstake | 6 |
-| 28 | lockbit5 | 6 |
+| 25 | lockbit5 | 7 |
+| 26 | krybit | 7 |
+| 27 | deadlock | 6 |
+| 28 | everstake | 6 |
 | 29 | orova | 6 |
 | 30 | dark project | 6 |
 | 31 | obsoft | 6 |
@@ -79,19 +79,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 661 |
+| claimed | 663 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 661 |
+| Unknown | 663 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 661 |
+| Unknown | 663 |
 
 ---
 

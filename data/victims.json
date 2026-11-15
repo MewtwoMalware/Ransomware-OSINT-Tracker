@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T00:20:20.383318+00:00",
+  "last_updated": "2026-11-15T06:58:51.921509+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -10299,6 +10299,38 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-15T00:20:20.383115+00:00"
+    },
+    {
+      "id": "b27afb071f79b6a0",
+      "group": "lockbit5",
+      "victim": "pah.com.my",
+      "normalized_name": "pahcommy",
+      "date": "2026-11-15T01:22:00.964982Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-15T06:58:51.921304+00:00"
+    },
+    {
+      "id": "f7a609daab92fa24",
+      "group": "pixelleaks",
+      "victim": "PT. Fiber Networks Indonesia (AltosDLP surveillance platform, fiber.net.id)",
+      "normalized_name": "pt fiber networks indonesia altosdlp surveillance platform fibernetid",
+      "date": "2026-11-15T03:23:52.506582Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-15T06:58:51.921332+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-15T00:20:20.442437+00:00",
-  "total_unique_victims": 661,
-  "total_recorded_claims": 661,
+  "last_updated": "2026-11-15T06:58:51.924399+00:00",
+  "total_unique_victims": 663,
+  "total_recorded_claims": 663,
   "total_groups": 62,
   "victims_by_group": {
     "n0n": 128,
@@ -11,7 +11,7 @@
     "soul": 25,
     "akira": 24,
     "vortex": 20,
-    "pixelleaks": 19,
+    "pixelleaks": 20,
     "leakeddata": 18,
     "climax": 16,
     "interlock": 12,
@@ -28,10 +28,10 @@
     "curious worm": 9,
     "payload": 8,
     "whitearmor": 7,
+    "lockbit5": 7,
     "krybit": 7,
     "deadlock": 6,
     "everstake": 6,
-    "lockbit5": 6,
     "orova": 6,
     "dark project": 6,
     "obsoft": 6,
@@ -68,12 +68,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 661
+    "claimed": 663
   },
   "victims_by_country": {
-    "Unknown": 661
+    "Unknown": 663
   },
   "victims_by_sector": {
-    "Unknown": 661
+    "Unknown": 663
   }
 }
