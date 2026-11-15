@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T20:36:04.944808+00:00",
+  "last_updated": "2026-11-15T00:20:20.383318+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -10251,6 +10251,54 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-14T20:36:04.944586+00:00"
+    },
+    {
+      "id": "2fa697c423715055",
+      "group": "endzone",
+      "victim": "Absolute Bail Bonds",
+      "normalized_name": "absolute bail bonds",
+      "date": "2026-11-14T21:24:30.566778Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-15T00:20:20.383066+00:00"
+    },
+    {
+      "id": "1323957d40599ec4",
+      "group": "endzone",
+      "victim": "Momentum Telecom",
+      "normalized_name": "momentum telecom",
+      "date": "2026-11-14T21:24:31.547221Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-15T00:20:20.383090+00:00"
+    },
+    {
+      "id": "0c74b582cf753bf8",
+      "group": "metaencryptor",
+      "victim": "Promantra, Inc.",
+      "normalized_name": "promantra",
+      "date": "2026-11-14T23:26:08.067634Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-15T00:20:20.383115+00:00"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-14T20:36:04.948422+00:00",
-  "total_unique_victims": 658,
-  "total_recorded_claims": 658,
-  "total_groups": 61,
+  "last_updated": "2026-11-15T00:20:20.442437+00:00",
+  "total_unique_victims": 661,
+  "total_recorded_claims": 661,
+  "total_groups": 62,
   "victims_by_group": {
     "n0n": 128,
     "the gentlemen": 51,
@@ -19,9 +19,9 @@
     "genesis": 11,
     "safepay": 11,
     "play": 11,
+    "metaencryptor": 11,
     "audit team": 10,
     "booba team": 10,
-    "metaencryptor": 10,
     "aoqin leaks": 10,
     "rhysida": 9,
     "byod": 9,
@@ -57,6 +57,7 @@
     "eclipse": 2,
     "bravox": 2,
     "everest": 2,
+    "endzone": 2,
     "dragonforce": 1,
     "falcon": 1,
     "chaos": 1,
@@ -67,12 +68,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 658
+    "claimed": 661
   },
   "victims_by_country": {
-    "Unknown": 658
+    "Unknown": 661
   },
   "victims_by_sector": {
-    "Unknown": 658
+    "Unknown": 661
   }
 }

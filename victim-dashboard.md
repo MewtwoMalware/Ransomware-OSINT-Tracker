@@ -1,12 +1,12 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-14T20:36:04.948422+00:00
+**Last updated:** 2026-11-15T00:20:20.442437+00:00
 
 ## Overview
 
-- **Total unique victims:** 658
-- **Total recorded claims:** 658
-- **Groups represented:** 61
+- **Total unique victims:** 661
+- **Total recorded claims:** 661
+- **Groups represented:** 62
 
 ## Victims by Ransomware Group
 
@@ -27,9 +27,9 @@
 | 13 | genesis | 11 |
 | 14 | safepay | 11 |
 | 15 | play | 11 |
-| 16 | audit team | 10 |
-| 17 | booba team | 10 |
-| 18 | metaencryptor | 10 |
+| 16 | metaencryptor | 11 |
+| 17 | audit team | 10 |
+| 18 | booba team | 10 |
 | 19 | aoqin leaks | 10 |
 | 20 | rhysida | 9 |
 | 21 | byod | 9 |
@@ -65,32 +65,33 @@
 | 51 | eclipse | 2 |
 | 52 | bravox | 2 |
 | 53 | everest | 2 |
-| 54 | dragonforce | 1 |
-| 55 | falcon | 1 |
-| 56 | chaos | 1 |
-| 57 | destello | 1 |
-| 58 | beast | 1 |
-| 59 | panzer | 1 |
-| 60 | iah647 | 1 |
-| 61 | morpheus | 1 |
+| 54 | endzone | 2 |
+| 55 | dragonforce | 1 |
+| 56 | falcon | 1 |
+| 57 | chaos | 1 |
+| 58 | destello | 1 |
+| 59 | beast | 1 |
+| 60 | panzer | 1 |
+| 61 | iah647 | 1 |
+| 62 | morpheus | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 658 |
+| claimed | 661 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 658 |
+| Unknown | 661 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 658 |
+| Unknown | 661 |
 
 ---
 
