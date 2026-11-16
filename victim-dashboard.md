@@ -1,60 +1,60 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-16T13:54:44.425081+00:00
+**Last updated:** 2026-11-16T23:14:28.844926+00:00
 
 ## Overview
 
-- **Total unique victims:** 687
-- **Total recorded claims:** 687
-- **Groups represented:** 62
+- **Total unique victims:** 800
+- **Total recorded claims:** 800
+- **Groups represented:** 63
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 138 |
-| 2 | the gentlemen | 51 |
-| 3 | qilin | 50 |
-| 4 | inc ransom | 50 |
-| 5 | soul | 25 |
-| 6 | akira | 24 |
-| 7 | vortex | 22 |
-| 8 | pixelleaks | 20 |
+| 1 | n0n | 197 |
+| 2 | the gentlemen | 68 |
+| 3 | qilin | 64 |
+| 4 | inc ransom | 51 |
+| 5 | soul | 26 |
+| 6 | akira | 25 |
+| 7 | vortex | 23 |
+| 8 | pixelleaks | 23 |
 | 9 | leakeddata | 18 |
 | 10 | climax | 16 |
 | 11 | metaencryptor | 15 |
 | 12 | interlock | 12 |
 | 13 | brain cipher | 12 |
-| 14 | genesis | 11 |
-| 15 | safepay | 11 |
-| 16 | play | 11 |
-| 17 | audit team | 10 |
-| 18 | booba team | 10 |
-| 19 | aoqin leaks | 10 |
-| 20 | rhysida | 9 |
-| 21 | byod | 9 |
+| 14 | play | 12 |
+| 15 | rhysida | 11 |
+| 16 | genesis | 11 |
+| 17 | byod | 11 |
+| 18 | safepay | 11 |
+| 19 | aoqin leaks | 11 |
+| 20 | audit team | 10 |
+| 21 | booba team | 10 |
 | 22 | curious worm | 9 |
 | 23 | payload | 8 |
-| 24 | whitearmor | 7 |
-| 25 | lockbit5 | 7 |
-| 26 | krybit | 7 |
-| 27 | deadlock | 6 |
-| 28 | everstake | 6 |
-| 29 | orova | 6 |
-| 30 | dark project | 6 |
-| 31 | obsoft | 6 |
-| 32 | global secret group | 5 |
-| 33 | pear | 5 |
-| 34 | ransomhouse | 5 |
-| 35 | nightspire | 5 |
-| 36 | vexy | 5 |
+| 24 | vexy | 8 |
+| 25 | global secret group | 7 |
+| 26 | whitearmor | 7 |
+| 27 | ransomhouse | 7 |
+| 28 | deadlock | 7 |
+| 29 | lockbit5 | 7 |
+| 30 | krybit | 7 |
+| 31 | everstake | 6 |
+| 32 | orova | 6 |
+| 33 | dark project | 6 |
+| 34 | obsoft | 6 |
+| 35 | pear | 5 |
+| 36 | nightspire | 5 |
 | 37 | payoutsking | 4 |
-| 38 | emperador | 4 |
-| 39 | hyflock | 4 |
-| 40 | majinahanashi | 4 |
-| 41 | anubis | 4 |
-| 42 | direwolf | 3 |
-| 43 | shiba | 3 |
+| 38 | shiba | 4 |
+| 39 | emperador | 4 |
+| 40 | hyflock | 4 |
+| 41 | majinahanashi | 4 |
+| 42 | anubis | 4 |
+| 43 | direwolf | 3 |
 | 44 | doommageddon | 3 |
 | 45 | aurora | 3 |
 | 46 | cloak | 3 |
@@ -74,24 +74,25 @@
 | 60 | panzer | 1 |
 | 61 | iah647 | 1 |
 | 62 | morpheus | 1 |
+| 63 | daixin | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 687 |
+| claimed | 800 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 687 |
+| Unknown | 800 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 687 |
+| Unknown | 800 |
 
 ---
 
