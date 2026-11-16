@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-16T05:15:17.664842+00:00",
-  "total_unique_victims": 681,
-  "total_recorded_claims": 681,
+  "last_updated": "2026-11-16T13:54:44.425081+00:00",
+  "total_unique_victims": 687,
+  "total_recorded_claims": 687,
   "total_groups": 62,
   "victims_by_group": {
     "n0n": 138,
@@ -10,16 +10,16 @@
     "inc ransom": 50,
     "soul": 25,
     "akira": 24,
-    "vortex": 20,
+    "vortex": 22,
     "pixelleaks": 20,
     "leakeddata": 18,
     "climax": 16,
+    "metaencryptor": 15,
     "interlock": 12,
     "brain cipher": 12,
     "genesis": 11,
     "safepay": 11,
     "play": 11,
-    "metaencryptor": 11,
     "audit team": 10,
     "booba team": 10,
     "aoqin leaks": 10,
@@ -68,12 +68,12 @@
     "morpheus": 1
   },
   "victims_by_status": {
-    "claimed": 681
+    "claimed": 687
   },
   "victims_by_country": {
-    "Unknown": 681
+    "Unknown": 687
   },
   "victims_by_sector": {
-    "Unknown": 681
+    "Unknown": 687
   }
 }

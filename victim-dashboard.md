@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-16T05:15:17.664842+00:00
+**Last updated:** 2026-11-16T13:54:44.425081+00:00
 
 ## Overview
 
-- **Total unique victims:** 681
-- **Total recorded claims:** 681
+- **Total unique victims:** 687
+- **Total recorded claims:** 687
 - **Groups represented:** 62
 
 ## Victims by Ransomware Group
@@ -18,16 +18,16 @@
 | 4 | inc ransom | 50 |
 | 5 | soul | 25 |
 | 6 | akira | 24 |
-| 7 | vortex | 20 |
+| 7 | vortex | 22 |
 | 8 | pixelleaks | 20 |
 | 9 | leakeddata | 18 |
 | 10 | climax | 16 |
-| 11 | interlock | 12 |
-| 12 | brain cipher | 12 |
-| 13 | genesis | 11 |
-| 14 | safepay | 11 |
-| 15 | play | 11 |
-| 16 | metaencryptor | 11 |
+| 11 | metaencryptor | 15 |
+| 12 | interlock | 12 |
+| 13 | brain cipher | 12 |
+| 14 | genesis | 11 |
+| 15 | safepay | 11 |
+| 16 | play | 11 |
 | 17 | audit team | 10 |
 | 18 | booba team | 10 |
 | 19 | aoqin leaks | 10 |
@@ -79,19 +79,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 681 |
+| claimed | 687 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 681 |
+| Unknown | 687 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 681 |
+| Unknown | 687 |
 
 ---
 
