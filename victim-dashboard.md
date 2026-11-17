@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-17T05:07:17.237119+00:00
+**Last updated:** 2026-11-17T14:25:21.940357+00:00
 
 ## Overview
 
-- **Total unique victims:** 816
-- **Total recorded claims:** 816
+- **Total unique victims:** 822
+- **Total recorded claims:** 822
 - **Groups represented:** 63
 
 ## Victims by Ransomware Group
@@ -17,17 +17,17 @@
 | 3 | qilin | 64 |
 | 4 | inc ransom | 53 |
 | 5 | vortex | 29 |
-| 6 | soul | 26 |
-| 7 | akira | 25 |
+| 6 | akira | 26 |
+| 7 | soul | 26 |
 | 8 | pixelleaks | 23 |
 | 9 | leakeddata | 18 |
 | 10 | climax | 18 |
 | 11 | metaencryptor | 15 |
 | 12 | interlock | 12 |
-| 13 | brain cipher | 12 |
-| 14 | play | 12 |
-| 15 | aoqin leaks | 12 |
-| 16 | rhysida | 11 |
+| 13 | rhysida | 12 |
+| 14 | brain cipher | 12 |
+| 15 | play | 12 |
+| 16 | aoqin leaks | 12 |
 | 17 | genesis | 11 |
 | 18 | byod | 11 |
 | 19 | safepay | 11 |
@@ -51,25 +51,25 @@
 | 37 | panzer | 5 |
 | 38 | payoutsking | 4 |
 | 39 | shiba | 4 |
-| 40 | emperador | 4 |
-| 41 | hyflock | 4 |
-| 42 | majinahanashi | 4 |
-| 43 | anubis | 4 |
-| 44 | direwolf | 3 |
-| 45 | doommageddon | 3 |
-| 46 | aurora | 3 |
-| 47 | cloak | 3 |
-| 48 | black x | 3 |
-| 49 | wallstreet | 2 |
-| 50 | leaknet | 2 |
-| 51 | redact | 2 |
-| 52 | eclipse | 2 |
-| 53 | bravox | 2 |
-| 54 | everest | 2 |
-| 55 | endzone | 2 |
-| 56 | dragonforce | 1 |
-| 57 | falcon | 1 |
-| 58 | chaos | 1 |
+| 40 | aurora | 4 |
+| 41 | emperador | 4 |
+| 42 | hyflock | 4 |
+| 43 | majinahanashi | 4 |
+| 44 | anubis | 4 |
+| 45 | black x | 4 |
+| 46 | direwolf | 3 |
+| 47 | doommageddon | 3 |
+| 48 | chaos | 3 |
+| 49 | cloak | 3 |
+| 50 | wallstreet | 2 |
+| 51 | leaknet | 2 |
+| 52 | redact | 2 |
+| 53 | eclipse | 2 |
+| 54 | bravox | 2 |
+| 55 | everest | 2 |
+| 56 | endzone | 2 |
+| 57 | dragonforce | 1 |
+| 58 | falcon | 1 |
 | 59 | destello | 1 |
 | 60 | beast | 1 |
 | 61 | iah647 | 1 |
@@ -80,19 +80,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 816 |
+| claimed | 822 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 816 |
+| Unknown | 822 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 816 |
+| Unknown | 822 |
 
 ---
 

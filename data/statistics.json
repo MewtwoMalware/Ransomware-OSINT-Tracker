@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-17T05:07:17.237119+00:00",
-  "total_unique_victims": 816,
-  "total_recorded_claims": 816,
+  "last_updated": "2026-11-17T14:25:21.940357+00:00",
+  "total_unique_victims": 822,
+  "total_recorded_claims": 822,
   "total_groups": 63,
   "victims_by_group": {
     "n0n": 197,
@@ -9,17 +9,17 @@
     "qilin": 64,
     "inc ransom": 53,
     "vortex": 29,
+    "akira": 26,
     "soul": 26,
-    "akira": 25,
     "pixelleaks": 23,
     "leakeddata": 18,
     "climax": 18,
     "metaencryptor": 15,
     "interlock": 12,
+    "rhysida": 12,
     "brain cipher": 12,
     "play": 12,
     "aoqin leaks": 12,
-    "rhysida": 11,
     "genesis": 11,
     "byod": 11,
     "safepay": 11,
@@ -43,15 +43,16 @@
     "panzer": 5,
     "payoutsking": 4,
     "shiba": 4,
+    "aurora": 4,
     "emperador": 4,
     "hyflock": 4,
     "majinahanashi": 4,
     "anubis": 4,
+    "black x": 4,
     "direwolf": 3,
     "doommageddon": 3,
-    "aurora": 3,
+    "chaos": 3,
     "cloak": 3,
-    "black x": 3,
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
@@ -61,7 +62,6 @@
     "endzone": 2,
     "dragonforce": 1,
     "falcon": 1,
-    "chaos": 1,
     "destello": 1,
     "beast": 1,
     "iah647": 1,
@@ -69,12 +69,12 @@
     "daixin": 1
   },
   "victims_by_status": {
-    "claimed": 816
+    "claimed": 822
   },
   "victims_by_country": {
-    "Unknown": 816
+    "Unknown": 822
   },
   "victims_by_sector": {
-    "Unknown": 816
+    "Unknown": 822
   }
 }
