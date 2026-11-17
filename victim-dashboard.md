@@ -1,19 +1,19 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-17T14:25:21.940357+00:00
+**Last updated:** 2026-11-17T22:34:19.017989+00:00
 
 ## Overview
 
-- **Total unique victims:** 822
-- **Total recorded claims:** 822
-- **Groups represented:** 63
+- **Total unique victims:** 849
+- **Total recorded claims:** 849
+- **Groups represented:** 64
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
 | 1 | n0n | 197 |
-| 2 | the gentlemen | 69 |
+| 2 | the gentlemen | 70 |
 | 3 | qilin | 64 |
 | 4 | inc ransom | 53 |
 | 5 | vortex | 29 |
@@ -22,18 +22,18 @@
 | 8 | pixelleaks | 23 |
 | 9 | leakeddata | 18 |
 | 10 | climax | 18 |
-| 11 | metaencryptor | 15 |
-| 12 | interlock | 12 |
-| 13 | rhysida | 12 |
-| 14 | brain cipher | 12 |
-| 15 | play | 12 |
-| 16 | aoqin leaks | 12 |
-| 17 | genesis | 11 |
-| 18 | byod | 11 |
-| 19 | safepay | 11 |
-| 20 | audit team | 10 |
-| 21 | booba team | 10 |
-| 22 | curious worm | 9 |
+| 11 | booba team | 16 |
+| 12 | brain cipher | 16 |
+| 13 | metaencryptor | 15 |
+| 14 | curious worm | 15 |
+| 15 | aoqin leaks | 14 |
+| 16 | rhysida | 13 |
+| 17 | interlock | 12 |
+| 18 | play | 12 |
+| 19 | genesis | 11 |
+| 20 | byod | 11 |
+| 21 | safepay | 11 |
+| 22 | audit team | 10 |
 | 23 | payload | 8 |
 | 24 | vexy | 8 |
 | 25 | global secret group | 7 |
@@ -49,50 +49,51 @@
 | 35 | pear | 5 |
 | 36 | nightspire | 5 |
 | 37 | panzer | 5 |
-| 38 | payoutsking | 4 |
-| 39 | shiba | 4 |
-| 40 | aurora | 4 |
-| 41 | emperador | 4 |
-| 42 | hyflock | 4 |
-| 43 | majinahanashi | 4 |
-| 44 | anubis | 4 |
-| 45 | black x | 4 |
-| 46 | direwolf | 3 |
-| 47 | doommageddon | 3 |
-| 48 | chaos | 3 |
-| 49 | cloak | 3 |
-| 50 | wallstreet | 2 |
-| 51 | leaknet | 2 |
-| 52 | redact | 2 |
-| 53 | eclipse | 2 |
-| 54 | bravox | 2 |
-| 55 | everest | 2 |
-| 56 | endzone | 2 |
-| 57 | dragonforce | 1 |
-| 58 | falcon | 1 |
-| 59 | destello | 1 |
-| 60 | beast | 1 |
-| 61 | iah647 | 1 |
-| 62 | morpheus | 1 |
-| 63 | daixin | 1 |
+| 38 | inception | 5 |
+| 39 | payoutsking | 4 |
+| 40 | shiba | 4 |
+| 41 | aurora | 4 |
+| 42 | emperador | 4 |
+| 43 | hyflock | 4 |
+| 44 | majinahanashi | 4 |
+| 45 | anubis | 4 |
+| 46 | black x | 4 |
+| 47 | endzone | 4 |
+| 48 | direwolf | 3 |
+| 49 | doommageddon | 3 |
+| 50 | chaos | 3 |
+| 51 | cloak | 3 |
+| 52 | wallstreet | 2 |
+| 53 | leaknet | 2 |
+| 54 | redact | 2 |
+| 55 | eclipse | 2 |
+| 56 | bravox | 2 |
+| 57 | everest | 2 |
+| 58 | dragonforce | 1 |
+| 59 | falcon | 1 |
+| 60 | destello | 1 |
+| 61 | beast | 1 |
+| 62 | iah647 | 1 |
+| 63 | morpheus | 1 |
+| 64 | daixin | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 822 |
+| claimed | 849 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 822 |
+| Unknown | 849 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 822 |
+| Unknown | 849 |
 
 ---
 
