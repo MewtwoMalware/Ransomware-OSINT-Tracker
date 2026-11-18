@@ -1,49 +1,49 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-18T12:43:21.782089+00:00
+**Last updated:** 2026-11-18T20:55:39.299685+00:00
 
 ## Overview
 
-- **Total unique victims:** 866
-- **Total recorded claims:** 866
+- **Total unique victims:** 887
+- **Total recorded claims:** 887
 - **Groups represented:** 64
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 199 |
-| 2 | the gentlemen | 71 |
-| 3 | qilin | 65 |
+| 1 | n0n | 201 |
+| 2 | the gentlemen | 72 |
+| 3 | qilin | 66 |
 | 4 | inc ransom | 53 |
 | 5 | vortex | 30 |
-| 6 | pixelleaks | 29 |
-| 7 | akira | 26 |
+| 6 | pixelleaks | 30 |
+| 7 | akira | 29 |
 | 8 | soul | 26 |
-| 9 | leakeddata | 18 |
+| 9 | leakeddata | 20 |
 | 10 | climax | 18 |
 | 11 | booba team | 16 |
 | 12 | brain cipher | 16 |
-| 13 | metaencryptor | 15 |
-| 14 | aoqin leaks | 15 |
-| 15 | curious worm | 15 |
-| 16 | rhysida | 14 |
+| 13 | curious worm | 16 |
+| 14 | rhysida | 15 |
+| 15 | metaencryptor | 15 |
+| 16 | aoqin leaks | 15 |
 | 17 | interlock | 12 |
-| 18 | play | 12 |
-| 19 | genesis | 11 |
-| 20 | byod | 11 |
-| 21 | safepay | 11 |
-| 22 | audit team | 10 |
-| 23 | payload | 9 |
-| 24 | vexy | 8 |
-| 25 | global secret group | 7 |
-| 26 | whitearmor | 7 |
-| 27 | ransomhouse | 7 |
-| 28 | deadlock | 7 |
-| 29 | lockbit5 | 7 |
-| 30 | krybit | 7 |
-| 31 | everstake | 6 |
-| 32 | hyflock | 6 |
+| 18 | lockbit5 | 12 |
+| 19 | play | 12 |
+| 20 | genesis | 11 |
+| 21 | byod | 11 |
+| 22 | safepay | 11 |
+| 23 | audit team | 10 |
+| 24 | payload | 9 |
+| 25 | whitearmor | 8 |
+| 26 | vexy | 8 |
+| 27 | hyflock | 8 |
+| 28 | krybit | 8 |
+| 29 | global secret group | 7 |
+| 30 | ransomhouse | 7 |
+| 31 | deadlock | 7 |
+| 32 | everstake | 6 |
 | 33 | orova | 6 |
 | 34 | dark project | 6 |
 | 35 | obsoft | 6 |
@@ -81,19 +81,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 866 |
+| claimed | 887 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 866 |
+| Unknown | 887 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 866 |
+| Unknown | 887 |
 
 ---
 
