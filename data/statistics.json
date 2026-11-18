@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-17T22:34:19.017989+00:00",
-  "total_unique_victims": 849,
-  "total_recorded_claims": 849,
+  "last_updated": "2026-11-18T03:53:06.019194+00:00",
+  "total_unique_victims": 855,
+  "total_recorded_claims": 855,
   "total_groups": 64,
   "victims_by_group": {
-    "n0n": 197,
+    "n0n": 199,
     "the gentlemen": 70,
-    "qilin": 64,
+    "qilin": 65,
     "inc ransom": 53,
-    "vortex": 29,
+    "vortex": 30,
     "akira": 26,
     "soul": 26,
-    "pixelleaks": 23,
+    "pixelleaks": 25,
     "leakeddata": 18,
     "climax": 18,
     "booba team": 16,
@@ -70,12 +70,12 @@
     "daixin": 1
   },
   "victims_by_status": {
-    "claimed": 849
+    "claimed": 855
   },
   "victims_by_country": {
-    "Unknown": 849
+    "Unknown": 855
   },
   "victims_by_sector": {
-    "Unknown": 849
+    "Unknown": 855
   }
 }
