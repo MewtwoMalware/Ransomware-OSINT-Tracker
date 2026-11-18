@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-18T03:53:06.019194+00:00
+**Last updated:** 2026-11-18T12:43:21.782089+00:00
 
 ## Overview
 
-- **Total unique victims:** 855
-- **Total recorded claims:** 855
+- **Total unique victims:** 866
+- **Total recorded claims:** 866
 - **Groups represented:** 64
 
 ## Victims by Ransomware Group
@@ -13,28 +13,28 @@
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
 | 1 | n0n | 199 |
-| 2 | the gentlemen | 70 |
+| 2 | the gentlemen | 71 |
 | 3 | qilin | 65 |
 | 4 | inc ransom | 53 |
 | 5 | vortex | 30 |
-| 6 | akira | 26 |
-| 7 | soul | 26 |
-| 8 | pixelleaks | 25 |
+| 6 | pixelleaks | 29 |
+| 7 | akira | 26 |
+| 8 | soul | 26 |
 | 9 | leakeddata | 18 |
 | 10 | climax | 18 |
 | 11 | booba team | 16 |
 | 12 | brain cipher | 16 |
 | 13 | metaencryptor | 15 |
-| 14 | curious worm | 15 |
-| 15 | aoqin leaks | 14 |
-| 16 | rhysida | 13 |
+| 14 | aoqin leaks | 15 |
+| 15 | curious worm | 15 |
+| 16 | rhysida | 14 |
 | 17 | interlock | 12 |
 | 18 | play | 12 |
 | 19 | genesis | 11 |
 | 20 | byod | 11 |
 | 21 | safepay | 11 |
 | 22 | audit team | 10 |
-| 23 | payload | 8 |
+| 23 | payload | 9 |
 | 24 | vexy | 8 |
 | 25 | global secret group | 7 |
 | 26 | whitearmor | 7 |
@@ -43,18 +43,18 @@
 | 29 | lockbit5 | 7 |
 | 30 | krybit | 7 |
 | 31 | everstake | 6 |
-| 32 | orova | 6 |
-| 33 | dark project | 6 |
-| 34 | obsoft | 6 |
-| 35 | pear | 5 |
-| 36 | nightspire | 5 |
-| 37 | panzer | 5 |
-| 38 | inception | 5 |
-| 39 | payoutsking | 4 |
-| 40 | shiba | 4 |
-| 41 | aurora | 4 |
-| 42 | emperador | 4 |
-| 43 | hyflock | 4 |
+| 32 | hyflock | 6 |
+| 33 | orova | 6 |
+| 34 | dark project | 6 |
+| 35 | obsoft | 6 |
+| 36 | pear | 5 |
+| 37 | emperador | 5 |
+| 38 | nightspire | 5 |
+| 39 | panzer | 5 |
+| 40 | inception | 5 |
+| 41 | payoutsking | 4 |
+| 42 | shiba | 4 |
+| 43 | aurora | 4 |
 | 44 | majinahanashi | 4 |
 | 45 | anubis | 4 |
 | 46 | black x | 4 |
@@ -81,19 +81,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 855 |
+| claimed | 866 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 855 |
+| Unknown | 866 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 855 |
+| Unknown | 866 |
 
 ---
 
