@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-19T02:21:34.801043+00:00
+**Last updated:** 2026-11-19T10:38:13.060680+00:00
 
 ## Overview
 
-- **Total unique victims:** 923
-- **Total recorded claims:** 923
+- **Total unique victims:** 927
+- **Total recorded claims:** 927
 - **Groups represented:** 64
 
 ## Victims by Ransomware Group
@@ -19,13 +19,13 @@
 | 5 | vortex | 30 |
 | 6 | pixelleaks | 30 |
 | 7 | akira | 29 |
-| 8 | soul | 26 |
+| 8 | soul | 27 |
 | 9 | leakeddata | 21 |
 | 10 | climax | 18 |
-| 11 | booba team | 16 |
-| 12 | brain cipher | 16 |
-| 13 | curious worm | 16 |
-| 14 | rhysida | 15 |
+| 11 | rhysida | 16 |
+| 12 | booba team | 16 |
+| 13 | brain cipher | 16 |
+| 14 | curious worm | 16 |
 | 15 | metaencryptor | 15 |
 | 16 | aoqin leaks | 15 |
 | 17 | interlock | 12 |
@@ -34,8 +34,8 @@
 | 20 | genesis | 11 |
 | 21 | byod | 11 |
 | 22 | safepay | 11 |
-| 23 | audit team | 10 |
-| 24 | krybit | 10 |
+| 23 | krybit | 11 |
+| 24 | audit team | 10 |
 | 25 | payload | 9 |
 | 26 | whitearmor | 8 |
 | 27 | vexy | 8 |
@@ -57,12 +57,12 @@
 | 43 | shiba | 4 |
 | 44 | aurora | 4 |
 | 45 | majinahanashi | 4 |
-| 46 | anubis | 4 |
-| 47 | black x | 4 |
-| 48 | endzone | 4 |
-| 49 | doommageddon | 3 |
-| 50 | chaos | 3 |
-| 51 | cloak | 3 |
+| 46 | cloak | 4 |
+| 47 | anubis | 4 |
+| 48 | black x | 4 |
+| 49 | endzone | 4 |
+| 50 | doommageddon | 3 |
+| 51 | chaos | 3 |
 | 52 | wallstreet | 2 |
 | 53 | leaknet | 2 |
 | 54 | redact | 2 |
@@ -81,19 +81,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 923 |
+| claimed | 927 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 923 |
+| Unknown | 927 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 923 |
+| Unknown | 927 |
 
 ---
 

@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-19T02:21:34.801043+00:00",
-  "total_unique_victims": 923,
-  "total_recorded_claims": 923,
+  "last_updated": "2026-11-19T10:38:13.060680+00:00",
+  "total_unique_victims": 927,
+  "total_recorded_claims": 927,
   "total_groups": 64,
   "victims_by_group": {
     "n0n": 227,
@@ -11,13 +11,13 @@
     "vortex": 30,
     "pixelleaks": 30,
     "akira": 29,
-    "soul": 26,
+    "soul": 27,
     "leakeddata": 21,
     "climax": 18,
+    "rhysida": 16,
     "booba team": 16,
     "brain cipher": 16,
     "curious worm": 16,
-    "rhysida": 15,
     "metaencryptor": 15,
     "aoqin leaks": 15,
     "interlock": 12,
@@ -26,8 +26,8 @@
     "genesis": 11,
     "byod": 11,
     "safepay": 11,
+    "krybit": 11,
     "audit team": 10,
-    "krybit": 10,
     "payload": 9,
     "whitearmor": 8,
     "vexy": 8,
@@ -49,12 +49,12 @@
     "shiba": 4,
     "aurora": 4,
     "majinahanashi": 4,
+    "cloak": 4,
     "anubis": 4,
     "black x": 4,
     "endzone": 4,
     "doommageddon": 3,
     "chaos": 3,
-    "cloak": 3,
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
@@ -70,12 +70,12 @@
     "daixin": 1
   },
   "victims_by_status": {
-    "claimed": 923
+    "claimed": 927
   },
   "victims_by_country": {
-    "Unknown": 923
+    "Unknown": 927
   },
   "victims_by_sector": {
-    "Unknown": 923
+    "Unknown": 927
   }
 }

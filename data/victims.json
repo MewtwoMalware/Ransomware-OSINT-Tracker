@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T02:21:34.797270+00:00",
+  "last_updated": "2026-11-19T10:38:13.057056+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -14491,6 +14491,70 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-19T02:21:34.797096+00:00"
+    },
+    {
+      "id": "ee0e605de519037d",
+      "group": "krybit",
+      "victim": "www.sleepboxbymiracle.com",
+      "normalized_name": "wwwsleepboxbymiraclecom",
+      "date": "2026-11-19T04:16:41.479403Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-19T10:38:13.056759+00:00"
+    },
+    {
+      "id": "0d71e1d5f9dbc615",
+      "group": "rhysida",
+      "victim": "Smith & Green, Attorneys at Law PLLC",
+      "normalized_name": "smith green attorneys at law pllc",
+      "date": "2026-11-19T07:16:24.939042Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-19T10:38:13.056788+00:00"
+    },
+    {
+      "id": "9f96413848a14a60",
+      "group": "cloak",
+      "victim": "elementar.de",
+      "normalized_name": "elementarde",
+      "date": "2026-11-19T08:25:35.489356Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-19T10:38:13.056818+00:00"
+    },
+    {
+      "id": "6e8f9f378756fccb",
+      "group": "soul",
+      "victim": "Egyptian Steel Company",
+      "normalized_name": "egyptian steel",
+      "date": "2026-11-19T09:15:45.145365Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-19T10:38:13.056843+00:00"
     }
   ]
 }
