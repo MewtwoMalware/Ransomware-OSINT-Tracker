@@ -1,12 +1,12 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-19T10:38:13.060680+00:00
+**Last updated:** 2026-11-19T19:10:28.662529+00:00
 
 ## Overview
 
-- **Total unique victims:** 927
-- **Total recorded claims:** 927
-- **Groups represented:** 64
+- **Total unique victims:** 946
+- **Total recorded claims:** 946
+- **Groups represented:** 66
 
 ## Victims by Ransomware Group
 
@@ -15,14 +15,14 @@
 | 1 | n0n | 227 |
 | 2 | the gentlemen | 75 |
 | 3 | qilin | 66 |
-| 4 | inc ransom | 56 |
-| 5 | vortex | 30 |
+| 4 | inc ransom | 57 |
+| 5 | vortex | 38 |
 | 6 | pixelleaks | 30 |
 | 7 | akira | 29 |
 | 8 | soul | 27 |
 | 9 | leakeddata | 21 |
 | 10 | climax | 18 |
-| 11 | rhysida | 16 |
+| 11 | rhysida | 17 |
 | 12 | booba team | 16 |
 | 13 | brain cipher | 16 |
 | 14 | curious worm | 16 |
@@ -36,26 +36,26 @@
 | 22 | safepay | 11 |
 | 23 | krybit | 11 |
 | 24 | audit team | 10 |
-| 25 | payload | 9 |
-| 26 | whitearmor | 8 |
-| 27 | vexy | 8 |
-| 28 | hyflock | 8 |
-| 29 | global secret group | 7 |
-| 30 | ransomhouse | 7 |
-| 31 | deadlock | 7 |
-| 32 | everstake | 6 |
-| 33 | orova | 6 |
-| 34 | dark project | 6 |
-| 35 | obsoft | 6 |
-| 36 | pear | 5 |
-| 37 | emperador | 5 |
-| 38 | nightspire | 5 |
-| 39 | panzer | 5 |
-| 40 | inception | 5 |
-| 41 | direwolf | 4 |
-| 42 | payoutsking | 4 |
-| 43 | shiba | 4 |
-| 44 | aurora | 4 |
+| 25 | hyflock | 10 |
+| 26 | whitearmor | 9 |
+| 27 | payload | 9 |
+| 28 | ransomhouse | 8 |
+| 29 | vexy | 8 |
+| 30 | global secret group | 7 |
+| 31 | aurora | 7 |
+| 32 | deadlock | 7 |
+| 33 | everstake | 6 |
+| 34 | orova | 6 |
+| 35 | dark project | 6 |
+| 36 | obsoft | 6 |
+| 37 | pear | 5 |
+| 38 | emperador | 5 |
+| 39 | nightspire | 5 |
+| 40 | panzer | 5 |
+| 41 | inception | 5 |
+| 42 | direwolf | 4 |
+| 43 | payoutsking | 4 |
+| 44 | shiba | 4 |
 | 45 | majinahanashi | 4 |
 | 46 | cloak | 4 |
 | 47 | anubis | 4 |
@@ -76,24 +76,26 @@
 | 62 | iah647 | 1 |
 | 63 | morpheus | 1 |
 | 64 | daixin | 1 |
+| 65 | crypto24 | 1 |
+| 66 | fulcrumsec | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 927 |
+| claimed | 946 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 927 |
+| Unknown | 946 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 927 |
+| Unknown | 946 |
 
 ---
 
