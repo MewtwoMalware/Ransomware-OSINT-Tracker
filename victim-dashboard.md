@@ -1,26 +1,26 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-18T20:55:39.299685+00:00
+**Last updated:** 2026-11-19T02:21:34.801043+00:00
 
 ## Overview
 
-- **Total unique victims:** 887
-- **Total recorded claims:** 887
+- **Total unique victims:** 923
+- **Total recorded claims:** 923
 - **Groups represented:** 64
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 201 |
-| 2 | the gentlemen | 72 |
+| 1 | n0n | 227 |
+| 2 | the gentlemen | 75 |
 | 3 | qilin | 66 |
-| 4 | inc ransom | 53 |
+| 4 | inc ransom | 56 |
 | 5 | vortex | 30 |
 | 6 | pixelleaks | 30 |
 | 7 | akira | 29 |
 | 8 | soul | 26 |
-| 9 | leakeddata | 20 |
+| 9 | leakeddata | 21 |
 | 10 | climax | 18 |
 | 11 | booba team | 16 |
 | 12 | brain cipher | 16 |
@@ -35,11 +35,11 @@
 | 21 | byod | 11 |
 | 22 | safepay | 11 |
 | 23 | audit team | 10 |
-| 24 | payload | 9 |
-| 25 | whitearmor | 8 |
-| 26 | vexy | 8 |
-| 27 | hyflock | 8 |
-| 28 | krybit | 8 |
+| 24 | krybit | 10 |
+| 25 | payload | 9 |
+| 26 | whitearmor | 8 |
+| 27 | vexy | 8 |
+| 28 | hyflock | 8 |
 | 29 | global secret group | 7 |
 | 30 | ransomhouse | 7 |
 | 31 | deadlock | 7 |
@@ -52,14 +52,14 @@
 | 38 | nightspire | 5 |
 | 39 | panzer | 5 |
 | 40 | inception | 5 |
-| 41 | payoutsking | 4 |
-| 42 | shiba | 4 |
-| 43 | aurora | 4 |
-| 44 | majinahanashi | 4 |
-| 45 | anubis | 4 |
-| 46 | black x | 4 |
-| 47 | endzone | 4 |
-| 48 | direwolf | 3 |
+| 41 | direwolf | 4 |
+| 42 | payoutsking | 4 |
+| 43 | shiba | 4 |
+| 44 | aurora | 4 |
+| 45 | majinahanashi | 4 |
+| 46 | anubis | 4 |
+| 47 | black x | 4 |
+| 48 | endzone | 4 |
 | 49 | doommageddon | 3 |
 | 50 | chaos | 3 |
 | 51 | cloak | 3 |
@@ -81,19 +81,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 887 |
+| claimed | 923 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 887 |
+| Unknown | 923 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 887 |
+| Unknown | 923 |
 
 ---
 
