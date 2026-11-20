@@ -1,28 +1,28 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-20T08:55:42.691465+00:00
+**Last updated:** 2026-11-20T17:37:45.840812+00:00
 
 ## Overview
 
-- **Total unique victims:** 962
-- **Total recorded claims:** 962
-- **Groups represented:** 69
+- **Total unique victims:** 985
+- **Total recorded claims:** 985
+- **Groups represented:** 70
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 228 |
+| 1 | n0n | 230 |
 | 2 | the gentlemen | 75 |
 | 3 | qilin | 66 |
 | 4 | inc ransom | 60 |
-| 5 | vortex | 38 |
-| 6 | pixelleaks | 30 |
-| 7 | akira | 29 |
+| 5 | vortex | 39 |
+| 6 | akira | 30 |
+| 7 | pixelleaks | 30 |
 | 8 | soul | 27 |
 | 9 | leakeddata | 23 |
-| 10 | rhysida | 18 |
-| 11 | climax | 18 |
+| 10 | rhysida | 19 |
+| 11 | climax | 19 |
 | 12 | booba team | 16 |
 | 13 | brain cipher | 16 |
 | 14 | curious worm | 16 |
@@ -38,67 +38,68 @@
 | 24 | audit team | 10 |
 | 25 | hyflock | 10 |
 | 26 | whitearmor | 9 |
-| 27 | payload | 9 |
-| 28 | ransomhouse | 8 |
-| 29 | vexy | 8 |
-| 30 | global secret group | 7 |
-| 31 | aurora | 7 |
-| 32 | deadlock | 7 |
-| 33 | everstake | 6 |
-| 34 | orova | 6 |
-| 35 | dark project | 6 |
-| 36 | obsoft | 6 |
-| 37 | inception | 6 |
-| 38 | pear | 5 |
-| 39 | emperador | 5 |
-| 40 | nightspire | 5 |
-| 41 | panzer | 5 |
-| 42 | direwolf | 4 |
-| 43 | payoutsking | 4 |
-| 44 | shiba | 4 |
-| 45 | majinahanashi | 4 |
-| 46 | cloak | 4 |
-| 47 | anubis | 4 |
-| 48 | black x | 4 |
-| 49 | endzone | 4 |
-| 50 | space bears | 4 |
-| 51 | doommageddon | 3 |
-| 52 | chaos | 3 |
-| 53 | handsome boy hacking club | 3 |
-| 54 | wallstreet | 2 |
-| 55 | leaknet | 2 |
-| 56 | redact | 2 |
-| 57 | eclipse | 2 |
-| 58 | bravox | 2 |
-| 59 | everest | 2 |
-| 60 | dragonforce | 1 |
-| 61 | falcon | 1 |
-| 62 | destello | 1 |
-| 63 | beast | 1 |
-| 64 | iah647 | 1 |
-| 65 | morpheus | 1 |
-| 66 | daixin | 1 |
-| 67 | crypto24 | 1 |
-| 68 | fulcrumsec | 1 |
-| 69 | blackout | 1 |
+| 27 | pear | 9 |
+| 28 | aurora | 9 |
+| 29 | payload | 9 |
+| 30 | ransomhouse | 8 |
+| 31 | vexy | 8 |
+| 32 | silentvault | 8 |
+| 33 | global secret group | 7 |
+| 34 | deadlock | 7 |
+| 35 | everstake | 7 |
+| 36 | orova | 6 |
+| 37 | dark project | 6 |
+| 38 | majinahanashi | 6 |
+| 39 | obsoft | 6 |
+| 40 | inception | 6 |
+| 41 | emperador | 5 |
+| 42 | nightspire | 5 |
+| 43 | panzer | 5 |
+| 44 | direwolf | 4 |
+| 45 | payoutsking | 4 |
+| 46 | shiba | 4 |
+| 47 | cloak | 4 |
+| 48 | anubis | 4 |
+| 49 | black x | 4 |
+| 50 | endzone | 4 |
+| 51 | space bears | 4 |
+| 52 | doommageddon | 3 |
+| 53 | chaos | 3 |
+| 54 | handsome boy hacking club | 3 |
+| 55 | wallstreet | 2 |
+| 56 | leaknet | 2 |
+| 57 | redact | 2 |
+| 58 | eclipse | 2 |
+| 59 | bravox | 2 |
+| 60 | everest | 2 |
+| 61 | dragonforce | 1 |
+| 62 | falcon | 1 |
+| 63 | destello | 1 |
+| 64 | beast | 1 |
+| 65 | iah647 | 1 |
+| 66 | morpheus | 1 |
+| 67 | daixin | 1 |
+| 68 | crypto24 | 1 |
+| 69 | fulcrumsec | 1 |
+| 70 | blackout | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 962 |
+| claimed | 985 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 962 |
+| Unknown | 985 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 962 |
+| Unknown | 985 |
 
 ---
 
