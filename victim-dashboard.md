@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-20T17:37:45.840812+00:00
+**Last updated:** 2026-11-20T23:22:05.876606+00:00
 
 ## Overview
 
-- **Total unique victims:** 985
-- **Total recorded claims:** 985
+- **Total unique victims:** 1004
+- **Total recorded claims:** 1004
 - **Groups represented:** 70
 
 ## Victims by Ransomware Group
@@ -17,11 +17,11 @@
 | 3 | qilin | 66 |
 | 4 | inc ransom | 60 |
 | 5 | vortex | 39 |
-| 6 | akira | 30 |
-| 7 | pixelleaks | 30 |
+| 6 | pixelleaks | 34 |
+| 7 | akira | 30 |
 | 8 | soul | 27 |
-| 9 | leakeddata | 23 |
-| 10 | rhysida | 19 |
+| 9 | leakeddata | 24 |
+| 10 | rhysida | 20 |
 | 11 | climax | 19 |
 | 12 | booba team | 16 |
 | 13 | brain cipher | 16 |
@@ -31,47 +31,47 @@
 | 17 | interlock | 12 |
 | 18 | lockbit5 | 12 |
 | 19 | play | 12 |
-| 20 | genesis | 11 |
-| 21 | byod | 11 |
-| 22 | safepay | 11 |
-| 23 | krybit | 11 |
-| 24 | audit team | 10 |
-| 25 | hyflock | 10 |
-| 26 | whitearmor | 9 |
-| 27 | pear | 9 |
-| 28 | aurora | 9 |
-| 29 | payload | 9 |
-| 30 | ransomhouse | 8 |
-| 31 | vexy | 8 |
-| 32 | silentvault | 8 |
-| 33 | global secret group | 7 |
-| 34 | deadlock | 7 |
-| 35 | everstake | 7 |
-| 36 | orova | 6 |
-| 37 | dark project | 6 |
-| 38 | majinahanashi | 6 |
-| 39 | obsoft | 6 |
-| 40 | inception | 6 |
-| 41 | emperador | 5 |
-| 42 | nightspire | 5 |
-| 43 | panzer | 5 |
-| 44 | direwolf | 4 |
-| 45 | payoutsking | 4 |
-| 46 | shiba | 4 |
-| 47 | cloak | 4 |
-| 48 | anubis | 4 |
-| 49 | black x | 4 |
-| 50 | endzone | 4 |
-| 51 | space bears | 4 |
-| 52 | doommageddon | 3 |
-| 53 | chaos | 3 |
-| 54 | handsome boy hacking club | 3 |
-| 55 | wallstreet | 2 |
-| 56 | leaknet | 2 |
-| 57 | redact | 2 |
-| 58 | eclipse | 2 |
-| 59 | bravox | 2 |
-| 60 | everest | 2 |
+| 20 | everest | 12 |
+| 21 | genesis | 11 |
+| 22 | byod | 11 |
+| 23 | safepay | 11 |
+| 24 | krybit | 11 |
+| 25 | whitearmor | 10 |
+| 26 | aurora | 10 |
+| 27 | audit team | 10 |
+| 28 | hyflock | 10 |
+| 29 | pear | 9 |
+| 30 | payload | 9 |
+| 31 | ransomhouse | 8 |
+| 32 | vexy | 8 |
+| 33 | silentvault | 8 |
+| 34 | global secret group | 7 |
+| 35 | deadlock | 7 |
+| 36 | everstake | 7 |
+| 37 | dark project | 7 |
+| 38 | orova | 6 |
+| 39 | majinahanashi | 6 |
+| 40 | obsoft | 6 |
+| 41 | inception | 6 |
+| 42 | emperador | 5 |
+| 43 | nightspire | 5 |
+| 44 | panzer | 5 |
+| 45 | direwolf | 4 |
+| 46 | payoutsking | 4 |
+| 47 | shiba | 4 |
+| 48 | cloak | 4 |
+| 49 | anubis | 4 |
+| 50 | black x | 4 |
+| 51 | endzone | 4 |
+| 52 | space bears | 4 |
+| 53 | doommageddon | 3 |
+| 54 | chaos | 3 |
+| 55 | handsome boy hacking club | 3 |
+| 56 | wallstreet | 2 |
+| 57 | leaknet | 2 |
+| 58 | redact | 2 |
+| 59 | eclipse | 2 |
+| 60 | bravox | 2 |
 | 61 | dragonforce | 1 |
 | 62 | falcon | 1 |
 | 63 | destello | 1 |
@@ -87,19 +87,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 985 |
+| claimed | 1004 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 985 |
+| Unknown | 1004 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 985 |
+| Unknown | 1004 |
 
 ---
 
