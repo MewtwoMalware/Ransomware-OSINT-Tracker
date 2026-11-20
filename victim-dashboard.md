@@ -1,21 +1,21 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-20T01:17:01.893321+00:00
+**Last updated:** 2026-11-20T08:55:42.691465+00:00
 
 ## Overview
 
-- **Total unique victims:** 954
-- **Total recorded claims:** 954
-- **Groups represented:** 67
+- **Total unique victims:** 962
+- **Total recorded claims:** 962
+- **Groups represented:** 69
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 227 |
+| 1 | n0n | 228 |
 | 2 | the gentlemen | 75 |
 | 3 | qilin | 66 |
-| 4 | inc ransom | 58 |
+| 4 | inc ransom | 60 |
 | 5 | vortex | 38 |
 | 6 | pixelleaks | 30 |
 | 7 | akira | 29 |
@@ -61,42 +61,44 @@
 | 47 | anubis | 4 |
 | 48 | black x | 4 |
 | 49 | endzone | 4 |
-| 50 | doommageddon | 3 |
-| 51 | chaos | 3 |
-| 52 | handsome boy hacking club | 3 |
-| 53 | wallstreet | 2 |
-| 54 | leaknet | 2 |
-| 55 | redact | 2 |
-| 56 | eclipse | 2 |
-| 57 | bravox | 2 |
-| 58 | everest | 2 |
-| 59 | dragonforce | 1 |
-| 60 | falcon | 1 |
-| 61 | destello | 1 |
-| 62 | beast | 1 |
-| 63 | iah647 | 1 |
-| 64 | morpheus | 1 |
-| 65 | daixin | 1 |
-| 66 | crypto24 | 1 |
-| 67 | fulcrumsec | 1 |
+| 50 | space bears | 4 |
+| 51 | doommageddon | 3 |
+| 52 | chaos | 3 |
+| 53 | handsome boy hacking club | 3 |
+| 54 | wallstreet | 2 |
+| 55 | leaknet | 2 |
+| 56 | redact | 2 |
+| 57 | eclipse | 2 |
+| 58 | bravox | 2 |
+| 59 | everest | 2 |
+| 60 | dragonforce | 1 |
+| 61 | falcon | 1 |
+| 62 | destello | 1 |
+| 63 | beast | 1 |
+| 64 | iah647 | 1 |
+| 65 | morpheus | 1 |
+| 66 | daixin | 1 |
+| 67 | crypto24 | 1 |
+| 68 | fulcrumsec | 1 |
+| 69 | blackout | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 954 |
+| claimed | 962 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 954 |
+| Unknown | 962 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 954 |
+| Unknown | 962 |
 
 ---
 

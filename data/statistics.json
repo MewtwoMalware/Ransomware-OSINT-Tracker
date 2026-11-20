@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-11-20T01:17:01.893321+00:00",
-  "total_unique_victims": 954,
-  "total_recorded_claims": 954,
-  "total_groups": 67,
+  "last_updated": "2026-11-20T08:55:42.691465+00:00",
+  "total_unique_victims": 962,
+  "total_recorded_claims": 962,
+  "total_groups": 69,
   "victims_by_group": {
-    "n0n": 227,
+    "n0n": 228,
     "the gentlemen": 75,
     "qilin": 66,
-    "inc ransom": 58,
+    "inc ransom": 60,
     "vortex": 38,
     "pixelleaks": 30,
     "akira": 29,
@@ -53,6 +53,7 @@
     "anubis": 4,
     "black x": 4,
     "endzone": 4,
+    "space bears": 4,
     "doommageddon": 3,
     "chaos": 3,
     "handsome boy hacking club": 3,
@@ -70,15 +71,16 @@
     "morpheus": 1,
     "daixin": 1,
     "crypto24": 1,
-    "fulcrumsec": 1
+    "fulcrumsec": 1,
+    "blackout": 1
   },
   "victims_by_status": {
-    "claimed": 954
+    "claimed": 962
   },
   "victims_by_country": {
-    "Unknown": 954
+    "Unknown": 962
   },
   "victims_by_sector": {
-    "Unknown": 954
+    "Unknown": 962
   }
 }
