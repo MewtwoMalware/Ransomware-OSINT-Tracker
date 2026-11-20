@@ -1,20 +1,20 @@
 {
-  "last_updated": "2026-11-19T19:10:28.662529+00:00",
-  "total_unique_victims": 946,
-  "total_recorded_claims": 946,
-  "total_groups": 66,
+  "last_updated": "2026-11-20T01:17:01.893321+00:00",
+  "total_unique_victims": 954,
+  "total_recorded_claims": 954,
+  "total_groups": 67,
   "victims_by_group": {
     "n0n": 227,
     "the gentlemen": 75,
     "qilin": 66,
-    "inc ransom": 57,
+    "inc ransom": 58,
     "vortex": 38,
     "pixelleaks": 30,
     "akira": 29,
     "soul": 27,
-    "leakeddata": 21,
+    "leakeddata": 23,
+    "rhysida": 18,
     "climax": 18,
-    "rhysida": 17,
     "booba team": 16,
     "brain cipher": 16,
     "curious worm": 16,
@@ -40,11 +40,11 @@
     "orova": 6,
     "dark project": 6,
     "obsoft": 6,
+    "inception": 6,
     "pear": 5,
     "emperador": 5,
     "nightspire": 5,
     "panzer": 5,
-    "inception": 5,
     "direwolf": 4,
     "payoutsking": 4,
     "shiba": 4,
@@ -55,6 +55,7 @@
     "endzone": 4,
     "doommageddon": 3,
     "chaos": 3,
+    "handsome boy hacking club": 3,
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
@@ -72,12 +73,12 @@
     "fulcrumsec": 1
   },
   "victims_by_status": {
-    "claimed": 946
+    "claimed": 954
   },
   "victims_by_country": {
-    "Unknown": 946
+    "Unknown": 954
   },
   "victims_by_sector": {
-    "Unknown": 946
+    "Unknown": 954
   }
 }

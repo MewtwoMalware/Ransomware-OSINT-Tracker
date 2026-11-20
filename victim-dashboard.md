@@ -1,12 +1,12 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-19T19:10:28.662529+00:00
+**Last updated:** 2026-11-20T01:17:01.893321+00:00
 
 ## Overview
 
-- **Total unique victims:** 946
-- **Total recorded claims:** 946
-- **Groups represented:** 66
+- **Total unique victims:** 954
+- **Total recorded claims:** 954
+- **Groups represented:** 67
 
 ## Victims by Ransomware Group
 
@@ -15,14 +15,14 @@
 | 1 | n0n | 227 |
 | 2 | the gentlemen | 75 |
 | 3 | qilin | 66 |
-| 4 | inc ransom | 57 |
+| 4 | inc ransom | 58 |
 | 5 | vortex | 38 |
 | 6 | pixelleaks | 30 |
 | 7 | akira | 29 |
 | 8 | soul | 27 |
-| 9 | leakeddata | 21 |
-| 10 | climax | 18 |
-| 11 | rhysida | 17 |
+| 9 | leakeddata | 23 |
+| 10 | rhysida | 18 |
+| 11 | climax | 18 |
 | 12 | booba team | 16 |
 | 13 | brain cipher | 16 |
 | 14 | curious worm | 16 |
@@ -48,11 +48,11 @@
 | 34 | orova | 6 |
 | 35 | dark project | 6 |
 | 36 | obsoft | 6 |
-| 37 | pear | 5 |
-| 38 | emperador | 5 |
-| 39 | nightspire | 5 |
-| 40 | panzer | 5 |
-| 41 | inception | 5 |
+| 37 | inception | 6 |
+| 38 | pear | 5 |
+| 39 | emperador | 5 |
+| 40 | nightspire | 5 |
+| 41 | panzer | 5 |
 | 42 | direwolf | 4 |
 | 43 | payoutsking | 4 |
 | 44 | shiba | 4 |
@@ -63,39 +63,40 @@
 | 49 | endzone | 4 |
 | 50 | doommageddon | 3 |
 | 51 | chaos | 3 |
-| 52 | wallstreet | 2 |
-| 53 | leaknet | 2 |
-| 54 | redact | 2 |
-| 55 | eclipse | 2 |
-| 56 | bravox | 2 |
-| 57 | everest | 2 |
-| 58 | dragonforce | 1 |
-| 59 | falcon | 1 |
-| 60 | destello | 1 |
-| 61 | beast | 1 |
-| 62 | iah647 | 1 |
-| 63 | morpheus | 1 |
-| 64 | daixin | 1 |
-| 65 | crypto24 | 1 |
-| 66 | fulcrumsec | 1 |
+| 52 | handsome boy hacking club | 3 |
+| 53 | wallstreet | 2 |
+| 54 | leaknet | 2 |
+| 55 | redact | 2 |
+| 56 | eclipse | 2 |
+| 57 | bravox | 2 |
+| 58 | everest | 2 |
+| 59 | dragonforce | 1 |
+| 60 | falcon | 1 |
+| 61 | destello | 1 |
+| 62 | beast | 1 |
+| 63 | iah647 | 1 |
+| 64 | morpheus | 1 |
+| 65 | daixin | 1 |
+| 66 | crypto24 | 1 |
+| 67 | fulcrumsec | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 946 |
+| claimed | 954 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 946 |
+| Unknown | 954 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 946 |
+| Unknown | 954 |
 
 ---
 
