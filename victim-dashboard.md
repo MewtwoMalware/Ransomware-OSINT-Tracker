@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-20T23:22:05.876606+00:00
+**Last updated:** 2026-11-21T04:10:30.273810+00:00
 
 ## Overview
 
-- **Total unique victims:** 1004
-- **Total recorded claims:** 1004
+- **Total unique victims:** 1007
+- **Total recorded claims:** 1007
 - **Groups represented:** 70
 
 ## Victims by Ransomware Group
@@ -17,7 +17,7 @@
 | 3 | qilin | 66 |
 | 4 | inc ransom | 60 |
 | 5 | vortex | 39 |
-| 6 | pixelleaks | 34 |
+| 6 | pixelleaks | 35 |
 | 7 | akira | 30 |
 | 8 | soul | 27 |
 | 9 | leakeddata | 24 |
@@ -32,11 +32,11 @@
 | 18 | lockbit5 | 12 |
 | 19 | play | 12 |
 | 20 | everest | 12 |
-| 21 | genesis | 11 |
-| 22 | byod | 11 |
-| 23 | safepay | 11 |
-| 24 | krybit | 11 |
-| 25 | whitearmor | 10 |
+| 21 | whitearmor | 11 |
+| 22 | genesis | 11 |
+| 23 | byod | 11 |
+| 24 | safepay | 11 |
+| 25 | krybit | 11 |
 | 26 | aurora | 10 |
 | 27 | audit team | 10 |
 | 28 | hyflock | 10 |
@@ -49,10 +49,10 @@
 | 35 | deadlock | 7 |
 | 36 | everstake | 7 |
 | 37 | dark project | 7 |
-| 38 | orova | 6 |
-| 39 | majinahanashi | 6 |
-| 40 | obsoft | 6 |
-| 41 | inception | 6 |
+| 38 | inception | 7 |
+| 39 | orova | 6 |
+| 40 | majinahanashi | 6 |
+| 41 | obsoft | 6 |
 | 42 | emperador | 5 |
 | 43 | nightspire | 5 |
 | 44 | panzer | 5 |
@@ -87,19 +87,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1004 |
+| claimed | 1007 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1004 |
+| Unknown | 1007 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1004 |
+| Unknown | 1007 |
 
 ---
 

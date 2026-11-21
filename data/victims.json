@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T23:22:05.872058+00:00",
+  "last_updated": "2026-11-21T04:10:30.270493+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -15787,6 +15787,54 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-20T23:22:05.871844+00:00"
+    },
+    {
+      "id": "a6f6f46d6320ed5e",
+      "group": "whitearmor",
+      "victim": "DROP 1 — CASANARE, PAJONAL, PUTUMAYO AND URUS — 8,000 PATIENTS, 4,000 INVOICES, 7,733 CRED",
+      "normalized_name": "drop 1 casanare pajonal putumayo and urus 8000 patients 4000 invoices 7733 cred",
+      "date": "2026-11-21T01:17:24.728417Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-21T04:10:30.270307+00:00"
+    },
+    {
+      "id": "3bad048dec0cad47",
+      "group": "inception",
+      "victim": "Lucid Motors",
+      "normalized_name": "lucid motors",
+      "date": "2026-11-21T03:16:52.228399Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-21T04:10:30.270340+00:00"
+    },
+    {
+      "id": "ef6090fbf0f47134",
+      "group": "pixelleaks",
+      "victim": "MT5 algo-trading farm (OneFunded funded account, WINSERVER)",
+      "normalized_name": "mt5 algotrading farm onefunded funded account winserver",
+      "date": "2026-11-21T03:17:13.538057Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-21T04:10:30.270366+00:00"
     }
   ]
 }
