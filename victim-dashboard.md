@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-21T04:10:30.273810+00:00
+**Last updated:** 2026-11-21T12:40:23.472843+00:00
 
 ## Overview
 
-- **Total unique victims:** 1007
-- **Total recorded claims:** 1007
+- **Total unique victims:** 1011
+- **Total recorded claims:** 1011
 - **Groups represented:** 70
 
 ## Victims by Ransomware Group
@@ -28,19 +28,19 @@
 | 14 | curious worm | 16 |
 | 15 | metaencryptor | 15 |
 | 16 | aoqin leaks | 15 |
-| 17 | interlock | 12 |
-| 18 | lockbit5 | 12 |
+| 17 | lockbit5 | 13 |
+| 18 | interlock | 12 |
 | 19 | play | 12 |
 | 20 | everest | 12 |
 | 21 | whitearmor | 11 |
-| 22 | genesis | 11 |
-| 23 | byod | 11 |
-| 24 | safepay | 11 |
-| 25 | krybit | 11 |
-| 26 | aurora | 10 |
-| 27 | audit team | 10 |
-| 28 | hyflock | 10 |
-| 29 | pear | 9 |
+| 22 | pear | 11 |
+| 23 | genesis | 11 |
+| 24 | byod | 11 |
+| 25 | safepay | 11 |
+| 26 | krybit | 11 |
+| 27 | aurora | 10 |
+| 28 | audit team | 10 |
+| 29 | hyflock | 10 |
 | 30 | payload | 9 |
 | 31 | ransomhouse | 8 |
 | 32 | vexy | 8 |
@@ -66,11 +66,11 @@
 | 52 | space bears | 4 |
 | 53 | doommageddon | 3 |
 | 54 | chaos | 3 |
-| 55 | handsome boy hacking club | 3 |
-| 56 | wallstreet | 2 |
-| 57 | leaknet | 2 |
-| 58 | redact | 2 |
-| 59 | eclipse | 2 |
+| 55 | eclipse | 3 |
+| 56 | handsome boy hacking club | 3 |
+| 57 | wallstreet | 2 |
+| 58 | leaknet | 2 |
+| 59 | redact | 2 |
 | 60 | bravox | 2 |
 | 61 | dragonforce | 1 |
 | 62 | falcon | 1 |
@@ -87,19 +87,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1007 |
+| claimed | 1011 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1007 |
+| Unknown | 1011 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1007 |
+| Unknown | 1011 |
 
 ---
 

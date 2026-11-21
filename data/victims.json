@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T04:10:30.270493+00:00",
+  "last_updated": "2026-11-21T12:40:23.469102+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -15835,6 +15835,70 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-21T04:10:30.270366+00:00"
+    },
+    {
+      "id": "ec2dd896f2314b2e",
+      "group": "eclipse",
+      "victim": "Realta Technologies",
+      "normalized_name": "realta technologies",
+      "date": "2026-11-21T07:16:58.635758Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-21T12:40:23.468818+00:00"
+    },
+    {
+      "id": "07166670710a0b20",
+      "group": "pear",
+      "victim": "Law Office of Ronald D. Weiss, P.C",
+      "normalized_name": "law office of ronald d weiss pc",
+      "date": "2026-11-21T08:17:29.980180Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-21T12:40:23.468842+00:00"
+    },
+    {
+      "id": "1489a66f5b37f862",
+      "group": "pear",
+      "victim": "Vegely Welding Inc.",
+      "normalized_name": "vegely welding",
+      "date": "2026-11-21T08:17:30.932911Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-21T12:40:23.468867+00:00"
+    },
+    {
+      "id": "ff5617c313bb5355",
+      "group": "lockbit5",
+      "victim": "genica.com.ve",
+      "normalized_name": "genicacomve",
+      "date": "2026-11-21T12:17:28.958151Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-21T12:40:23.468889+00:00"
     }
   ]
 }

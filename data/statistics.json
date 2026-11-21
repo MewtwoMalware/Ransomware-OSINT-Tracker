@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-21T04:10:30.273810+00:00",
-  "total_unique_victims": 1007,
-  "total_recorded_claims": 1007,
+  "last_updated": "2026-11-21T12:40:23.472843+00:00",
+  "total_unique_victims": 1011,
+  "total_recorded_claims": 1011,
   "total_groups": 70,
   "victims_by_group": {
     "n0n": 230,
@@ -20,11 +20,12 @@
     "curious worm": 16,
     "metaencryptor": 15,
     "aoqin leaks": 15,
+    "lockbit5": 13,
     "interlock": 12,
-    "lockbit5": 12,
     "play": 12,
     "everest": 12,
     "whitearmor": 11,
+    "pear": 11,
     "genesis": 11,
     "byod": 11,
     "safepay": 11,
@@ -32,7 +33,6 @@
     "aurora": 10,
     "audit team": 10,
     "hyflock": 10,
-    "pear": 9,
     "payload": 9,
     "ransomhouse": 8,
     "vexy": 8,
@@ -58,11 +58,11 @@
     "space bears": 4,
     "doommageddon": 3,
     "chaos": 3,
+    "eclipse": 3,
     "handsome boy hacking club": 3,
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
-    "eclipse": 2,
     "bravox": 2,
     "dragonforce": 1,
     "falcon": 1,
@@ -76,12 +76,12 @@
     "blackout": 1
   },
   "victims_by_status": {
-    "claimed": 1007
+    "claimed": 1011
   },
   "victims_by_country": {
-    "Unknown": 1007
+    "Unknown": 1011
   },
   "victims_by_sector": {
-    "Unknown": 1007
+    "Unknown": 1011
   }
 }
