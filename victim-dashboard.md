@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-21T12:40:23.472843+00:00
+**Last updated:** 2026-11-21T19:48:51.457772+00:00
 
 ## Overview
 
-- **Total unique victims:** 1011
-- **Total recorded claims:** 1011
+- **Total unique victims:** 1022
+- **Total recorded claims:** 1022
 - **Groups represented:** 70
 
 ## Victims by Ransomware Group
@@ -15,28 +15,28 @@
 | 1 | n0n | 230 |
 | 2 | the gentlemen | 75 |
 | 3 | qilin | 66 |
-| 4 | inc ransom | 60 |
+| 4 | inc ransom | 61 |
 | 5 | vortex | 39 |
 | 6 | pixelleaks | 35 |
 | 7 | akira | 30 |
-| 8 | soul | 27 |
+| 8 | soul | 28 |
 | 9 | leakeddata | 24 |
 | 10 | rhysida | 20 |
-| 11 | climax | 19 |
-| 12 | booba team | 16 |
-| 13 | brain cipher | 16 |
-| 14 | curious worm | 16 |
-| 15 | metaencryptor | 15 |
-| 16 | aoqin leaks | 15 |
-| 17 | lockbit5 | 13 |
-| 18 | interlock | 12 |
-| 19 | play | 12 |
-| 20 | everest | 12 |
-| 21 | whitearmor | 11 |
-| 22 | pear | 11 |
-| 23 | genesis | 11 |
-| 24 | byod | 11 |
-| 25 | safepay | 11 |
+| 11 | safepay | 20 |
+| 12 | climax | 19 |
+| 13 | booba team | 16 |
+| 14 | brain cipher | 16 |
+| 15 | curious worm | 16 |
+| 16 | metaencryptor | 15 |
+| 17 | aoqin leaks | 15 |
+| 18 | lockbit5 | 13 |
+| 19 | interlock | 12 |
+| 20 | play | 12 |
+| 21 | everest | 12 |
+| 22 | whitearmor | 11 |
+| 23 | pear | 11 |
+| 24 | genesis | 11 |
+| 25 | byod | 11 |
 | 26 | krybit | 11 |
 | 27 | aurora | 10 |
 | 28 | audit team | 10 |
@@ -87,19 +87,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1011 |
+| claimed | 1022 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1011 |
+| Unknown | 1022 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1011 |
+| Unknown | 1022 |
 
 ---
 

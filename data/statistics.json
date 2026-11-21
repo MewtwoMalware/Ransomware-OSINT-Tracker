@@ -1,19 +1,20 @@
 {
-  "last_updated": "2026-11-21T12:40:23.472843+00:00",
-  "total_unique_victims": 1011,
-  "total_recorded_claims": 1011,
+  "last_updated": "2026-11-21T19:48:51.457772+00:00",
+  "total_unique_victims": 1022,
+  "total_recorded_claims": 1022,
   "total_groups": 70,
   "victims_by_group": {
     "n0n": 230,
     "the gentlemen": 75,
     "qilin": 66,
-    "inc ransom": 60,
+    "inc ransom": 61,
     "vortex": 39,
     "pixelleaks": 35,
     "akira": 30,
-    "soul": 27,
+    "soul": 28,
     "leakeddata": 24,
     "rhysida": 20,
+    "safepay": 20,
     "climax": 19,
     "booba team": 16,
     "brain cipher": 16,
@@ -28,7 +29,6 @@
     "pear": 11,
     "genesis": 11,
     "byod": 11,
-    "safepay": 11,
     "krybit": 11,
     "aurora": 10,
     "audit team": 10,
@@ -76,12 +76,12 @@
     "blackout": 1
   },
   "victims_by_status": {
-    "claimed": 1011
+    "claimed": 1022
   },
   "victims_by_country": {
-    "Unknown": 1011
+    "Unknown": 1022
   },
   "victims_by_sector": {
-    "Unknown": 1011
+    "Unknown": 1022
   }
 }
