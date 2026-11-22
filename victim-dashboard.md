@@ -1,27 +1,27 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-22T06:48:49.015077+00:00
+**Last updated:** 2026-11-22T15:06:00.131799+00:00
 
 ## Overview
 
-- **Total unique victims:** 1023
-- **Total recorded claims:** 1023
+- **Total unique victims:** 1030
+- **Total recorded claims:** 1030
 - **Groups represented:** 70
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 230 |
-| 2 | the gentlemen | 75 |
-| 3 | qilin | 67 |
+| 1 | n0n | 231 |
+| 2 | the gentlemen | 76 |
+| 3 | qilin | 68 |
 | 4 | inc ransom | 61 |
 | 5 | vortex | 39 |
 | 6 | pixelleaks | 35 |
 | 7 | akira | 30 |
 | 8 | soul | 28 |
 | 9 | leakeddata | 24 |
-| 10 | rhysida | 20 |
+| 10 | rhysida | 21 |
 | 11 | safepay | 20 |
 | 12 | climax | 19 |
 | 13 | booba team | 16 |
@@ -31,16 +31,16 @@
 | 17 | aoqin leaks | 15 |
 | 18 | lockbit5 | 13 |
 | 19 | interlock | 12 |
-| 20 | play | 12 |
-| 21 | everest | 12 |
-| 22 | whitearmor | 11 |
-| 23 | pear | 11 |
-| 24 | genesis | 11 |
-| 25 | byod | 11 |
-| 26 | krybit | 11 |
-| 27 | aurora | 10 |
-| 28 | audit team | 10 |
-| 29 | hyflock | 10 |
+| 20 | hyflock | 12 |
+| 21 | play | 12 |
+| 22 | everest | 12 |
+| 23 | whitearmor | 11 |
+| 24 | pear | 11 |
+| 25 | genesis | 11 |
+| 26 | byod | 11 |
+| 27 | krybit | 11 |
+| 28 | aurora | 10 |
+| 29 | audit team | 10 |
 | 30 | payload | 9 |
 | 31 | ransomhouse | 8 |
 | 32 | vexy | 8 |
@@ -56,13 +56,13 @@
 | 42 | emperador | 5 |
 | 43 | nightspire | 5 |
 | 44 | panzer | 5 |
-| 45 | direwolf | 4 |
-| 46 | payoutsking | 4 |
-| 47 | shiba | 4 |
-| 48 | cloak | 4 |
-| 49 | anubis | 4 |
-| 50 | black x | 4 |
-| 51 | endzone | 4 |
+| 45 | endzone | 5 |
+| 46 | direwolf | 4 |
+| 47 | payoutsking | 4 |
+| 48 | shiba | 4 |
+| 49 | cloak | 4 |
+| 50 | anubis | 4 |
+| 51 | black x | 4 |
 | 52 | space bears | 4 |
 | 53 | doommageddon | 3 |
 | 54 | chaos | 3 |
@@ -87,19 +87,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1023 |
+| claimed | 1030 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1023 |
+| Unknown | 1030 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1023 |
+| Unknown | 1030 |
 
 ---
 

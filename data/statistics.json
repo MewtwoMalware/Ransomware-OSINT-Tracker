@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-11-22T06:48:49.015077+00:00",
-  "total_unique_victims": 1023,
-  "total_recorded_claims": 1023,
+  "last_updated": "2026-11-22T15:06:00.131799+00:00",
+  "total_unique_victims": 1030,
+  "total_recorded_claims": 1030,
   "total_groups": 70,
   "victims_by_group": {
-    "n0n": 230,
-    "the gentlemen": 75,
-    "qilin": 67,
+    "n0n": 231,
+    "the gentlemen": 76,
+    "qilin": 68,
     "inc ransom": 61,
     "vortex": 39,
     "pixelleaks": 35,
     "akira": 30,
     "soul": 28,
     "leakeddata": 24,
-    "rhysida": 20,
+    "rhysida": 21,
     "safepay": 20,
     "climax": 19,
     "booba team": 16,
@@ -23,6 +23,7 @@
     "aoqin leaks": 15,
     "lockbit5": 13,
     "interlock": 12,
+    "hyflock": 12,
     "play": 12,
     "everest": 12,
     "whitearmor": 11,
@@ -32,7 +33,6 @@
     "krybit": 11,
     "aurora": 10,
     "audit team": 10,
-    "hyflock": 10,
     "payload": 9,
     "ransomhouse": 8,
     "vexy": 8,
@@ -48,13 +48,13 @@
     "emperador": 5,
     "nightspire": 5,
     "panzer": 5,
+    "endzone": 5,
     "direwolf": 4,
     "payoutsking": 4,
     "shiba": 4,
     "cloak": 4,
     "anubis": 4,
     "black x": 4,
-    "endzone": 4,
     "space bears": 4,
     "doommageddon": 3,
     "chaos": 3,
@@ -76,12 +76,12 @@
     "blackout": 1
   },
   "victims_by_status": {
-    "claimed": 1023
+    "claimed": 1030
   },
   "victims_by_country": {
-    "Unknown": 1023
+    "Unknown": 1030
   },
   "victims_by_sector": {
-    "Unknown": 1023
+    "Unknown": 1030
   }
 }
