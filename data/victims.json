@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T15:06:00.127986+00:00",
+  "last_updated": "2026-11-22T21:04:04.809381+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -16203,6 +16203,70 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-22T15:06:00.127773+00:00"
+    },
+    {
+      "id": "87a4f00b19154d38",
+      "group": "hyflock",
+      "victim": "Samsung Group: 1TB Data Breach from Ransomware Attack",
+      "normalized_name": "samsung group 1tb data breach from ransomware attack",
+      "date": "2026-11-22T15:20:21.078523Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-22T21:04:04.809076+00:00"
+    },
+    {
+      "id": "190b5b1a15ecb9bd",
+      "group": "direwolf",
+      "victim": "EconSys",
+      "normalized_name": "econsys",
+      "date": "2026-11-22T16:16:41.812637Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-22T21:04:04.809115+00:00"
+    },
+    {
+      "id": "872cd11140fe2c51",
+      "group": "inc ransom",
+      "victim": "persistent.com",
+      "normalized_name": "persistentcom",
+      "date": "2026-11-22T16:16:44.920148Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-22T21:04:04.809150+00:00"
+    },
+    {
+      "id": "389554e0c1d50447",
+      "group": "qilin",
+      "victim": "Viapan Group",
+      "normalized_name": "viapan group",
+      "date": "2026-11-22T20:16:53.680138Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-22T21:04:04.809184+00:00"
     }
   ]
 }

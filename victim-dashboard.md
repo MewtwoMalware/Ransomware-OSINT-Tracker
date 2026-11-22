@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-22T15:06:00.131799+00:00
+**Last updated:** 2026-11-22T21:04:04.814177+00:00
 
 ## Overview
 
-- **Total unique victims:** 1030
-- **Total recorded claims:** 1030
+- **Total unique victims:** 1034
+- **Total recorded claims:** 1034
 - **Groups represented:** 70
 
 ## Victims by Ransomware Group
@@ -14,8 +14,8 @@
 | ---: | --- | ---: |
 | 1 | n0n | 231 |
 | 2 | the gentlemen | 76 |
-| 3 | qilin | 68 |
-| 4 | inc ransom | 61 |
+| 3 | qilin | 69 |
+| 4 | inc ransom | 62 |
 | 5 | vortex | 39 |
 | 6 | pixelleaks | 35 |
 | 7 | akira | 30 |
@@ -29,9 +29,9 @@
 | 15 | curious worm | 16 |
 | 16 | metaencryptor | 15 |
 | 17 | aoqin leaks | 15 |
-| 18 | lockbit5 | 13 |
-| 19 | interlock | 12 |
-| 20 | hyflock | 12 |
+| 18 | hyflock | 13 |
+| 19 | lockbit5 | 13 |
+| 20 | interlock | 12 |
 | 21 | play | 12 |
 | 22 | everest | 12 |
 | 23 | whitearmor | 11 |
@@ -53,11 +53,11 @@
 | 39 | orova | 6 |
 | 40 | majinahanashi | 6 |
 | 41 | obsoft | 6 |
-| 42 | emperador | 5 |
-| 43 | nightspire | 5 |
-| 44 | panzer | 5 |
-| 45 | endzone | 5 |
-| 46 | direwolf | 4 |
+| 42 | direwolf | 5 |
+| 43 | emperador | 5 |
+| 44 | nightspire | 5 |
+| 45 | panzer | 5 |
+| 46 | endzone | 5 |
 | 47 | payoutsking | 4 |
 | 48 | shiba | 4 |
 | 49 | cloak | 4 |
@@ -87,19 +87,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1030 |
+| claimed | 1034 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1030 |
+| Unknown | 1034 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1030 |
+| Unknown | 1034 |
 
 ---
 
