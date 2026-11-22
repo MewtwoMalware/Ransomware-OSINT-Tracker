@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-21T19:48:51.457772+00:00",
-  "total_unique_victims": 1022,
-  "total_recorded_claims": 1022,
+  "last_updated": "2026-11-22T00:08:16.579768+00:00",
+  "total_unique_victims": 1023,
+  "total_recorded_claims": 1023,
   "total_groups": 70,
   "victims_by_group": {
     "n0n": 230,
     "the gentlemen": 75,
-    "qilin": 66,
+    "qilin": 67,
     "inc ransom": 61,
     "vortex": 39,
     "pixelleaks": 35,
@@ -76,12 +76,12 @@
     "blackout": 1
   },
   "victims_by_status": {
-    "claimed": 1022
+    "claimed": 1023
   },
   "victims_by_country": {
-    "Unknown": 1022
+    "Unknown": 1023
   },
   "victims_by_sector": {
-    "Unknown": 1022
+    "Unknown": 1023
   }
 }

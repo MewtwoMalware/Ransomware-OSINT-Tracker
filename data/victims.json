@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T19:48:51.453223+00:00",
+  "last_updated": "2026-11-22T00:08:16.575309+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -16075,6 +16075,22 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-21T19:48:51.452950+00:00"
+    },
+    {
+      "id": "280bd940960ac502",
+      "group": "qilin",
+      "victim": "ION Asset Architecture UK LTD",
+      "normalized_name": "ion asset architecture uk",
+      "date": "2026-11-21T21:16:27.090511Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-22T00:08:16.575084+00:00"
     }
   ]
 }

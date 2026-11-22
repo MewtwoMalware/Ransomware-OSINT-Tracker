@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-21T19:48:51.457772+00:00
+**Last updated:** 2026-11-22T00:08:16.579768+00:00
 
 ## Overview
 
-- **Total unique victims:** 1022
-- **Total recorded claims:** 1022
+- **Total unique victims:** 1023
+- **Total recorded claims:** 1023
 - **Groups represented:** 70
 
 ## Victims by Ransomware Group
@@ -14,7 +14,7 @@
 | ---: | --- | ---: |
 | 1 | n0n | 230 |
 | 2 | the gentlemen | 75 |
-| 3 | qilin | 66 |
+| 3 | qilin | 67 |
 | 4 | inc ransom | 61 |
 | 5 | vortex | 39 |
 | 6 | pixelleaks | 35 |
@@ -87,19 +87,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1022 |
+| claimed | 1023 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1022 |
+| Unknown | 1023 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1022 |
+| Unknown | 1023 |
 
 ---
 
