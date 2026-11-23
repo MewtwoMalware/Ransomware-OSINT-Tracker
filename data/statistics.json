@@ -1,32 +1,32 @@
 {
-  "last_updated": "2026-11-23T01:45:17.430111+00:00",
-  "total_unique_victims": 1040,
-  "total_recorded_claims": 1040,
+  "last_updated": "2026-11-23T10:24:47.146860+00:00",
+  "total_unique_victims": 1076,
+  "total_recorded_claims": 1076,
   "total_groups": 70,
   "victims_by_group": {
-    "n0n": 233,
+    "n0n": 258,
     "the gentlemen": 76,
     "qilin": 69,
     "inc ransom": 64,
     "vortex": 39,
-    "pixelleaks": 37,
+    "pixelleaks": 38,
     "akira": 30,
     "soul": 28,
     "leakeddata": 24,
     "rhysida": 21,
     "safepay": 20,
     "climax": 19,
+    "aoqin leaks": 17,
     "booba team": 16,
     "brain cipher": 16,
     "curious worm": 16,
     "metaencryptor": 15,
-    "aoqin leaks": 15,
     "hyflock": 13,
     "lockbit5": 13,
     "interlock": 12,
+    "whitearmor": 12,
     "play": 12,
     "everest": 12,
-    "whitearmor": 11,
     "pear": 11,
     "genesis": 11,
     "byod": 11,
@@ -35,11 +35,12 @@
     "audit team": 10,
     "payload": 9,
     "ransomhouse": 8,
+    "everstake": 8,
     "vexy": 8,
+    "space bears": 8,
     "silentvault": 8,
     "global secret group": 7,
     "deadlock": 7,
-    "everstake": 7,
     "dark project": 7,
     "inception": 7,
     "orova": 6,
@@ -55,7 +56,6 @@
     "cloak": 4,
     "anubis": 4,
     "black x": 4,
-    "space bears": 4,
     "doommageddon": 3,
     "chaos": 3,
     "eclipse": 3,
@@ -63,25 +63,25 @@
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
+    "falcon": 2,
     "bravox": 2,
+    "blackout": 2,
     "dragonforce": 1,
-    "falcon": 1,
     "destello": 1,
     "beast": 1,
     "iah647": 1,
     "morpheus": 1,
     "daixin": 1,
     "crypto24": 1,
-    "fulcrumsec": 1,
-    "blackout": 1
+    "fulcrumsec": 1
   },
   "victims_by_status": {
-    "claimed": 1040
+    "claimed": 1076
   },
   "victims_by_country": {
-    "Unknown": 1040
+    "Unknown": 1076
   },
   "victims_by_sector": {
-    "Unknown": 1040
+    "Unknown": 1076
   }
 }
