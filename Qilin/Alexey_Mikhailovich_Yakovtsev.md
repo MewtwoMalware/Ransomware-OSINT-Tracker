@@ -4,18 +4,17 @@
 
 | Field | Details |
 | ------ | ------ |
-| Known Alias | |
-| Alternative Aliases | |
-| First Observed | |
-| Last Observed | |
+| Known Alias | Haise |
+| Alternative Aliases | alexbigboss44, Rjun |
+| First Observed |29 May 2022 |
+| Last Observed | UNK |
 | Associated Group | Qilin |
-| Alleged Role | |
+| Alleged Role | Administrator and Operator |
 | Attribution Confidence | Unverified |
 
 ## 2. Summary
 
-Brief overview of the individual and their alleged
-association with the Qilin ransomware operation.
+Haise is identified in open-source reporting as the public-facing administrator and a key operator of the Qilin ransomware-as-a-service (RaaS) operation. First observed on the RAMP cybercrime forum in May 2022, Haise began advertising Qilin's affiliate programme in February 2023 and was subsequently associated with affiliate recruitment, operational announcements and ransom-negotiation features. The investigation traces the Haise alias to historical accounts on the Exploit and XSS cybercrime forums, as well as Telegram activity discussing ransomware development, security evasion and technical recruitment. These findings suggest involvement in Qilin's administration and organisation rather than simply affiliate-level activity. The investigation's identity attribution relies partly on leaked databases and correlations between online accounts; these claims have not been independently established through a public law-enforcement finding.
 
 ## 3. Aliases & Online Activity
 
