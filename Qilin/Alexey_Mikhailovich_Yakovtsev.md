@@ -18,14 +18,25 @@ Haise is identified in open-source reporting as the public-facing administrator 
 
 ## 3. Aliases & Online Activity
 
-| Alias / Account | Platform | Activity | Source |
+| Alias / Account | Platform | Source |
 | ------ | ------ | ------ | ------ |
-| | | | |
+| haise / /profile/113584-alexbigboss44/ | Exploit | https://justpaste.it/iosba |
+| Haise/Rjun / /members/177186/ | XSS | https://justpaste.it/iosba |
+| alexbigboss44 | Telegram | https://justpaste.it/iosba | 
+| Rjun / /profile/84170-rjun/ | BHF | https://justpaste.it/iosba |
+| rjun123 / mail-30a@mail.ru | Zloy | https://justpaste.it/iosba |
+| kaperniiki / ID 118329521 | Telegram | https://justpaste.it/iosba |  
 
 ## 4. Role Within Qilin
 
-Document reported responsibilities, activities and
-evidence of involvement in the operation.
+| Role | Evidence described in the article |
+|---|---|
+| **Administrator** | Identified as Qilin's public administrator and a key operator. |
+| **Affiliate recruitment** | Advertised Qilin's affiliate programme and recruited members through the RAMP forum. |
+| **RaaS operations management** | Explained the financial arrangement between affiliates and operators, including the operators' typical 15–20% share of ransom payments. |
+| **Public relations / spokesperson** | Announced new ransomware releases, promoted Qilin's capabilities and communicated with prospective affiliates. |
+| **Negotiation infrastructure promotion** | Promoted the "Call Lawyer" feature, designed to increase pressure on victims during negotiations. |
+| **Operational development coordination** | Announced a new ransomware release and DDoS functionality in the affiliate panel. |
 
 ## 5. Technical Activity
 
