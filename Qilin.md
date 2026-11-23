@@ -1,4 +1,12 @@
 # Qilin Ransomware
+## Known Members
+
+- [Member 1](Qilin/member-1.md)
+- [Member 2](Qilin/member-2.md)
+- [Member 3](Qilin/member-3.md)
+- [Member 4](Qilin/member-4.md)
+- [Member 5](Qilin/member-5.md)
+
 |Source|Date|Details|
 | ------ | ------ | ------ |
 | [The Qilin Ransomware: Analysis and Protection Strategies – Group-IB](https://www.group-ib.com/blog/qilin-ransomware/) | 15 May 2023 | Group-IB reported that Qilin, also known as Agenda, operates as a Ransomware-as-a-Service (RaaS) operation. Researchers infiltrated the operation in March 2023 and documented its affiliate administration panel, recruitment activity and payment structure. Group-IB reported that Qilin's leak site contained 12 victims from multiple countries at the time of its research. |
