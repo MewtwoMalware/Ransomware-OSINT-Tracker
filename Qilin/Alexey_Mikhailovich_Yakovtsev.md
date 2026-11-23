@@ -38,45 +38,6 @@ Haise is identified in open-source reporting as the public-facing administrator 
 | **Negotiation infrastructure promotion** | Promoted the "Call Lawyer" feature, designed to increase pressure on victims during negotiations. |
 | **Operational development coordination** | Announced a new ransomware release and DDoS functionality in the affiliate panel. |
 
-## 5. Technical Activity
-
-| Date | Activity | Details | Source |
-| ------ | ------ | ------ | ------ |
-| | | | |
-
-## 6. Associated Threat Activity
-
-Document publicly reported incidents, campaigns,
-malware or infrastructure associated with this individual.
-
-## 7. Attribution & Evidence
-
-| Evidence | Description | Source | Confidence |
-| ------ | ------ | ------ | ------ |
-| | | | |
-
-## 8. Intelligence Assessment
-
-Summarise the available evidence and assess the
-strength of the alleged Qilin association.
-
-## 9. Timeline
-
-| Date | Event | Source |
-| ------ | ------ | ------ |
-| | | |
-
-## 10. References
-
-| Source | Date | Details |
-| ------ | ------ | ------ |
-| | | |
-
-## 11. Analyst Notes
-
-Additional observations, intelligence gaps and
-areas requiring further verification.
-
 ---
 
 **Last Updated:** 
