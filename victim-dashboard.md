@@ -1,45 +1,45 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-23T10:24:47.146860+00:00
+**Last updated:** 2026-11-23T22:10:39.757574+00:00
 
 ## Overview
 
-- **Total unique victims:** 1076
-- **Total recorded claims:** 1076
-- **Groups represented:** 70
+- **Total unique victims:** 1101
+- **Total recorded claims:** 1101
+- **Groups represented:** 71
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
 | 1 | n0n | 258 |
-| 2 | the gentlemen | 76 |
-| 3 | qilin | 69 |
-| 4 | inc ransom | 64 |
+| 2 | the gentlemen | 80 |
+| 3 | qilin | 72 |
+| 4 | inc ransom | 65 |
 | 5 | vortex | 39 |
 | 6 | pixelleaks | 38 |
 | 7 | akira | 30 |
-| 8 | soul | 28 |
-| 9 | leakeddata | 24 |
-| 10 | rhysida | 21 |
-| 11 | safepay | 20 |
+| 8 | safepay | 29 |
+| 9 | soul | 28 |
+| 10 | leakeddata | 24 |
+| 11 | rhysida | 22 |
 | 12 | climax | 19 |
 | 13 | aoqin leaks | 17 |
 | 14 | booba team | 16 |
 | 15 | brain cipher | 16 |
 | 16 | curious worm | 16 |
 | 17 | metaencryptor | 15 |
-| 18 | hyflock | 13 |
-| 19 | lockbit5 | 13 |
-| 20 | interlock | 12 |
-| 21 | whitearmor | 12 |
-| 22 | play | 12 |
-| 23 | everest | 12 |
-| 24 | pear | 11 |
-| 25 | genesis | 11 |
-| 26 | byod | 11 |
-| 27 | krybit | 11 |
-| 28 | aurora | 10 |
+| 18 | lockbit5 | 14 |
+| 19 | aurora | 13 |
+| 20 | hyflock | 13 |
+| 21 | interlock | 12 |
+| 22 | whitearmor | 12 |
+| 23 | play | 12 |
+| 24 | everest | 12 |
+| 25 | pear | 11 |
+| 26 | genesis | 11 |
+| 27 | byod | 11 |
+| 28 | krybit | 11 |
 | 29 | audit team | 10 |
 | 30 | payload | 9 |
 | 31 | ransomhouse | 8 |
@@ -62,11 +62,11 @@
 | 48 | payoutsking | 4 |
 | 49 | shiba | 4 |
 | 50 | cloak | 4 |
-| 51 | anubis | 4 |
-| 52 | black x | 4 |
-| 53 | doommageddon | 3 |
-| 54 | chaos | 3 |
-| 55 | eclipse | 3 |
+| 51 | eclipse | 4 |
+| 52 | anubis | 4 |
+| 53 | black x | 4 |
+| 54 | doommageddon | 3 |
+| 55 | chaos | 3 |
 | 56 | handsome boy hacking club | 3 |
 | 57 | wallstreet | 2 |
 | 58 | leaknet | 2 |
@@ -74,32 +74,33 @@
 | 60 | falcon | 2 |
 | 61 | bravox | 2 |
 | 62 | blackout | 2 |
-| 63 | dragonforce | 1 |
-| 64 | destello | 1 |
-| 65 | beast | 1 |
-| 66 | iah647 | 1 |
-| 67 | morpheus | 1 |
-| 68 | daixin | 1 |
-| 69 | crypto24 | 1 |
-| 70 | fulcrumsec | 1 |
+| 63 | insomnia | 2 |
+| 64 | dragonforce | 1 |
+| 65 | destello | 1 |
+| 66 | beast | 1 |
+| 67 | iah647 | 1 |
+| 68 | morpheus | 1 |
+| 69 | daixin | 1 |
+| 70 | crypto24 | 1 |
+| 71 | fulcrumsec | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1076 |
+| claimed | 1101 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1076 |
+| Unknown | 1101 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1076 |
+| Unknown | 1101 |
 
 ---
 

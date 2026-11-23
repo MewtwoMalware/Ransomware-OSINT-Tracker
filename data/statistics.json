@@ -1,28 +1,29 @@
 {
-  "last_updated": "2026-11-23T10:24:47.146860+00:00",
-  "total_unique_victims": 1076,
-  "total_recorded_claims": 1076,
-  "total_groups": 70,
+  "last_updated": "2026-11-23T22:10:39.757574+00:00",
+  "total_unique_victims": 1101,
+  "total_recorded_claims": 1101,
+  "total_groups": 71,
   "victims_by_group": {
     "n0n": 258,
-    "the gentlemen": 76,
-    "qilin": 69,
-    "inc ransom": 64,
+    "the gentlemen": 80,
+    "qilin": 72,
+    "inc ransom": 65,
     "vortex": 39,
     "pixelleaks": 38,
     "akira": 30,
+    "safepay": 29,
     "soul": 28,
     "leakeddata": 24,
-    "rhysida": 21,
-    "safepay": 20,
+    "rhysida": 22,
     "climax": 19,
     "aoqin leaks": 17,
     "booba team": 16,
     "brain cipher": 16,
     "curious worm": 16,
     "metaencryptor": 15,
+    "lockbit5": 14,
+    "aurora": 13,
     "hyflock": 13,
-    "lockbit5": 13,
     "interlock": 12,
     "whitearmor": 12,
     "play": 12,
@@ -31,7 +32,6 @@
     "genesis": 11,
     "byod": 11,
     "krybit": 11,
-    "aurora": 10,
     "audit team": 10,
     "payload": 9,
     "ransomhouse": 8,
@@ -54,11 +54,11 @@
     "payoutsking": 4,
     "shiba": 4,
     "cloak": 4,
+    "eclipse": 4,
     "anubis": 4,
     "black x": 4,
     "doommageddon": 3,
     "chaos": 3,
-    "eclipse": 3,
     "handsome boy hacking club": 3,
     "wallstreet": 2,
     "leaknet": 2,
@@ -66,6 +66,7 @@
     "falcon": 2,
     "bravox": 2,
     "blackout": 2,
+    "insomnia": 2,
     "dragonforce": 1,
     "destello": 1,
     "beast": 1,
@@ -76,12 +77,12 @@
     "fulcrumsec": 1
   },
   "victims_by_status": {
-    "claimed": 1076
+    "claimed": 1101
   },
   "victims_by_country": {
-    "Unknown": 1076
+    "Unknown": 1101
   },
   "victims_by_sector": {
-    "Unknown": 1076
+    "Unknown": 1101
   }
 }
