@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-11-22T21:04:04.814177+00:00",
-  "total_unique_victims": 1034,
-  "total_recorded_claims": 1034,
+  "last_updated": "2026-11-23T01:45:17.430111+00:00",
+  "total_unique_victims": 1040,
+  "total_recorded_claims": 1040,
   "total_groups": 70,
   "victims_by_group": {
-    "n0n": 231,
+    "n0n": 233,
     "the gentlemen": 76,
     "qilin": 69,
-    "inc ransom": 62,
+    "inc ransom": 64,
     "vortex": 39,
-    "pixelleaks": 35,
+    "pixelleaks": 37,
     "akira": 30,
     "soul": 28,
     "leakeddata": 24,
@@ -76,12 +76,12 @@
     "blackout": 1
   },
   "victims_by_status": {
-    "claimed": 1034
+    "claimed": 1040
   },
   "victims_by_country": {
-    "Unknown": 1034
+    "Unknown": 1040
   },
   "victims_by_sector": {
-    "Unknown": 1034
+    "Unknown": 1040
   }
 }
