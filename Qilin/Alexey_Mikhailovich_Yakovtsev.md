@@ -29,7 +29,7 @@ Haise is identified in open-source reporting as the public-facing administrator 
 
 ## 4. Role Within Qilin
 
-| Role | Evidence described in the article |
+| Role | Evidence described from the article |
 |---|---|
 | **Administrator** | Identified as Qilin's public administrator and a key operator. |
 | **Affiliate recruitment** | Advertised Qilin's affiliate programme and recruited members through the RAMP forum. |
