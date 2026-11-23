@@ -19,7 +19,7 @@ Haise is identified in open-source reporting as the public-facing administrator 
 ## 3. Aliases & Online Activity
 
 | Alias / Account | Platform | Source |
-| ------ | ------ | ------ | ------ |
+| ------ | ------ | ------ |
 | haise / /profile/113584-alexbigboss44/ | Exploit | https://justpaste.it/iosba |
 | Haise/Rjun / /members/177186/ | XSS | https://justpaste.it/iosba |
 | alexbigboss44 | Telegram | https://justpaste.it/iosba | 
