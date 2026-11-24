@@ -1,12 +1,12 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-24T06:04:25.411308+00:00
+**Last updated:** 2026-11-24T17:46:00.837365+00:00
 
 ## Overview
 
-- **Total unique victims:** 1113
-- **Total recorded claims:** 1113
-- **Groups represented:** 71
+- **Total unique victims:** 1125
+- **Total recorded claims:** 1125
+- **Groups represented:** 72
 
 ## Victims by Ransomware Group
 
@@ -14,23 +14,23 @@
 | ---: | --- | ---: |
 | 1 | n0n | 258 |
 | 2 | the gentlemen | 88 |
-| 3 | qilin | 73 |
-| 4 | inc ransom | 65 |
-| 5 | vortex | 39 |
-| 6 | pixelleaks | 38 |
+| 3 | qilin | 75 |
+| 4 | inc ransom | 66 |
+| 5 | pixelleaks | 40 |
+| 6 | vortex | 39 |
 | 7 | akira | 30 |
-| 8 | safepay | 29 |
+| 8 | safepay | 30 |
 | 9 | soul | 29 |
-| 10 | leakeddata | 24 |
+| 10 | leakeddata | 25 |
 | 11 | rhysida | 23 |
 | 12 | climax | 19 |
-| 13 | aoqin leaks | 17 |
+| 13 | aoqin leaks | 18 |
 | 14 | booba team | 16 |
 | 15 | brain cipher | 16 |
 | 16 | curious worm | 16 |
 | 17 | metaencryptor | 15 |
-| 18 | lockbit5 | 14 |
-| 19 | aurora | 13 |
+| 18 | aurora | 14 |
+| 19 | lockbit5 | 14 |
 | 20 | hyflock | 13 |
 | 21 | interlock | 12 |
 | 22 | whitearmor | 12 |
@@ -57,14 +57,14 @@
 | 43 | direwolf | 5 |
 | 44 | emperador | 5 |
 | 45 | nightspire | 5 |
-| 46 | panzer | 5 |
-| 47 | endzone | 5 |
-| 48 | payoutsking | 4 |
-| 49 | shiba | 4 |
-| 50 | cloak | 4 |
-| 51 | eclipse | 4 |
-| 52 | anubis | 4 |
-| 53 | black x | 4 |
+| 46 | eclipse | 5 |
+| 47 | black x | 5 |
+| 48 | panzer | 5 |
+| 49 | endzone | 5 |
+| 50 | payoutsking | 4 |
+| 51 | shiba | 4 |
+| 52 | cloak | 4 |
+| 53 | anubis | 4 |
 | 54 | doommageddon | 3 |
 | 55 | chaos | 3 |
 | 56 | handsome boy hacking club | 3 |
@@ -83,24 +83,25 @@
 | 69 | daixin | 1 |
 | 70 | crypto24 | 1 |
 | 71 | fulcrumsec | 1 |
+| 72 | secp0 | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1113 |
+| claimed | 1125 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1113 |
+| Unknown | 1125 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1113 |
+| Unknown | 1125 |
 
 ---
 

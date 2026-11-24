@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-11-24T06:04:25.411308+00:00",
-  "total_unique_victims": 1113,
-  "total_recorded_claims": 1113,
-  "total_groups": 71,
+  "last_updated": "2026-11-24T17:46:00.837365+00:00",
+  "total_unique_victims": 1125,
+  "total_recorded_claims": 1125,
+  "total_groups": 72,
   "victims_by_group": {
     "n0n": 258,
     "the gentlemen": 88,
-    "qilin": 73,
-    "inc ransom": 65,
+    "qilin": 75,
+    "inc ransom": 66,
+    "pixelleaks": 40,
     "vortex": 39,
-    "pixelleaks": 38,
     "akira": 30,
-    "safepay": 29,
+    "safepay": 30,
     "soul": 29,
-    "leakeddata": 24,
+    "leakeddata": 25,
     "rhysida": 23,
     "climax": 19,
-    "aoqin leaks": 17,
+    "aoqin leaks": 18,
     "booba team": 16,
     "brain cipher": 16,
     "curious worm": 16,
     "metaencryptor": 15,
+    "aurora": 14,
     "lockbit5": 14,
-    "aurora": 13,
     "hyflock": 13,
     "interlock": 12,
     "whitearmor": 12,
@@ -49,14 +49,14 @@
     "direwolf": 5,
     "emperador": 5,
     "nightspire": 5,
+    "eclipse": 5,
+    "black x": 5,
     "panzer": 5,
     "endzone": 5,
     "payoutsking": 4,
     "shiba": 4,
     "cloak": 4,
-    "eclipse": 4,
     "anubis": 4,
-    "black x": 4,
     "doommageddon": 3,
     "chaos": 3,
     "handsome boy hacking club": 3,
@@ -74,15 +74,16 @@
     "morpheus": 1,
     "daixin": 1,
     "crypto24": 1,
-    "fulcrumsec": 1
+    "fulcrumsec": 1,
+    "secp0": 1
   },
   "victims_by_status": {
-    "claimed": 1113
+    "claimed": 1125
   },
   "victims_by_country": {
-    "Unknown": 1113
+    "Unknown": 1125
   },
   "victims_by_sector": {
-    "Unknown": 1113
+    "Unknown": 1125
   }
 }
