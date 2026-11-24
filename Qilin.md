@@ -2,10 +2,10 @@
 ## Known Members
 
 - [Alexey Mikhailovich Yakovtsev](Qilin/Alexey_Mikhailovich_Yakovtsev.md)
-- [Member 2](Qilin/member-2.md)
-- [Member 3](Qilin/member-3.md)
-- [Member 4](Qilin/member-4.md)
-- [Member 5](Qilin/member-5.md)
+- [Sergey Olegovich Martirosov](Qilin/Sergey_Olegovich_Martirosov.md)
+- [Viktor Vladimirovich Tolmachev](Qilin/Viktor_Vladimirovich_Tolmachev.md)
+- [Vladimir Yuryevich Kozlovskiy](Qilin/Vladimir_Yuryevich_Kozlovskiy.md)
+- [Kirill Vadimovich Sokolov](Qilin/Kirill_Vadimovich_Sokolov.md)
 
 |Source|Date|Details|
 | ------ | ------ | ------ |
