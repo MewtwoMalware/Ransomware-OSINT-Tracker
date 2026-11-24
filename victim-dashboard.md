@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-23T22:10:39.757574+00:00
+**Last updated:** 2026-11-24T06:04:25.411308+00:00
 
 ## Overview
 
-- **Total unique victims:** 1101
-- **Total recorded claims:** 1101
+- **Total unique victims:** 1113
+- **Total recorded claims:** 1113
 - **Groups represented:** 71
 
 ## Victims by Ransomware Group
@@ -13,16 +13,16 @@
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
 | 1 | n0n | 258 |
-| 2 | the gentlemen | 80 |
-| 3 | qilin | 72 |
+| 2 | the gentlemen | 88 |
+| 3 | qilin | 73 |
 | 4 | inc ransom | 65 |
 | 5 | vortex | 39 |
 | 6 | pixelleaks | 38 |
 | 7 | akira | 30 |
 | 8 | safepay | 29 |
-| 9 | soul | 28 |
+| 9 | soul | 29 |
 | 10 | leakeddata | 24 |
-| 11 | rhysida | 22 |
+| 11 | rhysida | 23 |
 | 12 | climax | 19 |
 | 13 | aoqin leaks | 17 |
 | 14 | booba team | 16 |
@@ -45,11 +45,11 @@
 | 31 | ransomhouse | 8 |
 | 32 | everstake | 8 |
 | 33 | vexy | 8 |
-| 34 | space bears | 8 |
-| 35 | silentvault | 8 |
-| 36 | global secret group | 7 |
-| 37 | deadlock | 7 |
-| 38 | dark project | 7 |
+| 34 | dark project | 8 |
+| 35 | space bears | 8 |
+| 36 | silentvault | 8 |
+| 37 | global secret group | 7 |
+| 38 | deadlock | 7 |
 | 39 | inception | 7 |
 | 40 | orova | 6 |
 | 41 | majinahanashi | 6 |
@@ -88,19 +88,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1101 |
+| claimed | 1113 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1101 |
+| Unknown | 1113 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1101 |
+| Unknown | 1113 |
 
 ---
 
