@@ -1,19 +1,19 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-25T01:57:58.180886+00:00
+**Last updated:** 2026-11-25T11:07:12.215318+00:00
 
 ## Overview
 
-- **Total unique victims:** 1173
-- **Total recorded claims:** 1173
+- **Total unique victims:** 1190
+- **Total recorded claims:** 1190
 - **Groups represented:** 74
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
-| 1 | n0n | 258 |
-| 2 | the gentlemen | 102 |
+| 1 | n0n | 259 |
+| 2 | the gentlemen | 113 |
 | 3 | qilin | 76 |
 | 4 | inc ransom | 69 |
 | 5 | pixelleaks | 41 |
@@ -26,27 +26,27 @@
 | 12 | climax | 21 |
 | 13 | aoqin leaks | 18 |
 | 14 | play | 17 |
-| 15 | booba team | 16 |
-| 16 | brain cipher | 16 |
-| 17 | curious worm | 16 |
-| 18 | aurora | 15 |
+| 15 | aurora | 16 |
+| 16 | booba team | 16 |
+| 17 | brain cipher | 16 |
+| 18 | curious worm | 16 |
 | 19 | metaencryptor | 15 |
 | 20 | lockbit5 | 14 |
 | 21 | hyflock | 13 |
 | 22 | interlock | 12 |
 | 23 | whitearmor | 12 |
 | 24 | everest | 12 |
-| 25 | pear | 11 |
-| 26 | genesis | 11 |
-| 27 | byod | 11 |
-| 28 | krybit | 11 |
-| 29 | audit team | 10 |
-| 30 | payload | 9 |
-| 31 | ransomhouse | 8 |
-| 32 | everstake | 8 |
-| 33 | vexy | 8 |
-| 34 | dark project | 8 |
-| 35 | space bears | 8 |
+| 25 | space bears | 12 |
+| 26 | pear | 11 |
+| 27 | genesis | 11 |
+| 28 | byod | 11 |
+| 29 | krybit | 11 |
+| 30 | audit team | 10 |
+| 31 | payload | 9 |
+| 32 | ransomhouse | 8 |
+| 33 | everstake | 8 |
+| 34 | vexy | 8 |
+| 35 | dark project | 8 |
 | 36 | silentvault | 8 |
 | 37 | global secret group | 7 |
 | 38 | deadlock | 7 |
@@ -91,19 +91,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1173 |
+| claimed | 1190 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1173 |
+| Unknown | 1190 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1173 |
+| Unknown | 1190 |
 
 ---
 
