@@ -1,40 +1,40 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-24T17:46:00.837365+00:00
+**Last updated:** 2026-11-25T01:57:58.180886+00:00
 
 ## Overview
 
-- **Total unique victims:** 1125
-- **Total recorded claims:** 1125
-- **Groups represented:** 72
+- **Total unique victims:** 1173
+- **Total recorded claims:** 1173
+- **Groups represented:** 74
 
 ## Victims by Ransomware Group
 
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
 | 1 | n0n | 258 |
-| 2 | the gentlemen | 88 |
-| 3 | qilin | 75 |
-| 4 | inc ransom | 66 |
-| 5 | pixelleaks | 40 |
+| 2 | the gentlemen | 102 |
+| 3 | qilin | 76 |
+| 4 | inc ransom | 69 |
+| 5 | pixelleaks | 41 |
 | 6 | vortex | 39 |
-| 7 | akira | 30 |
-| 8 | safepay | 30 |
-| 9 | soul | 29 |
-| 10 | leakeddata | 25 |
-| 11 | rhysida | 23 |
-| 12 | climax | 19 |
+| 7 | leakeddata | 34 |
+| 8 | akira | 30 |
+| 9 | safepay | 30 |
+| 10 | soul | 29 |
+| 11 | rhysida | 24 |
+| 12 | climax | 21 |
 | 13 | aoqin leaks | 18 |
-| 14 | booba team | 16 |
-| 15 | brain cipher | 16 |
-| 16 | curious worm | 16 |
-| 17 | metaencryptor | 15 |
-| 18 | aurora | 14 |
-| 19 | lockbit5 | 14 |
-| 20 | hyflock | 13 |
-| 21 | interlock | 12 |
-| 22 | whitearmor | 12 |
-| 23 | play | 12 |
+| 14 | play | 17 |
+| 15 | booba team | 16 |
+| 16 | brain cipher | 16 |
+| 17 | curious worm | 16 |
+| 18 | aurora | 15 |
+| 19 | metaencryptor | 15 |
+| 20 | lockbit5 | 14 |
+| 21 | hyflock | 13 |
+| 22 | interlock | 12 |
+| 23 | whitearmor | 12 |
 | 24 | everest | 12 |
 | 25 | pear | 11 |
 | 26 | genesis | 11 |
@@ -51,57 +51,59 @@
 | 37 | global secret group | 7 |
 | 38 | deadlock | 7 |
 | 39 | inception | 7 |
-| 40 | orova | 6 |
-| 41 | majinahanashi | 6 |
-| 42 | obsoft | 6 |
-| 43 | direwolf | 5 |
-| 44 | emperador | 5 |
-| 45 | nightspire | 5 |
-| 46 | eclipse | 5 |
-| 47 | black x | 5 |
-| 48 | panzer | 5 |
-| 49 | endzone | 5 |
-| 50 | payoutsking | 4 |
-| 51 | shiba | 4 |
-| 52 | cloak | 4 |
-| 53 | anubis | 4 |
-| 54 | doommageddon | 3 |
-| 55 | chaos | 3 |
-| 56 | handsome boy hacking club | 3 |
-| 57 | wallstreet | 2 |
-| 58 | leaknet | 2 |
-| 59 | redact | 2 |
-| 60 | falcon | 2 |
-| 61 | bravox | 2 |
-| 62 | blackout | 2 |
-| 63 | insomnia | 2 |
-| 64 | dragonforce | 1 |
-| 65 | destello | 1 |
-| 66 | beast | 1 |
-| 67 | iah647 | 1 |
-| 68 | morpheus | 1 |
-| 69 | daixin | 1 |
-| 70 | crypto24 | 1 |
-| 71 | fulcrumsec | 1 |
-| 72 | secp0 | 1 |
+| 40 | scarlettgroup | 7 |
+| 41 | orova | 6 |
+| 42 | majinahanashi | 6 |
+| 43 | obsoft | 6 |
+| 44 | direwolf | 5 |
+| 45 | emperador | 5 |
+| 46 | nightspire | 5 |
+| 47 | eclipse | 5 |
+| 48 | black x | 5 |
+| 49 | panzer | 5 |
+| 50 | endzone | 5 |
+| 51 | payoutsking | 4 |
+| 52 | shiba | 4 |
+| 53 | falcon | 4 |
+| 54 | cloak | 4 |
+| 55 | anubis | 4 |
+| 56 | doommageddon | 3 |
+| 57 | chaos | 3 |
+| 58 | handsome boy hacking club | 3 |
+| 59 | wallstreet | 2 |
+| 60 | leaknet | 2 |
+| 61 | redact | 2 |
+| 62 | bravox | 2 |
+| 63 | blackout | 2 |
+| 64 | insomnia | 2 |
+| 65 | barracuda | 2 |
+| 66 | dragonforce | 1 |
+| 67 | destello | 1 |
+| 68 | beast | 1 |
+| 69 | iah647 | 1 |
+| 70 | morpheus | 1 |
+| 71 | daixin | 1 |
+| 72 | crypto24 | 1 |
+| 73 | fulcrumsec | 1 |
+| 74 | secp0 | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1125 |
+| claimed | 1173 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1125 |
+| Unknown | 1173 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1125 |
+| Unknown | 1173 |
 
 ---
 
