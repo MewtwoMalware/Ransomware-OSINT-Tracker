@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-11-25T11:07:12.215318+00:00",
-  "total_unique_victims": 1190,
-  "total_recorded_claims": 1190,
-  "total_groups": 74,
+  "last_updated": "2026-11-25T20:28:49.825664+00:00",
+  "total_unique_victims": 1219,
+  "total_recorded_claims": 1219,
+  "total_groups": 75,
   "victims_by_group": {
-    "n0n": 259,
+    "n0n": 276,
     "the gentlemen": 113,
-    "qilin": 76,
+    "qilin": 78,
     "inc ransom": 69,
     "pixelleaks": 41,
     "vortex": 39,
-    "leakeddata": 34,
+    "leakeddata": 35,
     "akira": 30,
     "safepay": 30,
     "soul": 29,
-    "rhysida": 24,
+    "rhysida": 25,
     "climax": 21,
+    "aurora": 19,
     "aoqin leaks": 18,
     "play": 17,
-    "aurora": 16,
     "booba team": 16,
     "brain cipher": 16,
     "curious worm": 16,
@@ -35,15 +35,15 @@
     "krybit": 11,
     "audit team": 10,
     "payload": 9,
+    "dark project": 9,
     "ransomhouse": 8,
     "everstake": 8,
     "vexy": 8,
-    "dark project": 8,
     "silentvault": 8,
+    "scarlettgroup": 8,
     "global secret group": 7,
     "deadlock": 7,
     "inception": 7,
-    "scarlettgroup": 7,
     "orova": 6,
     "majinahanashi": 6,
     "obsoft": 6,
@@ -51,6 +51,7 @@
     "emperador": 5,
     "nightspire": 5,
     "eclipse": 5,
+    "anubis": 5,
     "black x": 5,
     "panzer": 5,
     "endzone": 5,
@@ -58,7 +59,6 @@
     "shiba": 4,
     "falcon": 4,
     "cloak": 4,
-    "anubis": 4,
     "doommageddon": 3,
     "chaos": 3,
     "handsome boy hacking club": 3,
@@ -69,6 +69,7 @@
     "blackout": 2,
     "insomnia": 2,
     "barracuda": 2,
+    "osiris2026": 2,
     "dragonforce": 1,
     "destello": 1,
     "beast": 1,
@@ -80,12 +81,12 @@
     "secp0": 1
   },
   "victims_by_status": {
-    "claimed": 1190
+    "claimed": 1219
   },
   "victims_by_country": {
-    "Unknown": 1190
+    "Unknown": 1219
   },
   "victims_by_sector": {
-    "Unknown": 1190
+    "Unknown": 1219
   }
 }
