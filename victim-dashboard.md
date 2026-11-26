@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-26T12:35:34.183937+00:00
+**Last updated:** 2026-11-26T21:56:39.478734+00:00
 
 ## Overview
 
-- **Total unique victims:** 1265
-- **Total recorded claims:** 1265
+- **Total unique victims:** 1283
+- **Total recorded claims:** 1283
 - **Groups represented:** 76
 
 ## Victims by Ransomware Group
@@ -13,54 +13,54 @@
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
 | 1 | n0n | 298 |
-| 2 | the gentlemen | 115 |
-| 3 | qilin | 79 |
+| 2 | the gentlemen | 117 |
+| 3 | qilin | 80 |
 | 4 | inc ransom | 69 |
 | 5 | pixelleaks | 47 |
 | 6 | vortex | 39 |
 | 7 | leakeddata | 36 |
 | 8 | akira | 30 |
 | 9 | safepay | 30 |
-| 10 | soul | 29 |
-| 11 | rhysida | 28 |
-| 12 | climax | 21 |
-| 13 | aurora | 19 |
+| 10 | rhysida | 29 |
+| 11 | soul | 29 |
+| 12 | aurora | 21 |
+| 13 | climax | 21 |
 | 14 | aoqin leaks | 18 |
 | 15 | brain cipher | 17 |
 | 16 | play | 17 |
 | 17 | booba team | 16 |
-| 18 | curious worm | 16 |
-| 19 | metaencryptor | 15 |
+| 18 | metaencryptor | 16 |
+| 19 | curious worm | 16 |
 | 20 | hyflock | 14 |
 | 21 | lockbit5 | 14 |
 | 22 | everest | 14 |
 | 23 | interlock | 13 |
-| 24 | whitearmor | 12 |
-| 25 | space bears | 12 |
-| 26 | pear | 11 |
-| 27 | genesis | 11 |
-| 28 | byod | 11 |
-| 29 | dark project | 11 |
-| 30 | krybit | 11 |
-| 31 | audit team | 10 |
-| 32 | payload | 9 |
-| 33 | ransomhouse | 8 |
-| 34 | everstake | 8 |
-| 35 | vexy | 8 |
-| 36 | inception | 8 |
-| 37 | silentvault | 8 |
-| 38 | scarlettgroup | 8 |
-| 39 | global secret group | 7 |
-| 40 | deadlock | 7 |
-| 41 | orova | 6 |
+| 24 | inception | 13 |
+| 25 | whitearmor | 12 |
+| 26 | space bears | 12 |
+| 27 | pear | 11 |
+| 28 | genesis | 11 |
+| 29 | byod | 11 |
+| 30 | orova | 11 |
+| 31 | dark project | 11 |
+| 32 | krybit | 11 |
+| 33 | audit team | 10 |
+| 34 | payload | 9 |
+| 35 | ransomhouse | 8 |
+| 36 | everstake | 8 |
+| 37 | vexy | 8 |
+| 38 | silentvault | 8 |
+| 39 | scarlettgroup | 8 |
+| 40 | global secret group | 7 |
+| 41 | deadlock | 7 |
 | 42 | majinahanashi | 6 |
-| 43 | obsoft | 6 |
-| 44 | direwolf | 5 |
-| 45 | payoutsking | 5 |
-| 46 | emperador | 5 |
-| 47 | nightspire | 5 |
-| 48 | eclipse | 5 |
-| 49 | anubis | 5 |
+| 43 | anubis | 6 |
+| 44 | obsoft | 6 |
+| 45 | direwolf | 5 |
+| 46 | payoutsking | 5 |
+| 47 | emperador | 5 |
+| 48 | nightspire | 5 |
+| 49 | eclipse | 5 |
 | 50 | black x | 5 |
 | 51 | panzer | 5 |
 | 52 | endzone | 5 |
@@ -93,19 +93,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1265 |
+| claimed | 1283 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1265 |
+| Unknown | 1283 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1265 |
+| Unknown | 1283 |
 
 ---
 
