@@ -1,12 +1,12 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-26T03:00:32.915558+00:00
+**Last updated:** 2026-11-26T12:35:34.183937+00:00
 
 ## Overview
 
-- **Total unique victims:** 1252
-- **Total recorded claims:** 1252
-- **Groups represented:** 75
+- **Total unique victims:** 1265
+- **Total recorded claims:** 1265
+- **Groups represented:** 76
 
 ## Victims by Ransomware Group
 
@@ -16,13 +16,13 @@
 | 2 | the gentlemen | 115 |
 | 3 | qilin | 79 |
 | 4 | inc ransom | 69 |
-| 5 | pixelleaks | 42 |
+| 5 | pixelleaks | 47 |
 | 6 | vortex | 39 |
 | 7 | leakeddata | 36 |
 | 8 | akira | 30 |
 | 9 | safepay | 30 |
 | 10 | soul | 29 |
-| 11 | rhysida | 25 |
+| 11 | rhysida | 28 |
 | 12 | climax | 21 |
 | 13 | aurora | 19 |
 | 14 | aoqin leaks | 18 |
@@ -31,11 +31,11 @@
 | 17 | booba team | 16 |
 | 18 | curious worm | 16 |
 | 19 | metaencryptor | 15 |
-| 20 | lockbit5 | 14 |
-| 21 | interlock | 13 |
-| 22 | hyflock | 13 |
-| 23 | whitearmor | 12 |
-| 24 | everest | 12 |
+| 20 | hyflock | 14 |
+| 21 | lockbit5 | 14 |
+| 22 | everest | 14 |
+| 23 | interlock | 13 |
+| 24 | whitearmor | 12 |
 | 25 | space bears | 12 |
 | 26 | pear | 11 |
 | 27 | genesis | 11 |
@@ -78,33 +78,34 @@
 | 64 | insomnia | 2 |
 | 65 | barracuda | 2 |
 | 66 | osiris2026 | 2 |
-| 67 | dragonforce | 1 |
-| 68 | destello | 1 |
-| 69 | beast | 1 |
-| 70 | iah647 | 1 |
-| 71 | morpheus | 1 |
-| 72 | daixin | 1 |
-| 73 | crypto24 | 1 |
-| 74 | fulcrumsec | 1 |
-| 75 | secp0 | 1 |
+| 67 | puppeteer | 2 |
+| 68 | dragonforce | 1 |
+| 69 | destello | 1 |
+| 70 | beast | 1 |
+| 71 | iah647 | 1 |
+| 72 | morpheus | 1 |
+| 73 | daixin | 1 |
+| 74 | crypto24 | 1 |
+| 75 | fulcrumsec | 1 |
+| 76 | secp0 | 1 |
 
 ## Victims by Status
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1252 |
+| claimed | 1265 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1252 |
+| Unknown | 1265 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1252 |
+| Unknown | 1265 |
 
 ---
 
