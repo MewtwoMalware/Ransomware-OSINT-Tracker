@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-26T21:56:39.478734+00:00
+**Last updated:** 2026-11-27T03:59:53.022188+00:00
 
 ## Overview
 
-- **Total unique victims:** 1283
-- **Total recorded claims:** 1283
+- **Total unique victims:** 1292
+- **Total recorded claims:** 1292
 - **Groups represented:** 76
 
 ## Victims by Ransomware Group
@@ -16,7 +16,7 @@
 | 2 | the gentlemen | 117 |
 | 3 | qilin | 80 |
 | 4 | inc ransom | 69 |
-| 5 | pixelleaks | 47 |
+| 5 | pixelleaks | 52 |
 | 6 | vortex | 39 |
 | 7 | leakeddata | 36 |
 | 8 | akira | 30 |
@@ -35,9 +35,9 @@
 | 21 | lockbit5 | 14 |
 | 22 | everest | 14 |
 | 23 | interlock | 13 |
-| 24 | inception | 13 |
-| 25 | whitearmor | 12 |
-| 26 | space bears | 12 |
+| 24 | whitearmor | 13 |
+| 25 | inception | 13 |
+| 26 | space bears | 13 |
 | 27 | pear | 11 |
 | 28 | genesis | 11 |
 | 29 | byod | 11 |
@@ -53,10 +53,10 @@
 | 39 | scarlettgroup | 8 |
 | 40 | global secret group | 7 |
 | 41 | deadlock | 7 |
-| 42 | majinahanashi | 6 |
-| 43 | anubis | 6 |
-| 44 | obsoft | 6 |
-| 45 | direwolf | 5 |
+| 42 | direwolf | 6 |
+| 43 | majinahanashi | 6 |
+| 44 | anubis | 6 |
+| 45 | obsoft | 6 |
 | 46 | payoutsking | 5 |
 | 47 | emperador | 5 |
 | 48 | nightspire | 5 |
@@ -69,11 +69,11 @@
 | 55 | cloak | 4 |
 | 56 | doommageddon | 3 |
 | 57 | chaos | 3 |
-| 58 | handsome boy hacking club | 3 |
-| 59 | wallstreet | 2 |
-| 60 | leaknet | 2 |
-| 61 | redact | 2 |
-| 62 | bravox | 2 |
+| 58 | bravox | 3 |
+| 59 | handsome boy hacking club | 3 |
+| 60 | wallstreet | 2 |
+| 61 | leaknet | 2 |
+| 62 | redact | 2 |
 | 63 | blackout | 2 |
 | 64 | insomnia | 2 |
 | 65 | barracuda | 2 |
@@ -93,19 +93,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1283 |
+| claimed | 1292 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1283 |
+| Unknown | 1292 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1283 |
+| Unknown | 1292 |
 
 ---
 

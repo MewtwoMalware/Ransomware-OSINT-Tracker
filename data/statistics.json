@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-26T21:56:39.478734+00:00",
-  "total_unique_victims": 1283,
-  "total_recorded_claims": 1283,
+  "last_updated": "2026-11-27T03:59:53.022188+00:00",
+  "total_unique_victims": 1292,
+  "total_recorded_claims": 1292,
   "total_groups": 76,
   "victims_by_group": {
     "n0n": 298,
     "the gentlemen": 117,
     "qilin": 80,
     "inc ransom": 69,
-    "pixelleaks": 47,
+    "pixelleaks": 52,
     "vortex": 39,
     "leakeddata": 36,
     "akira": 30,
@@ -27,9 +27,9 @@
     "lockbit5": 14,
     "everest": 14,
     "interlock": 13,
+    "whitearmor": 13,
     "inception": 13,
-    "whitearmor": 12,
-    "space bears": 12,
+    "space bears": 13,
     "pear": 11,
     "genesis": 11,
     "byod": 11,
@@ -45,10 +45,10 @@
     "scarlettgroup": 8,
     "global secret group": 7,
     "deadlock": 7,
+    "direwolf": 6,
     "majinahanashi": 6,
     "anubis": 6,
     "obsoft": 6,
-    "direwolf": 5,
     "payoutsking": 5,
     "emperador": 5,
     "nightspire": 5,
@@ -61,11 +61,11 @@
     "cloak": 4,
     "doommageddon": 3,
     "chaos": 3,
+    "bravox": 3,
     "handsome boy hacking club": 3,
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
-    "bravox": 2,
     "blackout": 2,
     "insomnia": 2,
     "barracuda": 2,
@@ -82,12 +82,12 @@
     "secp0": 1
   },
   "victims_by_status": {
-    "claimed": 1283
+    "claimed": 1292
   },
   "victims_by_country": {
-    "Unknown": 1283
+    "Unknown": 1292
   },
   "victims_by_sector": {
-    "Unknown": 1283
+    "Unknown": 1292
   }
 }
