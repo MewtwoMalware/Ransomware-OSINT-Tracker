@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-11-27T03:59:53.022188+00:00",
-  "total_unique_victims": 1292,
-  "total_recorded_claims": 1292,
+  "last_updated": "2026-11-27T13:43:46.352871+00:00",
+  "total_unique_victims": 1298,
+  "total_recorded_claims": 1298,
   "total_groups": 76,
   "victims_by_group": {
     "n0n": 298,
     "the gentlemen": 117,
-    "qilin": 80,
+    "qilin": 81,
     "inc ransom": 69,
     "pixelleaks": 52,
     "vortex": 39,
     "leakeddata": 36,
+    "rhysida": 30,
     "akira": 30,
     "safepay": 30,
-    "rhysida": 29,
     "soul": 29,
     "aurora": 21,
     "climax": 21,
@@ -38,6 +38,7 @@
     "krybit": 11,
     "audit team": 10,
     "payload": 9,
+    "majinahanashi": 9,
     "ransomhouse": 8,
     "everstake": 8,
     "vexy": 8,
@@ -46,7 +47,6 @@
     "global secret group": 7,
     "deadlock": 7,
     "direwolf": 6,
-    "majinahanashi": 6,
     "anubis": 6,
     "obsoft": 6,
     "payoutsking": 5,
@@ -66,6 +66,7 @@
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
+    "iah647": 2,
     "blackout": 2,
     "insomnia": 2,
     "barracuda": 2,
@@ -74,7 +75,6 @@
     "dragonforce": 1,
     "destello": 1,
     "beast": 1,
-    "iah647": 1,
     "morpheus": 1,
     "daixin": 1,
     "crypto24": 1,
@@ -82,12 +82,12 @@
     "secp0": 1
   },
   "victims_by_status": {
-    "claimed": 1292
+    "claimed": 1298
   },
   "victims_by_country": {
-    "Unknown": 1292
+    "Unknown": 1298
   },
   "victims_by_sector": {
-    "Unknown": 1292
+    "Unknown": 1298
   }
 }

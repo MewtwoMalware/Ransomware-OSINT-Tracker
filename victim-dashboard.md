@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-27T03:59:53.022188+00:00
+**Last updated:** 2026-11-27T13:43:46.352871+00:00
 
 ## Overview
 
-- **Total unique victims:** 1292
-- **Total recorded claims:** 1292
+- **Total unique victims:** 1298
+- **Total recorded claims:** 1298
 - **Groups represented:** 76
 
 ## Victims by Ransomware Group
@@ -14,14 +14,14 @@
 | ---: | --- | ---: |
 | 1 | n0n | 298 |
 | 2 | the gentlemen | 117 |
-| 3 | qilin | 80 |
+| 3 | qilin | 81 |
 | 4 | inc ransom | 69 |
 | 5 | pixelleaks | 52 |
 | 6 | vortex | 39 |
 | 7 | leakeddata | 36 |
-| 8 | akira | 30 |
-| 9 | safepay | 30 |
-| 10 | rhysida | 29 |
+| 8 | rhysida | 30 |
+| 9 | akira | 30 |
+| 10 | safepay | 30 |
 | 11 | soul | 29 |
 | 12 | aurora | 21 |
 | 13 | climax | 21 |
@@ -46,15 +46,15 @@
 | 32 | krybit | 11 |
 | 33 | audit team | 10 |
 | 34 | payload | 9 |
-| 35 | ransomhouse | 8 |
-| 36 | everstake | 8 |
-| 37 | vexy | 8 |
-| 38 | silentvault | 8 |
-| 39 | scarlettgroup | 8 |
-| 40 | global secret group | 7 |
-| 41 | deadlock | 7 |
-| 42 | direwolf | 6 |
-| 43 | majinahanashi | 6 |
+| 35 | majinahanashi | 9 |
+| 36 | ransomhouse | 8 |
+| 37 | everstake | 8 |
+| 38 | vexy | 8 |
+| 39 | silentvault | 8 |
+| 40 | scarlettgroup | 8 |
+| 41 | global secret group | 7 |
+| 42 | deadlock | 7 |
+| 43 | direwolf | 6 |
 | 44 | anubis | 6 |
 | 45 | obsoft | 6 |
 | 46 | payoutsking | 5 |
@@ -74,15 +74,15 @@
 | 60 | wallstreet | 2 |
 | 61 | leaknet | 2 |
 | 62 | redact | 2 |
-| 63 | blackout | 2 |
-| 64 | insomnia | 2 |
-| 65 | barracuda | 2 |
-| 66 | osiris2026 | 2 |
-| 67 | puppeteer | 2 |
-| 68 | dragonforce | 1 |
-| 69 | destello | 1 |
-| 70 | beast | 1 |
-| 71 | iah647 | 1 |
+| 63 | iah647 | 2 |
+| 64 | blackout | 2 |
+| 65 | insomnia | 2 |
+| 66 | barracuda | 2 |
+| 67 | osiris2026 | 2 |
+| 68 | puppeteer | 2 |
+| 69 | dragonforce | 1 |
+| 70 | destello | 1 |
+| 71 | beast | 1 |
 | 72 | morpheus | 1 |
 | 73 | daixin | 1 |
 | 74 | crypto24 | 1 |
@@ -93,19 +93,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1292 |
+| claimed | 1298 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1292 |
+| Unknown | 1298 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1292 |
+| Unknown | 1298 |
 
 ---
 
