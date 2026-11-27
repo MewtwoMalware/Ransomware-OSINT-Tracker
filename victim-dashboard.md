@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-27T13:43:46.352871+00:00
+**Last updated:** 2026-11-27T22:22:30.135531+00:00
 
 ## Overview
 
-- **Total unique victims:** 1298
-- **Total recorded claims:** 1298
+- **Total unique victims:** 1309
+- **Total recorded claims:** 1309
 - **Groups represented:** 76
 
 ## Victims by Ransomware Group
@@ -13,16 +13,16 @@
 | Rank | Ransomware Group | Victims |
 | ---: | --- | ---: |
 | 1 | n0n | 298 |
-| 2 | the gentlemen | 117 |
+| 2 | the gentlemen | 118 |
 | 3 | qilin | 81 |
-| 4 | inc ransom | 69 |
+| 4 | inc ransom | 71 |
 | 5 | pixelleaks | 52 |
 | 6 | vortex | 39 |
 | 7 | leakeddata | 36 |
-| 8 | rhysida | 30 |
-| 9 | akira | 30 |
-| 10 | safepay | 30 |
-| 11 | soul | 29 |
+| 8 | soul | 31 |
+| 9 | rhysida | 30 |
+| 10 | akira | 30 |
+| 11 | safepay | 30 |
 | 12 | aurora | 21 |
 | 13 | climax | 21 |
 | 14 | aoqin leaks | 18 |
@@ -48,33 +48,33 @@
 | 34 | payload | 9 |
 | 35 | majinahanashi | 9 |
 | 36 | ransomhouse | 8 |
-| 37 | everstake | 8 |
-| 38 | vexy | 8 |
-| 39 | silentvault | 8 |
-| 40 | scarlettgroup | 8 |
-| 41 | global secret group | 7 |
-| 42 | deadlock | 7 |
-| 43 | direwolf | 6 |
-| 44 | anubis | 6 |
-| 45 | obsoft | 6 |
-| 46 | payoutsking | 5 |
-| 47 | emperador | 5 |
-| 48 | nightspire | 5 |
-| 49 | eclipse | 5 |
-| 50 | black x | 5 |
-| 51 | panzer | 5 |
-| 52 | endzone | 5 |
-| 53 | shiba | 4 |
-| 54 | falcon | 4 |
-| 55 | cloak | 4 |
-| 56 | doommageddon | 3 |
-| 57 | chaos | 3 |
-| 58 | bravox | 3 |
-| 59 | handsome boy hacking club | 3 |
-| 60 | wallstreet | 2 |
-| 61 | leaknet | 2 |
-| 62 | redact | 2 |
-| 63 | iah647 | 2 |
+| 37 | deadlock | 8 |
+| 38 | everstake | 8 |
+| 39 | vexy | 8 |
+| 40 | silentvault | 8 |
+| 41 | scarlettgroup | 8 |
+| 42 | global secret group | 7 |
+| 43 | iah647 | 7 |
+| 44 | direwolf | 6 |
+| 45 | anubis | 6 |
+| 46 | obsoft | 6 |
+| 47 | payoutsking | 5 |
+| 48 | emperador | 5 |
+| 49 | nightspire | 5 |
+| 50 | eclipse | 5 |
+| 51 | black x | 5 |
+| 52 | panzer | 5 |
+| 53 | endzone | 5 |
+| 54 | shiba | 4 |
+| 55 | falcon | 4 |
+| 56 | cloak | 4 |
+| 57 | doommageddon | 3 |
+| 58 | chaos | 3 |
+| 59 | bravox | 3 |
+| 60 | handsome boy hacking club | 3 |
+| 61 | wallstreet | 2 |
+| 62 | leaknet | 2 |
+| 63 | redact | 2 |
 | 64 | blackout | 2 |
 | 65 | insomnia | 2 |
 | 66 | barracuda | 2 |
@@ -93,19 +93,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1298 |
+| claimed | 1309 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1298 |
+| Unknown | 1309 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1298 |
+| Unknown | 1309 |
 
 ---
 
