@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-11-28T12:59:44.483586+00:00",
-  "total_unique_victims": 1315,
-  "total_recorded_claims": 1315,
-  "total_groups": 76,
+  "last_updated": "2026-11-28T20:51:42.697216+00:00",
+  "total_unique_victims": 1328,
+  "total_recorded_claims": 1328,
+  "total_groups": 77,
   "victims_by_group": {
     "n0n": 298,
     "the gentlemen": 118,
-    "qilin": 82,
+    "qilin": 83,
     "inc ransom": 72,
     "pixelleaks": 52,
     "vortex": 39,
     "leakeddata": 36,
+    "rhysida": 33,
     "soul": 31,
-    "rhysida": 30,
     "akira": 30,
     "safepay": 30,
     "aurora": 21,
@@ -23,8 +23,8 @@
     "booba team": 16,
     "metaencryptor": 16,
     "curious worm": 16,
+    "hyflock": 15,
     "pear": 14,
-    "hyflock": 14,
     "lockbit5": 14,
     "everest": 14,
     "interlock": 13,
@@ -37,7 +37,7 @@
     "dark project": 11,
     "krybit": 11,
     "audit team": 10,
-    "payload": 9,
+    "payload": 10,
     "majinahanashi": 9,
     "ransomhouse": 8,
     "deadlock": 8,
@@ -50,6 +50,7 @@
     "iah647": 7,
     "direwolf": 6,
     "obsoft": 6,
+    "netrunner": 6,
     "payoutsking": 5,
     "emperador": 5,
     "nightspire": 5,
@@ -64,6 +65,7 @@
     "chaos": 3,
     "bravox": 3,
     "handsome boy hacking club": 3,
+    "puppeteer": 3,
     "wallstreet": 2,
     "leaknet": 2,
     "redact": 2,
@@ -71,7 +73,6 @@
     "insomnia": 2,
     "barracuda": 2,
     "osiris2026": 2,
-    "puppeteer": 2,
     "dragonforce": 1,
     "destello": 1,
     "beast": 1,
@@ -82,12 +83,12 @@
     "secp0": 1
   },
   "victims_by_status": {
-    "claimed": 1315
+    "claimed": 1328
   },
   "victims_by_country": {
-    "Unknown": 1315
+    "Unknown": 1328
   },
   "victims_by_sector": {
-    "Unknown": 1315
+    "Unknown": 1328
   }
 }
