@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-28T04:06:08.595245+00:00
+**Last updated:** 2026-11-28T12:59:44.483586+00:00
 
 ## Overview
 
-- **Total unique victims:** 1311
-- **Total recorded claims:** 1311
+- **Total unique victims:** 1315
+- **Total recorded claims:** 1315
 - **Groups represented:** 76
 
 ## Victims by Ransomware Group
@@ -14,7 +14,7 @@
 | ---: | --- | ---: |
 | 1 | n0n | 298 |
 | 2 | the gentlemen | 118 |
-| 3 | qilin | 81 |
+| 3 | qilin | 82 |
 | 4 | inc ransom | 72 |
 | 5 | pixelleaks | 52 |
 | 6 | vortex | 39 |
@@ -31,14 +31,14 @@
 | 17 | booba team | 16 |
 | 18 | metaencryptor | 16 |
 | 19 | curious worm | 16 |
-| 20 | hyflock | 14 |
-| 21 | lockbit5 | 14 |
-| 22 | everest | 14 |
-| 23 | interlock | 13 |
-| 24 | whitearmor | 13 |
-| 25 | inception | 13 |
-| 26 | space bears | 13 |
-| 27 | pear | 11 |
+| 20 | pear | 14 |
+| 21 | hyflock | 14 |
+| 22 | lockbit5 | 14 |
+| 23 | everest | 14 |
+| 24 | interlock | 13 |
+| 25 | whitearmor | 13 |
+| 26 | inception | 13 |
+| 27 | space bears | 13 |
 | 28 | genesis | 11 |
 | 29 | byod | 11 |
 | 30 | orova | 11 |
@@ -93,19 +93,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1311 |
+| claimed | 1315 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1311 |
+| Unknown | 1315 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1311 |
+| Unknown | 1315 |
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28T04:06:08.589875+00:00",
+  "last_updated": "2026-11-28T12:59:44.477302+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -20699,6 +20699,70 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-28T04:06:08.589675+00:00"
+    },
+    {
+      "id": "5e3007ee83e75839",
+      "group": "qilin",
+      "victim": "Thomas More University of Applied Sciences",
+      "normalized_name": "thomas more university of applied sciences",
+      "date": "2026-11-28T04:17:22.332926Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-28T12:59:44.476986+00:00"
+    },
+    {
+      "id": "95c0ac5c1b6d894f",
+      "group": "pear",
+      "victim": "McGlynn & McGlynn",
+      "normalized_name": "mcglynn mcglynn",
+      "date": "2026-11-28T10:18:06.005165Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-28T12:59:44.477023+00:00"
+    },
+    {
+      "id": "47dfbee3bb6e456b",
+      "group": "pear",
+      "victim": "Konicom, Inc.",
+      "normalized_name": "konicom",
+      "date": "2026-11-28T10:18:06.964466Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-28T12:59:44.477070+00:00"
+    },
+    {
+      "id": "19c6217fe5597bc0",
+      "group": "pear",
+      "victim": "Marietta Dermatology Associates, PA",
+      "normalized_name": "marietta dermatology associates pa",
+      "date": "2026-11-28T10:18:07.918982Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-28T12:59:44.477108+00:00"
     }
   ]
 }
