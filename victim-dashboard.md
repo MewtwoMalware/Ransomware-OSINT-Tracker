@@ -1,11 +1,11 @@
 # Ransomware Victim Tracker
 
-**Last updated:** 2026-11-27T22:22:30.135531+00:00
+**Last updated:** 2026-11-28T04:06:08.595245+00:00
 
 ## Overview
 
-- **Total unique victims:** 1309
-- **Total recorded claims:** 1309
+- **Total unique victims:** 1311
+- **Total recorded claims:** 1311
 - **Groups represented:** 76
 
 ## Victims by Ransomware Group
@@ -15,7 +15,7 @@
 | 1 | n0n | 298 |
 | 2 | the gentlemen | 118 |
 | 3 | qilin | 81 |
-| 4 | inc ransom | 71 |
+| 4 | inc ransom | 72 |
 | 5 | pixelleaks | 52 |
 | 6 | vortex | 39 |
 | 7 | leakeddata | 36 |
@@ -54,9 +54,9 @@
 | 40 | silentvault | 8 |
 | 41 | scarlettgroup | 8 |
 | 42 | global secret group | 7 |
-| 43 | iah647 | 7 |
-| 44 | direwolf | 6 |
-| 45 | anubis | 6 |
+| 43 | anubis | 7 |
+| 44 | iah647 | 7 |
+| 45 | direwolf | 6 |
 | 46 | obsoft | 6 |
 | 47 | payoutsking | 5 |
 | 48 | emperador | 5 |
@@ -93,19 +93,19 @@
 
 | Status | Victims |
 | --- | ---: |
-| claimed | 1309 |
+| claimed | 1311 |
 
 ## Victims by Country
 
 | Country | Victims |
 | --- | ---: |
-| Unknown | 1309 |
+| Unknown | 1311 |
 
 ## Victims by Sector
 
 | Sector | Victims |
 | --- | ---: |
-| Unknown | 1309 |
+| Unknown | 1311 |
 
 ---
 

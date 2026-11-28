@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T22:22:30.130340+00:00",
+  "last_updated": "2026-11-28T04:06:08.589875+00:00",
   "victims": [
     {
       "id": "8d6f4cfe791d015a",
@@ -20667,6 +20667,38 @@
       "source_title": "",
       "notes": "",
       "added_at": "2026-11-27T22:22:30.130108+00:00"
+    },
+    {
+      "id": "3944e09ba90892b5",
+      "group": "inc ransom",
+      "victim": "Samlut and Company, P.A.",
+      "normalized_name": "samlut and company pa",
+      "date": "2026-11-27T23:16:58.202098Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-28T04:06:08.589647+00:00"
+    },
+    {
+      "id": "e5b926130b506463",
+      "group": "anubis",
+      "victim": "Delco Trailers",
+      "normalized_name": "delco trailers",
+      "date": "2026-11-27T23:21:36.569147Z",
+      "status": "claimed",
+      "confidence": "unverified",
+      "country": "Unknown",
+      "sector": "Unknown",
+      "source": "RansomLook",
+      "source_url": "",
+      "source_title": "",
+      "notes": "",
+      "added_at": "2026-11-28T04:06:08.589675+00:00"
     }
   ]
 }
